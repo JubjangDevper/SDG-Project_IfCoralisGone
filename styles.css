@@ -1,11 +1,18 @@
-body{
-    background-color: rgb(116, 189, 164);
-}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@200&display=swap');
 
-.container{
-  display: flex;
-  justify-content: center;
-  transform: translateY(40vh);
-  text-align: center;
-  
+body{
+  background:rgb(76, 158, 132);
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:aliceblue;
+}
+a{
+  color:aliceblue;
+  text-decoration: none;
+}
+.social{
+  font-size:2em;
 }
