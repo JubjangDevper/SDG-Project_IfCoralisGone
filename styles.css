@@ -1,18 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200;300&display=swap');
+html{
+  overflow-x: hidden;
+}
 body{
-  background:rgb(76, 158, 132);
-  font-family: 'IBM Plex Sans Thai', sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(ทรายเดสทอป+โทรศัพ/ทรายเดสทอป.png);
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
   display:flex;
   justify-content:center;
   align-items:center;
   text-align:center;
-  color:aliceblue;
+  color:black;
 }
-a{
-  color:aliceblue;
-  text-decoration: none;
+p{
+  font-size: 1em;
 }
-.social{
-  font-size:2em;
+h1{
+  font-size: 2em;
 }
+ .center-text {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+ }
+ .center-text > p{ 
+   width: 33%;
+ }
+ .left-text{
+   line-height: 0.5em;
+  display:flex;
+  justify-content:center;
+  margin-right: 10em;
+ }
