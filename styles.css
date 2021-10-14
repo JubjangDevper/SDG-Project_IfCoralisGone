@@ -3,6 +3,7 @@ html{
   overflow-x: hidden;
 }
 body{
+  overflow-x: hidden;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,8 +31,27 @@ h1{
    width: 33%;
  }
  .left-text{
-   line-height: 0.5em;
+  line-height: 0.5em;
   display:flex;
   justify-content:center;
   margin-right: 10em;
  }
+ .container-img{
+   top:-66%;
+  right: 24%;
+  position: relative;
+ }
+ #img2{
+  margin-top: 250px;
+  margin-left: 100px;
+  width: 20em;
+   z-index: 2;
+   position: absolute;
+ }
+
+ #img1{
+   transform: rotate(-30deg);
+   width: 666px;
+  position: absolute;
+}
+
