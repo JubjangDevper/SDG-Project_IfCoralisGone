@@ -9,49 +9,83 @@ body{
   background-size: cover;
   background-image: url(ทรายเดสทอป+โทรศัพ/ทรายเดสทอป.png);
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
   color:black;
 }
 p{
-  font-size: 1em;
+  font-size: 2em;
 }
 h1{
-  font-size: 2em;
+  font-size: 4em;
+}
+.info{
+  transform: translateY(25vw);
 }
  .center-text {
   display:flex;
   justify-content:center;
   align-items:center;
-  text-align:center;
  }
- .center-text > p{ 
-   width: 33%;
- }
- .left-text{
-  line-height: 0.5em;
-  display:flex;
-  justify-content:center;
-  margin-right: 10em;
- }
- .container-img{
-   top:-66%;
-  right: 24%;
+
+ .container-img-r1{
+  top:-9.5vw;
+  left: 4.5vw;
   position: relative;
  }
- #img2{
-  margin-top: 250px;
-  margin-left: 100px;
-  width: 20em;
+ .container-img-l1{
+   right: 6.2vw;
+   top:28vw;
+   position: relative;
+}
+
+ #img-r1-1{
+  margin-top: 13vw;
+  margin-left: 5.2vw;
+  width: 16.6vw;
    z-index: 2;
    position: absolute;
  }
 
- #img1{
-   transform: rotate(-30deg);
-   width: 666px;
+ #img-r1-2{
+  transform: rotate(-30deg);
+  width: 34.6vw;
   position: absolute;
 }
+
+/*กัลปังหา*/
+#img-r1-3{ 
+  margin-top: 26vw;
+  margin-left: 6.7vw;
+  width: 23.4vw;
+  position: absolute;
+}
+
+#img-r1-4{
+  margin-top: 33.8vw;
+  margin-left: 6.7vw;
+  width: 17.1vw;
+  position: absolute;
+}
+
+#img-r1-5{
+  margin-top: 30.2vw;
+  margin-left: 8.8vw;
+  width: 17.1vw;
+  position: absolute;
+}
+
+#img-r1-6{
+  margin-top: 54.6vw;
+  margin-left: 15.6vw;
+  width: 12.5vw;
+  position: absolute;
+}
+
+#img-free-1{
+  z-index: 1;
+  left: 65vw;
+  margin-right: 15.6vw;
+  width: 14.5vw;
+  position: absolute;
+}
+
 
