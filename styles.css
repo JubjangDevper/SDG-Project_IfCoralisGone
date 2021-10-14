@@ -12,15 +12,17 @@ body{
   color:black;
 }
 p{
-  font-size: 2em;
+  font-size: 1.9em;
 }
 h1{
   font-size: 4em;
 }
 .info{
+  z-index: 999;
   transform: translateY(25vw);
 }
  .center-text {
+  flex-direction: column;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -29,12 +31,12 @@ h1{
  .container-img-r1{
   top:-9.5vw;
   left: 4.5vw;
-  position: relative;
+  position: flex;
  }
  .container-img-l1{
    right: 6.2vw;
    top:70vw;
-   position: relative;
+   position: flex;
 }
 
  #img-r1-1{
@@ -83,8 +85,8 @@ h1{
 #img-free-1{
   z-index: 99;
   left: 1vw;
-  top: 10vw;
-  margin-right: 1vw;
+  top: 12vw;
+  margin-left: -4.5vw;
   width: 10vw;
   position: absolute;
 }
@@ -179,16 +181,25 @@ h1{
 }
 
 .fish{
-  margin-top: 10vw;
+  z-index: 100;
+  margin-top: -62vw;
   position: absolute;
-  left: 20vw;
+  left: 0vw;
   transform: rotate(-30deg);
+  animation: swim 10s ease-in infinite;
 }
 
 #title{
-  z-index: 99;
-  position: absolute;
+  margin: 3vw;
+  width: 600px;
+  position: relative;
 }
-
-
-
+.mtitle{
+  margin-top: -12vw;
+}
+/*Animation*/
+@keyframes swim {
+  0% {margin-top: -27vw;
+      left: 110vw;}
+  100%{margin-top: -85vw;}
+}
