@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200;300&display=swap');
 html{
+  font-size:1vw;
   overflow-x: hidden;
 }
 body{
@@ -12,15 +13,17 @@ body{
   color:black;
 }
 p{
-  font-size: 1.9em;
+  font-size: 1.9rem;
 }
 h1{
-  font-size: 4em;
+  font-size: 4rem;
 }
+ /*div text*/
 .info{
   z-index: 999;
-  transform: translateY(25vw);
 }
+
+ /*Text กึ่งกลาง*/
  .center-text {
   flex-direction: column;
   display:flex;
@@ -28,17 +31,21 @@ h1{
   align-items:center;
  }
 
+/*container element ฝั่งขวา*/
  .container-img-r1{
   top:-9.5vw;
   left: 4.5vw;
   position: flex;
  }
+
+ /*container element ฝั่งซ้าย*/
  .container-img-l1{
    right: 6.2vw;
    top:70vw;
    position: flex;
 }
 
+/*ปะการังเขากวาง*/
  #img-r1-1{
   margin-top: 13vw;
   margin-left: 5.2vw;
@@ -47,6 +54,7 @@ h1{
    position: absolute;
  }
 
+ /*ก้อนหินขวา*/
  #img-r1-2{
   transform: rotate(-30deg);
   width: 34.6vw;
@@ -61,6 +69,7 @@ h1{
   position: absolute;
 }
 
+/*พุ่มเขียว*/
 #img-r1-4{
   margin-top: 33.8vw;
   margin-left: 6.7vw;
@@ -68,6 +77,7 @@ h1{
   position: absolute;
 }
 
+/*ฟองน้ำ*/
 #img-r1-5{
   margin-top: 30.2vw;
   margin-left: 8.8vw;
@@ -75,6 +85,7 @@ h1{
   position: absolute;
 }
 
+/*ปลาดาวขยับ*/
 #img-r1-6{
   margin-top: 54.6vw;
   margin-left: 15.6vw;
@@ -82,6 +93,7 @@ h1{
   position: absolute;
 }
 
+/*หอยเม่น*/
 #img-free-1{
   z-index: 99;
   left: 1vw;
@@ -91,6 +103,7 @@ h1{
   position: absolute;
 }
 
+/*ก้อนหินซ้าย*/
 #img-l1-0{
   margin-top: -60vw;
   margin-left: -6vw;
@@ -98,6 +111,7 @@ h1{
   position: absolute;
 }
 
+/*ปะการังเคลือบ*/
 #img-l1-1{
   margin-top: -25vw;
   margin-left: 15.6vw;
@@ -105,6 +119,7 @@ h1{
   position: absolute;
 }
 
+/*ปะการังเคลือบ*/
 #img-l1-2-1{
   margin-top: -51vw;
   margin-left: 8vw;
@@ -112,6 +127,7 @@ h1{
   position: absolute;
   transform: rotate(70deg);
 }
+/*ปะการังเคลือบ*/
 #img-l1-2-2{
   margin-top: -45vw;
   margin-left: 13vw;
@@ -120,6 +136,7 @@ h1{
   transform: rotate(120deg);
 }
 
+/*ปะการังเคลือบ*/
 #img-l1-2-3{
   margin-top: -45vw;
   margin-left: 7vw;
@@ -128,6 +145,7 @@ h1{
   transform: rotate(80deg);
 }
 
+/*พุ่มสีเขียว*/
 #img-l1-3{
   margin-top: -34vw;
   margin-left: 8vw;
@@ -136,6 +154,7 @@ h1{
   transform: rotate(120deg);
 }
 
+/*ปลาปักเป้า*/
 #img-l1-4{
   margin-top: -33vw;
   margin-left: 20vw;
@@ -143,6 +162,7 @@ h1{
   position: absolute;
 }
 
+/*ปพการังเขากวางซ้าย*/
 #img-l1-5{
   margin-top: -60vw;
   margin-left: 10vw;
@@ -150,6 +170,7 @@ h1{
   position: absolute;
 }
 
+/*เงาน้ำซ้ายบน*/
 #img-free-2{
   z-index: 99;
   left: -70vw;
@@ -161,6 +182,7 @@ h1{
   mix-blend-mode:hard-light ;
 }
 
+/*ฝูงปลา*/
 #img-free-3{
   z-index: 99;
   left: 1vw;
@@ -170,6 +192,7 @@ h1{
   position: absolute;
 }
 
+/*ฝูงปลา*/
 #img-free-4{
   z-index: 99;
   left: 6vw;
@@ -180,23 +203,26 @@ h1{
   transform: rotate(-10deg);
 }
 
+/*ปลาว่ายน้ำ*/
 .fish{
   z-index: 100;
   margin-top: -62vw;
   position: absolute;
   left: 0vw;
   transform: rotate(-30deg);
-  animation: swim 10s ease-in infinite;
+  animation: swim 12s ease-in infinite;
 }
 
+/*ถ้าปะการังหายไป*/
 #title{
   margin: 3vw;
-  width: 600px;
+  width: 40rem;
   position: relative;
 }
 .mtitle{
-  margin-top: -12vw;
+  margin-top: 12vw;
 }
+
 /*Animation*/
 @keyframes swim {
   0% {margin-top: -27vw;
