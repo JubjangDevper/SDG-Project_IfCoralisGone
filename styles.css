@@ -399,3 +399,60 @@ h1{
   position: absolute;
 }
 
+/*เงาน้ำ*/
+#img-l3-1{
+  z-index: 99;
+  margin-top: 65vw;
+  margin-left: -72vw;
+  width: 31vw;
+  position: absolute;
+  opacity: 50%;
+  mix-blend-mode:hard-light ;
+  transform: rotate(18deg);
+}
+
+/*หิน1*/
+#img-l3-2{
+  margin-top: 70vw;
+  margin-left: -79vw;
+  width: 34.5vw;
+  position: absolute;
+  transform: rotate(-4deg);
+}
+
+/*หิน1*/
+#img-l3-3{
+  margin-top: 73vw;
+  margin-left: -66vw;
+  width: 25vw;
+  position: absolute;
+  transform: rotate(-25deg);
+}
+
+/*หิน2*/
+#img-l3-4{
+  margin-top: 74vw;
+  margin-left: -49vw;
+  width: 25vw;
+  position: absolute;
+
+}
+
+/*หิน2*/
+#img-l3-5{
+  margin-top: 95vw;
+  margin-left: -32vw;
+  width: 15vw;
+  position: absolute;
+  transform: rotate(-65deg);
+}
+
+/*หิน2*/
+#img-r3-1{
+  margin-top: 66vw;
+  margin-left: 88vw;
+  width: 15vw;
+  position: absolute;
+  transform: rotate(-65deg);
+}
+
