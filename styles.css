@@ -441,18 +441,248 @@ h1{
 /*หิน2*/
 #img-l3-5{
   margin-top: 95vw;
-  margin-left: -32vw;
-  width: 15vw;
+  margin-left: -33vw;
+  width: 11vw;
   position: absolute;
   transform: rotate(-65deg);
 }
 
 /*หิน2*/
 #img-r3-1{
-  margin-top: 66vw;
-  margin-left: 88vw;
-  width: 15vw;
+  margin-top: 67vw;
+  margin-left: 87vw;
+  width: 13vw;
   position: absolute;
   transform: rotate(-65deg);
 }
 
+/*หิน2*/
+#img-r3-2{
+  margin-top: 70vw;
+  margin-left: 65vw;
+  width: 35vw;
+  position: absolute;
+
+}
+
+/*ปะการังดอกไม้*/
+#img-r3-3{
+  margin-top: 70vw;
+  margin-left: 60vw;
+  width: 29vw;
+  position: absolute;
+
+}
+
+/*ปะการังดอกไม้*/
+#img-r3-4{
+  margin-top: 85vw;
+  margin-left: 67vw;
+  width: 29vw;
+  position: absolute;
+  transform: rotate(-90deg);
+}
+
+/*ปะการังดอกไม้*/
+#img-r3-5{
+  margin-top: 70vw;
+  margin-left: 71vw;
+  width: 31vw;
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+/*สาหร่าย2*/
+#img-r3-6{
+  margin-top: 97vw;
+  margin-left: 79vw;
+  width: 22vw;
+  position: absolute;
+  transform: rotate(30deg);
+
+}
+
+
+/*สาหร่าย2*/
+#img-r3-7{
+  margin-top: 98vw;
+  margin-left: 68vw;
+  width: 22vw;
+  position: absolute;
+  transform: rotate(-15deg);
+
+}
+
+
+/*สาหร่าย2*/
+#img-r3-8{
+  margin-top: 92vw;
+  margin-left: 74vw;
+  width: 22vw;
+  position: absolute;
+}
+
+/*หิน2*/
+#img-l4-1{
+  margin-top: 96vw;
+  margin-left: -35vw;
+  width: 50vw;
+  position: absolute;
+  transform: rotate(90deg);
+
+}
+
+/*หิน2*/
+#img-l4-2{
+  margin-top: 127vw;
+  margin-left: -40vw;
+  width: 50vw;
+  position: absolute;
+  transform: rotate(50deg);
+}
+
+/*ปะการังเคลือบ*/
+#img-l4-3{
+  margin-top: 120vw;
+  margin-left: 3vw;
+  width: 17vw;
+  position: absolute;
+
+
+}
+
+/*ปะการังเคลือบ*/
+#img-l4-4{
+  margin-top: 130vw;
+  margin-left: 1vw;
+  width: 14vw;
+  position: absolute;
+  transform: rotate(30deg);
+}
+
+/*ปะการังโต๊ะ*/
+#img-l4-5{
+  margin-top: 119vw;
+  margin-left: -7vw;
+  width: 27vw;
+  position: absolute;
+  transform: rotate(-90deg);
+
+}
+
+/*ปะการังเคลือบ*/
+#img-l4-6{
+  margin-top: 136vw;
+  margin-left: -4vw;
+  width: 17vw;
+  position: absolute;
+  transform: rotate(20deg);
+
+}
+
+/*ปะการังเคลือบ*/
+#img-l4-7{
+  margin-top: 136vw;
+  margin-left: -8vw;
+  width: 19vw;
+  position: absolute;
+  transform: rotate(20deg);
+
+}
+
+/*ปะการังเคลือบ*/
+#img-l4-8{
+  margin-top: 135vw;
+  margin-left: -1vw;
+  width: 19vw;
+  position: absolute;
+  transform: rotate(10deg);
+
+}
+
+/*ปะการังโต๊ะ*/
+#img-l4-9{
+  margin-top: 133.5vw;
+  margin-left: -23vw;
+  width: 25vw;
+  position: absolute;
+  transform: rotate(-90deg);
+
+}
+
+/*ปะการังโต๊ะ*/
+#img-l4-10{
+  margin-top: 135vw;
+  margin-left: -11vw;
+  width: 25vw;
+  position: absolute;
+  transform: rotate(-110deg);
+
+}
+
+/*ปะการังโต๊ะ*/
+#img-l4-11{
+  margin-top: 155vw;
+  margin-left: -23vw;
+  width: 19vw;
+  position: absolute;
+  transform: rotate(-50deg);
+
+}
+
+/*กัลปังหา*/
+#img-l4-12{
+  margin-top: 110vw;
+  margin-left: -28vw;
+  width: 35vw;
+  position: absolute;
+
+
+}
+/*กัลปังหา*/
+#img-l4-13{
+  margin-top: 123vw;
+  margin-left: -20vw;
+  width: 25vw;
+  position: absolute;
+  transform: rotate(-50deg);
+}
+/*หิน1*/
+#img-r4-1{
+  margin-top: 146vw;
+  margin-left: 8vw;
+  width: 25vw;
+  position: absolute;
+}
+/*ปะการังโขด*/
+#img-r4-2{
+  margin-top: 146vw;
+  margin-left: 13vw;
+  width: 13vw;
+  position: absolute;
+  transform: rotate(-70deg);
+}
+/*ปะการังโขด*/
+#img-r4-3{
+  margin-top: 171vw;
+  margin-left: 9vw;
+  width: 13vw;
+  position: absolute;
+  transform: rotate(-20deg);
+}
+/*กัลปังหา*/
+#img-r4-4{
+  margin-top: 128vw;
+  margin-left: 6vw;
+  width: 30vw;
+  position: absolute;
+  
+}
+/*กัลปังหา*/
+#img-r4-5{
+  margin-top: 155vw;
+  margin-left: 6vw;
+  width: 30vw;
+  position: absolute;
+  transform: rotate(-40deg);
+}
