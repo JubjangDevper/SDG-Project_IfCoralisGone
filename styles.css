@@ -1346,6 +1346,7 @@ h1{
   width:15vw;
   position: absolute; 
 }
+/*หิน1*/
 #img-r10-1{
   margin-top: 495vw;
   margin-left: 29vw;
@@ -1353,8 +1354,65 @@ h1{
   position: absolute; 
   transform: rotate(-90deg);
 }
+/*หิน1*/
 #img-r10-2{
-  margin-top: 515vw;
+  margin-top: 512vw;
+  margin-left: 33vw;
+  width:35vw;
+  position: absolute; 
+  transform: rotate(-45deg);
+}
+#img-r10-3{
+  margin-top: 615vw;
+  margin-left: 32vw;
+  width:35vw;
+  position: absolute; 
+  transform: rotate(-45deg);
+}
+#img-r10-4{
+  margin-top: 615vw;
+  margin-left: 32vw;
+  width:35vw;
+  position: absolute; 
+  transform: rotate(-45deg);
+}
+#img-r10-5{
+  margin-top: 615vw;
+  margin-left: 32vw;
+  width:35vw;
+  position: absolute; 
+  transform: rotate(-45deg);
+}
+#img-r10-6{
+  margin-top: 615vw;
+  margin-left: 32vw;
+  width:35vw;
+  position: absolute; 
+  transform: rotate(-45deg);
+}
+#img-r10-7{
+  margin-top: 615vw;
+  margin-left: 32vw;
+  width:35vw;
+  position: absolute; 
+  transform: rotate(-45deg);
+}
+#img-r10-8{
+  margin-top: 615vw;
+  margin-left: 32vw;
+  width:35vw;
+  position: absolute; 
+  transform: rotate(-45deg);
+}
+#img-r10-9{
+  margin-top: 615vw;
+  margin-left: 32vw;
+  width:35vw;
+  position: absolute; 
+  transform: rotate(-45deg);
+}
+#img-r10-10{
+  margin-top: 615vw;
   margin-left: 32vw;
   width:35vw;
   position: absolute; 
