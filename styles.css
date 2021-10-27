@@ -1020,6 +1020,352 @@ h1{
   position: absolute;
   
 }
+/*เงาน้ำ*/
+#img-l8-1{
+  z-index: 99;
+  margin-top: 348vw;
+  margin-left: -72vw;
+  width: 37vw;
+  position: absolute;
+  opacity: 50%;
+  mix-blend-mode:hard-light ;
+  transform: scaleX(-1);
+}
+/*สาหร่าย2*/
+#img-l8-2{
+  margin-top: 365vw;
+  margin-left: -67vw;
+  width: 25vw;
+  position: absolute;
+  
+}
+/*สาหร่าย2*/
+#img-l8-3{
+  margin-top: 378vw;
+  margin-left: -72vw;
+  width: 20vw;
+  position: absolute;
+  transform: rotate(-20deg)
+}
+/*สาหร่าย2*/
+#img-l8-4{
+  margin-top: 382vw;
+  margin-left: -61vw;
+  width: 20vw;
+  position: absolute;
+  transform: rotate(30deg);
+}
+/*สาหร่าย2*/
+#img-l8-5{
+  margin-top: 390vw;
+  margin-left: -67vw;
+  width: 20vw;
+  position: absolute;
+  
+}
+
+/*หิน01*/
+#img-r8-1{
+  margin-top: 353vw;
+  margin-left: 77vw;
+  width: 20vw;
+  position: absolute;
+  transform: rotate(-50deg);
+}
+/*เงาน้ำ*/
+#img-r8-2{
+  z-index: 99;
+  margin-top: 386vw;
+  margin-left: 70vw;
+  width: 27vw;
+  position: absolute;
+  opacity: 50%;
+  mix-blend-mode:hard-light ;
+  transform: scaleX(-1);
+}
+/*พุ่มสีเขียว*/
+#img-r8-3{
+  margin-top: 365vw;
+  margin-left: 72vw;
+  width: 15vw;
+  position: absolute;
+}
+/*พุ่มสีเขียว*/
+#img-r8-4{
+  margin-top: 360vw;
+  margin-left: 70vw;
+  width: 15vw;
+  position: absolute;
+  transform: rotate(50deg);
+}
+/*พุ่มสีเขียว*/
+#img-r8-5{
+  margin-top: 368vw;
+  margin-left: 77vw;
+  width: 15vw;
+  position: absolute;
+  transform: rotate(-50deg);
+}
+/*พุ่มสีฟ้า*/
+#img-r8-6{
+  margin-top: 357vw;
+  margin-left: 74vw;
+  width: 15vw;
+  position: absolute;
+  transform: rotate(-50deg);
+}
+/*พุ่มสีฟ้า*/
+#img-r8-7{
+  margin-top: 353vw;
+  margin-left: 77vw;
+  width: 20vw;
+  position: absolute;
+}
+/*สาหร่าย2*/
+#img-r8-8{
+  margin-top: 388vw;
+  margin-left: 77vw;
+  width: 12vw;
+  position: absolute;
+ 
+}
+/*สาหร่าย2*/
+#img-r8-9{
+  margin-top: 386vw;
+  margin-left: 83vw;
+  width: 12vw;
+  position: absolute;
+  transform: rotate(30deg);
+}
+/*สาหร่าย2*/
+#img-r8-10{
+  margin-top: 385vw;
+  margin-left: 74vw;
+  width: 12vw;
+  position: absolute;
+  transform: rotate(-30deg);
+}
+/*สาหร่าย2*/
+#img-r8-11{
+  margin-top: 376vw;
+  margin-left: 75vw;
+  width: 17vw;
+  position: absolute;
+}
+/*หิน2*/
+#img-l9-1{
+  margin-top: 404vw;
+  margin-left: -37vw;
+  width: 32vw;
+  position: absolute;
+}
+/*หิน1*/
+#img-l9-2{
+  margin-top: 428vw;
+  margin-left: -34vw;
+  width: 28vw;
+  position: absolute;
+  transform: rotate(-30deg);
+}
+/*พุ่มสีเขียว*/
+#img-l9-3{
+  margin-top: 407vw;
+  margin-left: -30vw;
+  width: 16vw;
+  position: absolute;
+  transform: rotate(70deg);
+}/*พุ่มสีเขียว*/
+#img-l9-4{
+  margin-top: 412vw;
+  margin-left: -30vw;
+  width: 16vw;
+  position: absolute;
+  transform: rotate(70deg);
+}/*พุ่มสีเขียว*/
+#img-l9-5{
+  margin-top: 418vw;
+  margin-left: -25vw;
+  width: 16vw;
+  position: absolute;
+  transform: rotate(90deg);
+}/*พุ่มสีเขียว*/
+#img-l9-6{
+  margin-top: 407vw;
+  margin-left: -23vw;
+  width: 17vw;
+  position: absolute;
+  transform: rotate(90deg);
+}
+/*พุ่มสีเขียว*/
+#img-l9-7{
+  margin-top: 415vw;
+  margin-left: -21vw;
+  width: 17vw;
+  position: absolute;
+  transform: rotate(120deg);
+}
+/*ปะการังหลอด*/
+#img-l9-8{
+  margin-top: 420vw;
+  margin-left: -32vw;
+  width:20vw;
+  position: absolute;
+}
+/*ปะการังหลอด*/
+#img-l9-9{
+  margin-top: 430vw;
+  margin-left: -20vw;
+  width:10vw;
+  position: absolute;
+}
+/*ปะการังดอกไม้*/
+#img-l9-10{
+  margin-top: 445vw;
+  margin-left: -20vw;
+  width:15vw;
+  position: absolute;
+  transform: rotate(180deg);
+}
+/*กัลปังหา*/
+#img-l9-11{
+  margin-top: 448vw;
+  margin-left: -28vw;
+  width:15vw;
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+/*กัลปังหา*/
+#img-l9-12{
+  margin-top: 433vw;
+  margin-left: -32vw;
+  width:25vw;
+  position: absolute;
+  transform: rotate(180deg);
+}
+/*หิน2*/
+#img-r9-1{
+  margin-top: 400vw;
+  margin-left: 2vw;
+  width:38vw;
+  position: absolute;
+}
+/*ปะการังเขากวาง*/
+#img-r9-2{
+  margin-top: 426vw;
+  margin-left: 2vw;
+  width:15vw;
+  position: absolute;
+}
+/*ปะการังดอกไม้*/
+#img-r9-3{
+  margin-top: 412vw;
+  margin-left: 5vw;
+  width:15vw;
+  position: absolute;
+}
+/*ปะการังหลอด*/
+#img-r9-4{
+  margin-top: 405vw;
+  margin-left: 5vw;
+  width:15vw;
+  position: absolute;
+}
+/*ปะการังโต๊ะ*/
+#img-r9-5{
+  margin-top: 445vw;
+  margin-left: 18vw;
+  width:25vw;
+  position: absolute;
+}
+/*ปะการังโต๊ะ*/
+#img-r9-6{
+  margin-top: 466vw;
+  margin-left: 20vw;
+  width:25vw;
+  position: absolute;
+}
+/*ปะการังโต๊ะ*/
+#img-r9-7{
+  margin-top: 456vw;
+  margin-left: 12vw;
+  width:25vw;
+  position: absolute;
+  transform: rotate(-30deg);
+}
+/*ปะการังโต๊ะ*/
+#img-r9-8{
+  margin-top: 472vw;
+  margin-left: 14vw;
+  width:20vw;
+  position: absolute;
+  transform: rotate(-30deg);
+}
+/*หิน01*/
+#img-r9-9{
+  margin-top: 482vw;
+  margin-left: 16vw;
+  width:20vw;
+  position: absolute;
+  transform: rotate(-40deg);
+}
+/*หิน02*/
+#img-l10-1{
+  margin-top: 480vw;
+  margin-left: 1vw;
+  width:35vw;
+  position: absolute;
+}
+/*หิน02*/
+#img-l10-1{
+  margin-top: 480vw;
+  margin-left: 1vw;
+  width:35vw;
+  position: absolute;
+ 
+}
+/*ปะการังเขากวาง*/
+#img-l10-2{
+  margin-top: 487vw;
+  margin-left: 13vw;
+  width:23vw;
+  position: absolute;
+}
+/*ปะการังเขากวาง*/
+#img-l10-3{
+  margin-top: 488vw;
+  margin-left: 7vw;
+  width:15vw;
+  position: absolute;
+  transform: rotate(-40deg);
+}
+/*ปะการังเขากวาง*/
+#img-l10-4{
+  margin-top: 505vw;
+  margin-left: 11vw;
+  width:15vw;
+  position: absolute; 
+}
+#img-r10-1{
+  margin-top: 495vw;
+  margin-left: 29vw;
+  width:35vw;
+  position: absolute; 
+  transform: rotate(-90deg);
+}
+#img-r10-2{
+  margin-top: 515vw;
+  margin-left: 32vw;
+  width:35vw;
+  position: absolute; 
+  transform: rotate(-45deg);
+}
+
+
+
+
+
+
 
 
 
