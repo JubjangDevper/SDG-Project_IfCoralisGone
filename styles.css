@@ -1363,61 +1363,207 @@ h1{
   transform: rotate(-45deg);
 }
 #img-r10-3{
-  margin-top: 615vw;
-  margin-left: 32vw;
-  width:35vw;
+  margin-top: 521vw;
+  margin-left: 40vw;
+  width:18vw;
   position: absolute; 
-  transform: rotate(-45deg);
+  transform: rotate(-130deg);
 }
 #img-r10-4{
-  margin-top: 615vw;
-  margin-left: 32vw;
-  width:35vw;
+  margin-top: 524vw;
+  margin-left: 35vw;
+  width:18vw;
   position: absolute; 
-  transform: rotate(-45deg);
+  transform: rotate(-130deg);
 }
 #img-r10-5{
-  margin-top: 615vw;
-  margin-left: 32vw;
-  width:35vw;
+  margin-top: 526vw;
+  margin-left: 37vw;
+  width:13vw;
   position: absolute; 
   transform: rotate(-45deg);
 }
 #img-r10-6{
-  margin-top: 615vw;
-  margin-left: 32vw;
-  width:35vw;
+  margin-top: 525vw;
+  margin-left: 28vw;
+  width:13vw;
   position: absolute; 
-  transform: rotate(-45deg);
+  transform: rotate(-95deg);
 }
 #img-r10-7{
-  margin-top: 615vw;
-  margin-left: 32vw;
-  width:35vw;
+  margin-top: 524vw;
+  margin-left: 33vw;
+  width:13vw;
   position: absolute; 
-  transform: rotate(-45deg);
+  transform: rotate(-95deg);
 }
 #img-r10-8{
-  margin-top: 615vw;
-  margin-left: 32vw;
-  width:35vw;
+  margin-top: 512vw;
+  margin-left: 28vw;
+  width:20vw;
   position: absolute; 
-  transform: rotate(-45deg);
+  transform: rotate(-60deg);
 }
 #img-r10-9{
-  margin-top: 615vw;
-  margin-left: 32vw;
-  width:35vw;
+  margin-top: 517vw;
+  margin-left: 29vw;
+  width:13vw;
   position: absolute; 
-  transform: rotate(-45deg);
+  transform: rotate(-80deg);
 }
 #img-r10-10{
-  margin-top: 615vw;
-  margin-left: 32vw;
-  width:35vw;
+  margin-top: 510vw;
+  margin-left: 25vw;
+  width:13vw;
   position: absolute; 
   transform: rotate(-45deg);
 }
+#img-r10-11{
+  margin-top: 535vw;
+  margin-left: 50vw;
+  width:10vw;
+  position: absolute; 
+  transform: rotate(35deg);
+}
+#img-r10-12{
+  margin-top: 499vw;
+  margin-left: 32vw;
+  width:25vw;
+  position: absolute; 
+  transform: rotate(-45deg);
+}
+#img-r10-13{
+  margin-top: 515vw;
+  margin-left: 40vw;
+  width:16vw;
+  position: absolute; 
+  transform: rotate(-45deg);
+}
+#img-l11-1{
+  margin-top: 535vw;
+  margin-left: -66vw;
+  width:37vw;
+  position: absolute; 
+}
+#img-l11-2{
+  margin-top: 560vw;
+  margin-left: -57vw;
+  width:13vw;
+  position: absolute; 
+}
+#img-l11-3{
+  margin-top: 565vw;
+  margin-left: -53vw;
+  width:17vw;
+  position: absolute; 
+}
+#img-l11-4{
+  margin-top: 561vw;
+  margin-left: -26vw;
+  width:15vw;
+  position: absolute; 
+transform: rotate(-60deg);
+}
+#img-r11-1{
+  margin-top: 545vw;
+  margin-left: 70vw;
+  width:30vw;
+  position: absolute; 
+}
+#img-r11-2{
+  margin-top: 550vw;
+  margin-left: 70vw;
+  width:30vw;
+  position: absolute; 
+}
+#img-l12-1{
+  margin-top: 580vw;
+  margin-left: -21vw;
+  width:18vw;
+  position: absolute; 
+  transform: rotate(-200deg);
+}
+#img-l12-2{
+  margin-top: 597vw;
+  margin-left: -35vw;
+  width:37vw;
+  position: absolute; 
+}
+#img-r12-1{
+  margin-top: 595vw;
+  margin-left: 0vw;
+  width:37vw;
+  position: absolute; 
+}
+#img-r12-2{
+  margin-top: 589vw;
+  margin-left: 12vw;
+  width:8vw;
+  position: absolute; 
+  transform: rotate(50deg);
+}
+#img-r12-3{
+  margin-top: 601vw;
+  margin-left: 5vw;
+  width:6vw;
+  position: absolute; 
+  transform: rotate(-70deg);
+}
+#img-l13-1{
+  margin-top: 627vw;
+  margin-left: -4vw;
+  width:38vw;
+  position: absolute;  
+  transform: rotate(10deg);
+}
+#img-l13-2{
+  margin-top: 633vw;
+  margin-left: -4vw;
+  width:25vw;
+  position: absolute; 
+  transform: rotate(-70deg);
+}
+#img-l13-3{
+  margin-top: 641vw;
+  margin-left: -2vw;
+  width:18vw;
+  position: absolute; 
+  
+}
+#img-l13-4{
+  margin-top: 649vw;
+  margin-left: 6vw;
+  width:27vw;
+  position: absolute; 
+  
+}
+#img-l13-5{
+  margin-top: 662vw;
+  margin-left: -3vw;
+  width:15vw;
+  position: absolute; 
+}
+#img-l13-6{
+  margin-top: 637vw;
+  margin-left: 30vw;
+  width:11vw;
+  position: absolute; 
+  transform: rotate(20deg);
+  
+}
+#img-l13-7{
+  margin-top: 670vw;
+  margin-left: 26vw;
+  width:15vw;
+  position: absolute; 
+  transform: rotate(-90deg);
+  
+}
+
+
+
+
+
 
 
 
