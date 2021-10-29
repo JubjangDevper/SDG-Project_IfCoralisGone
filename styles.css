@@ -1557,8 +1557,51 @@ transform: rotate(-60deg);
   width:15vw;
   position: absolute; 
   transform: rotate(-90deg);
+}
+#img-l13-7{
+  margin-top: 670vw;
+  margin-left: 26vw;
+  width:15vw;
+  position: absolute; 
+  transform: rotate(-90deg);
+}
+#img-r14-1{
+  margin-top: 634vw;
+  margin-left: 32vw;
+  width:25vw;
+  position: absolute; 
   
 }
+#img-r14-2{
+  margin-top: 668vw;
+  margin-left: 48vw;
+  width:13vw;
+  position: absolute; 
+  transform: rotate(-90deg);
+}
+#img-r14-3{
+  margin-top: 654vw;
+  margin-left: 42vw;
+  width:20vw;
+  position: absolute; 
+  transform: rotate(130deg);
+}
+#img-r14-4{
+  margin-top: 671vw;
+  margin-left: 33vw;
+  width:10vw;
+  position: absolute; 
+  transform: rotate(140deg);
+}
+#img-r14-5{
+  margin-top: 678vw;
+  margin-left: 27vw;
+  width:7vw;
+  position: absolute; 
+  transform: rotate(180deg);
+}
+
+
 
 
 
