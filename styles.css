@@ -437,7 +437,6 @@ h1{
   position: absolute;
 
 }
-
 /*หิน2*/
 #img-l3-5{
   margin-top: 95vw;
@@ -446,6 +445,46 @@ h1{
   position: absolute;
   transform: rotate(-65deg);
 }
+#img-l3-6{
+  margin-top: 105vw;
+  margin-left: -65vw;
+  width: 13vw;
+  position: absolute;
+  transform: rotate(40deg);
+}
+#img-l3-8{
+  margin-top: 93vw;
+  margin-left: -70vw;
+  width: 13vw;
+  position: absolute;
+  transform: rotate(40deg);
+}
+#img-l3-7{
+  margin-top: 78vw;
+  margin-left: -70vw;
+  width: 20vw;
+  position: absolute;
+}
+#img-l3-9{
+  margin-top: 78vw;
+  margin-left: -60vw;
+  width: 12vw;
+  position: absolute;
+}
+#img-l3-10{
+  margin-top: 85vw;
+  margin-left: -65vw;
+  width: 12vw;
+  position: absolute;
+}
+#img-l3-11{
+  margin-top: 101vw;
+  margin-left: -56vw;
+  width: 13vw;
+  position: absolute;
+  
+}
+
 
 /*หิน2*/
 #img-r3-1{
@@ -521,6 +560,19 @@ h1{
   width: 22vw;
   position: absolute;
 }
+#img-r3-9{
+  margin-top: 63vw;
+  margin-left: 65vw;
+  width: 12vw;
+  position: absolute;
+}
+#img-r3-10{
+  margin-top: 92vw;
+  margin-left: 65vw;
+  width: 12vw;
+  position: absolute;
+}
+
 
 /*หิน2*/
 #img-l4-1{
@@ -647,6 +699,68 @@ h1{
   position: absolute;
   transform: rotate(-50deg);
 }
+#img-l4-14{
+  margin-top: 118vw;
+  margin-left: 11vw;
+  width: 12vw;
+  position: absolute;
+ 
+}
+#img-l4-15{
+  margin-top: 121vw;
+  margin-left: -3vw;
+  width: 12vw;
+  position: absolute;
+ 
+}
+#img-l4-16{
+  margin-top: 132vw;
+  margin-left: 5vw;
+  width: 12vw;
+  position: absolute;
+ 
+}
+#img-l4-17{
+  margin-top: 160vw;
+  margin-left: -13vw;
+  width: 12vw;
+  position: absolute;
+}
+#img-l4-18{
+z-index: 99;
+margin-top: 182vw;
+margin-left: -46vw;
+margin-right: 1vw;
+width: 35vw;
+position: absolute;
+opacity: 50%;
+mix-blend-mode:hard-light ;
+transform: rotate(10deg);
+}
+#img-l4-19{
+  margin-top: 270vw;
+  margin-left: -15vw;
+  width: 18vw;
+  position: absolute;
+}
+#img-l4-20{
+  margin-top: 280vw;
+  margin-left: -21vw;
+  width: 12vw;
+  position: absolute;
+}
+#img-l4-22{
+  margin-top: 258vw;
+  margin-left: -28vw;
+  width: 23vw;
+  position: absolute;
+}
+#img-l4-21{
+  margin-top: 267vw;
+  margin-left: -30vw;
+  width: 20vw;
+  position: absolute;
+}
 /*หิน1*/
 #img-r4-1{
   margin-top: 146vw;
@@ -759,6 +873,63 @@ h1{
   position: absolute;
   transform: rotate(-90deg);
 }
+#img-l5-10{
+  margin-top: 190vw;
+  margin-left: 15vw;
+  width: 23vw;
+  position: absolute;
+
+}
+#img-l5-11{
+  margin-top: 215vw;
+  margin-left: 27vw;
+  width: 15vw;
+  position: absolute;
+
+}
+#img-l5-12{
+  margin-top: 233vw;
+  margin-left: 2vw;
+  width: 23vw;
+  position: absolute;
+
+}
+#img-l5-13{
+  margin-top: 253vw;
+  margin-left: 10vw;
+  width: 23vw;
+  position: absolute;
+
+}
+#img-l5-14{
+  margin-top: 245vw;
+  margin-left: 8vw;
+  width: 23vw;
+  position: absolute;
+}
+#img-l5-15{
+  z-index: 99;
+  margin-top: 263vw;
+  margin-left: 5vw;
+margin-right: 1vw;
+width: 25vw;
+position: absolute;
+opacity: 50%;
+mix-blend-mode:hard-light ;
+
+}
+#img-l5-16{
+  z-index: 99;
+  margin-top: 252vw;
+  margin-left: 60vw;
+margin-right: 1vw;
+width: 35vw;
+position: absolute;
+opacity: 50%;
+mix-blend-mode:hard-light ;
+transform: rotate(10deg);
+}
+
 /*หิน2*/
 #img-r5-1{
   margin-top: 170vw;
@@ -803,9 +974,64 @@ h1{
   margin-left: 36vw;
   width: 27vw;
   position: absolute;
-  transform: rotate(-10deg);
+  transform: rotate(10deg);
 
 }
+#img-r5-7{
+  margin-top: 207vw;
+  margin-left: 36vw;
+  width: 20vw;
+  position: absolute;
+}
+#img-r5-8{
+  margin-top: 203vw;
+  margin-left: 48vw;
+  width: 12vw;
+  position: absolute;
+  transform: rotate(120deg);
+}
+#img-r5-9{
+  margin-top: 220vw;
+  margin-left: 44vw;
+  width: 12vw;
+  position: absolute;
+  transform: rotate(90deg);
+
+}
+#img-r5-10{
+  margin-top: 216vw;
+  margin-left: 33vw;
+  width: 10vw;
+  position: absolute;
+}
+#img-r5-11{
+  margin-top: 204vw;
+  margin-left: 47vw;
+  width: 12vw;
+  position: absolute;
+}
+#img-r5-12{
+  margin-top: 218vw;
+  margin-left: 43vw;
+  width: 12vw;
+  position: absolute;
+}
+#img-r5-13{
+  z-index: 3;
+  margin-top: 234vw;
+  margin-left: 47vw;
+  width: 12vw;
+  position: absolute;
+}
+#img-r5-14{
+  z-index: 3;
+  margin-top: 242vw;
+  margin-left: 30vw;
+  width: 12vw;
+  position: absolute;
+}
+
+
 
 /*หิน01*/
 #img-r6-1{
@@ -941,7 +1167,59 @@ h1{
   position: absolute;
   
 }
+#img-l7-8{
+  margin-top: 293vw;
+  margin-left: 10vw;
+  width: 25vw;
+  position: absolute;
+}
+#img-l7-9{
+  margin-top: 302vw;
+  margin-left: 17vw;
+  width: 20vw;
+  position: absolute;
+}
+#img-l7-10{
+  margin-top: 310vw;
+  margin-left: -3vw;
+  width: 25vw;
+  position: absolute;
+}
+#img-l7-11{
+  margin-top: 320vw;
+  margin-left: 4vw;
+  width: 20vw;
+  position: absolute;
+}
+#img-l7-12{
+  z-index: 5;
+  margin-top: 328vw;
+  margin-left: 85vw;
+  width: 12vw;
+  position: absolute;
+}
+#img-l7-13{
+  z-index: 5;
+  margin-top: 318vw;
+  margin-left: 65vw;
+  width: 12vw;
+  position: absolute;
+}
 
+#img-l7-14{
+  z-index: 5;
+  margin-top: 280vw;
+  margin-left: 82vw;
+  width: 12vw;
+  position: absolute;
+}
+#img-l7-15{
+  z-index: 5;
+  margin-top: 338vw;
+  margin-left: 88vw;
+  width: 10vw;
+  position: absolute;
+}
 
 
 /*หิน01*/
@@ -1063,6 +1341,20 @@ h1{
   position: absolute;
   
 }
+#img-l8-6{
+  margin-top: 370vw;
+  margin-left: -62vw;
+  width: 20vw;
+  position: absolute;
+  
+}
+#img-l8-7{
+  margin-top: 380vw;
+  margin-left: -56vw;
+  width: 15vw;
+  position: absolute;
+  
+}
 
 /*หิน01*/
 #img-r8-1{
@@ -1152,6 +1444,32 @@ h1{
   width: 17vw;
   position: absolute;
 }
+#img-r8-12{
+  margin-top: 360vw;
+  margin-left: 80vw;
+  width: 10vw;
+  position: absolute;
+}
+#img-r8-13{
+  margin-top: 367vw;
+  margin-left: 84vw;
+  width: 8vw;
+  position: absolute;
+  transform: rotate(-120deg);
+}
+#img-r8-14{
+  margin-top: 365vw;
+  margin-left: 72vw;
+  width: 15vw;
+  position: absolute;
+}
+#img-r8-15{
+  margin-top: 376vw;
+  margin-left: 63vw;
+  width: 17vw;
+  position: absolute;
+}
+
 /*หิน2*/
 #img-l9-1{
   margin-top: 404vw;
@@ -1243,6 +1561,55 @@ h1{
   position: absolute;
   transform: rotate(180deg);
 }
+#img-l9-13{
+  margin-top: 410vw;
+  margin-left: -25vw;
+  width: 16vw;
+  position: absolute;
+}
+#img-l9-14{
+  margin-top: 455vw;
+  margin-left: -26vw;
+  width: 10vw;
+  position: absolute;
+}
+#img-l9-15{
+  margin-top: 449vw;
+  margin-left: -32vw;
+  width: 13vw;
+  position: absolute;
+}
+#img-l9-16{
+  margin-top: 467vw;
+  margin-left: -30vw;
+  width: 15vw;
+  position: absolute;
+}
+#img-l9-17{
+  margin-top: 458vw;
+  margin-left: -29vw;
+  width: 10vw;
+  position: absolute;
+}
+#img-l9-18{
+  margin-top: 456vw;
+  margin-left: -15vw;
+  width: 5vw;
+  position: absolute;
+}
+#img-l9-19{
+  margin-top: 425vw;
+  margin-left: -35vw;
+  width: 38vw;
+  position: absolute;
+}
+#img-l9-20{
+  margin-top: 420vw;
+  margin-left: -18vw;
+  width: 20vw;
+  position: absolute;
+}
+
 /*หิน2*/
 #img-r9-1{
   margin-top: 400vw;
@@ -1309,6 +1676,49 @@ h1{
   position: absolute;
   transform: rotate(-40deg);
 }
+#img-r9-11{
+  margin-top: 418vw;
+  margin-left: 12vw;
+  width:20vw;
+  position: absolute;
+}
+#img-r9-10{
+  margin-top: 407vw;
+  margin-left: 14vw;
+  width:20vw;
+  position: absolute;
+}
+#img-r9-12{
+  margin-top: 400vw;
+  margin-left: 10vw;
+  width:15vw;
+  position: absolute;
+}
+#img-r9-13{
+  margin-top: 410vw;
+  margin-left: 14vw;
+  width:20vw;
+  position: absolute;
+}
+#img-r9-14{
+  margin-top: 463vw;
+  margin-left: 6vw;
+  width:20vw;
+  position: absolute;
+}
+#img-r9-15{
+  margin-top: 453vw;
+  margin-left: -2vw;
+  width:25vw;
+  position: absolute;
+}
+#img-r9-16{
+  margin-top: 483vw;
+  margin-left: 12vw;
+  width:20vw;
+  position: absolute;
+  transform: rotate(-50deg);
+}
 /*หิน02*/
 #img-l10-1{
   margin-top: 480vw;
@@ -1343,6 +1753,18 @@ h1{
 #img-l10-4{
   margin-top: 505vw;
   margin-left: 11vw;
+  width:15vw;
+  position: absolute; 
+}
+#img-l10-5{
+  margin-top: 475vw;
+  margin-left: 12vw;
+  width:20vw;
+  position: absolute; 
+}
+#img-l10-6{
+  margin-top: 488vw;
+  margin-left: 19vw;
   width:15vw;
   position: absolute; 
 }
@@ -1439,6 +1861,16 @@ h1{
   position: absolute; 
   transform: rotate(-45deg);
 }
+#img-r10-14{
+  z-index: 99;
+  margin-top: 527vw;
+  margin-left: 28vw;
+  width: 35vw;
+  position: absolute;
+  opacity: 50%;
+  mix-blend-mode:hard-light ;
+  transform: scaleX(-1);
+}
 #img-l11-1{
   margin-top: 535vw;
   margin-left: -66vw;
@@ -1509,6 +1941,26 @@ transform: rotate(-60deg);
   position: absolute; 
   transform: rotate(-70deg);
 }
+#img-r12-4{
+  margin-top: 579vw;
+  margin-left: 14vw;
+  width:12vw;
+  position: absolute; 
+}
+#img-r12-5{
+  margin-top: 595vw;
+  margin-left: -40vw;
+  width:30vw;
+  position: absolute; 
+  transform: rotate(90deg);
+}
+#img-r12-6{
+  margin-top: 595vw;
+  margin-left: -20vw;
+  width:30vw;
+  position: absolute; 
+  transform: rotate(90deg);
+}
 #img-l13-1{
   margin-top: 627vw;
   margin-left: -4vw;
@@ -1558,12 +2010,12 @@ transform: rotate(-60deg);
   position: absolute; 
   transform: rotate(-90deg);
 }
-#img-l13-7{
-  margin-top: 670vw;
-  margin-left: 26vw;
-  width:15vw;
+#img-l13-8{
+  margin-top: 629vw;
+  margin-left: 13vw;
+  width:20vw;
   position: absolute; 
-  transform: rotate(-90deg);
+  
 }
 #img-r14-1{
   margin-top: 634vw;
