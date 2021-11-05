@@ -2181,6 +2181,148 @@ transform: rotate(-60deg);
   width: 26vw;
   position: absolute;
 }
+/*gray background*/
+.mother-bg{
+  margin-top: 520vw;
+  position: absolute; 
+  z-index: -1;
+}
+#bg2{
+  position: relative; 
+}
+#bg3{
+  position: relative; 
+}
+#bg4{
+  position: relative; 
+  transform: rotate(180deg);
+}
+
+#img-r15-1{
+  margin-top: 690vw;
+  margin-left: 5vw;
+  width:16vw;
+  position: absolute; 
+}
+#img-r15-2{
+  margin-top: 691vw;
+  margin-left: 9vw;
+  width:16vw;
+  position: absolute; 
+  transform: rotate(160deg);
+}
+#img-r15-3{
+  margin-top: 690vw;
+  margin-left: 11vw;
+  width:16vw;
+  position: absolute; 
+  transform: rotate(140deg);
+}
+#img-r15-4{
+  margin-top: 695vw;
+  margin-left: 6vw;
+  width:23vw;
+  position: absolute; 
+  transform: rotate(120deg);
+}
+#img-r15-5{
+  margin-top: 703vw;
+  margin-left: 8vw;
+  width:23vw;
+  position: absolute; 
+  transform: rotate(170deg);
+}
+#img-r15-6{
+  margin-top: 708vw;
+  margin-left: 10vw;
+  width:15vw;
+  position: absolute; 
+}
+#img-r15-7{
+  margin-top: 702vw;
+  margin-left: 18vw;
+  width:9vw;
+  position: absolute; 
+}
+#img-r15-8{
+  margin-top: 705vw;
+  margin-left: 13vw;
+  width:8vw;
+  position: absolute; 
+}
+#img-r15-9{
+  margin-top: 712vw;
+  margin-left: 16vw;
+  width:12vw;
+  position: absolute; 
+}
+#img-l15-1{
+  margin-top: 700vw;
+  margin-left: 12vw;
+  width:20vw;
+  position: absolute; 
+}
+#img-l15-2{
+  margin-top: 700vw;
+  margin-left: 15vw;
+  width:18vw;
+  position: absolute; 
+}
+#img-l15-3{
+  margin-top: 725vw;
+  margin-left: 12vw;
+  width:10vw;
+  position: absolute; 
+  filter: brightness(1.2);
+}
+#img-l16-1{
+  margin-top: 750vw;
+  margin-left: -35vw;
+  width:23vw;
+  position: absolute;
+  transform: rotate(40deg);
+}
+#img-l16-2{
+  margin-top: 750vw;
+  margin-left: -25vw;
+  width:18vw;
+  position: absolute;
+  transform: rotate(40deg);
+}
+#img-l16-3{
+  margin-top: 760vw;
+  margin-left: -25vw;
+  width:8vw;
+  position: absolute;
+  transform: rotate(90deg);
+}
+#img-l16-4{
+  margin-top: 755vw;
+  margin-left: -18vw;
+  width:8vw;
+  position: absolute;
+}
+#img-l16-5{
+  margin-top: 755vw;
+  margin-left: -14vw;
+  width:8vw;
+  position: absolute;
+  transform: rotate(30deg);
+}
+#img-l16-6{
+  margin-top: 752vw;
+  margin-left: -14vw;
+  width:8vw;
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+
+
+
+
+
+
 
 
 
