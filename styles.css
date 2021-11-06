@@ -12,7 +12,7 @@ body{
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
   color:black;
 }
-p{
+b{
   font-size: 1.9rem;
 }
 h1{
@@ -482,9 +482,34 @@ h1{
   margin-left: -56vw;
   width: 13vw;
   position: absolute;
-  
 }
-
+#img-l3-12{
+  margin-top: 107vw;
+  margin-left: -65vw;
+  width: 8vw;
+  position: absolute;
+  transform: rotate(40deg);
+}
+#img-l3-13{
+  margin-top:85vw;
+  margin-left: -34vw;
+  width: 8vw;
+  position: absolute;
+}
+#img-l3-14{
+  margin-top: 101vw;
+  margin-left: -51vw;
+  width: 6vw;
+  position: absolute;
+  transform: rotate(-10deg);
+}
+#img-l3-15{
+  z-index: 2;
+  margin-top: 85vw;
+  margin-left: -18vw;
+  width: 60vw;
+  position: absolute;
+}
 
 /*หิน2*/
 #img-r3-1{
@@ -1030,7 +1055,13 @@ transform: rotate(10deg);
   width: 12vw;
   position: absolute;
 }
-
+#img-r5-15{
+  margin-top: 175vw;
+  margin-left: 12vw;
+  width: 50vw;
+  position: absolute;
+  transform: rotate(130deg);
+}
 
 
 /*หิน01*/
@@ -1296,7 +1327,12 @@ transform: rotate(10deg);
   margin-left: 42vw;
   width: 22vw;
   position: absolute;
-  
+}
+#img-r7-11{
+  margin-top: 275vw;
+  margin-left: 25vw;
+  width: 65vw;
+  position: absolute;
 }
 /*เงาน้ำ*/
 #img-l8-1{
@@ -1469,6 +1505,32 @@ transform: rotate(10deg);
   width: 17vw;
   position: absolute;
 }
+#img-r8-16{
+  z-index: 99;
+  margin-top: 380vw;
+  margin-left: 53vw;
+  width: 40vw;
+  position: absolute;
+  transform: scaleX(-1);
+}
+#img-r8-17{
+  z-index: 99;
+  margin-top: 400vw;
+  margin-left: 55vw;
+  width: 20vw;
+  position: absolute;
+  transform: scaleX(-1)
+}
+#img-r8-18{
+  z-index: 99;
+  margin-top: 429vw;
+  margin-left: 47vw;
+  width: 50vw;
+  position: absolute;
+  transform: scaleX(-1)
+  
+}
+
 
 /*หิน2*/
 #img-l9-1{
@@ -1773,6 +1835,35 @@ transform: rotate(10deg);
   margin-top: 495vw;
   margin-left: 29vw;
   width:35vw;
+  position: absolute; 
+  transform: rotate(-90deg);
+}
+#img-l10-7{
+  z-index: 99;
+  margin-top: 448vw;
+  margin-left: -80vw;
+  width:180vw;
+  position: absolute; 
+}
+#img-l10-8{
+  z-index: 2;
+  margin-top: 438vw;
+  margin-left:4vw;
+  width:180vw;
+  position: absolute; 
+}
+#img-l10-9{
+  margin-top: 525vw;
+  margin-left: 12vw;
+  width:8vw;
+  position: absolute; 
+  transform: rotate(65deg);
+}
+#img-l10-10{
+  z-index: 2;
+  margin-top: 495vw;
+  margin-left:68vw;
+  width:7vw;
   position: absolute; 
   transform: rotate(-90deg);
 }
