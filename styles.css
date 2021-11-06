@@ -1507,11 +1507,11 @@ transform: rotate(10deg);
 }
 #img-r8-16{
   z-index: 99;
-  margin-top: 380vw;
+  margin-top: 384vw;
   margin-left: 53vw;
   width: 40vw;
   position: absolute;
-  transform: scaleX(-1);
+  transform: scaleX(-1) rotate(-30deg);
 }
 #img-r8-17{
   z-index: 99;
@@ -1519,7 +1519,7 @@ transform: rotate(10deg);
   margin-left: 55vw;
   width: 20vw;
   position: absolute;
-  transform: scaleX(-1)
+  transform: scaleX(-1) rotate(-30deg);
 }
 #img-r8-18{
   z-index: 99;
@@ -1527,7 +1527,7 @@ transform: rotate(10deg);
   margin-left: 47vw;
   width: 50vw;
   position: absolute;
-  transform: scaleX(-1)
+  transform: scaleX(-1) ;
   
 }
 
