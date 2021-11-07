@@ -2275,24 +2275,24 @@ transform: rotate(-60deg);
   color: #3a3a3a;
   font-size: 2vw;
   left: 1.5vw;
-  margin-top:737vw;
+  top:740vw;
   width: 40vw;
   position: absolute;
 }
 #t22{
   color: #387079;
   font-size: 2vw;
-  margin-top:790vw;
+  top:800vw;
   width: 40vw;
   position: absolute;
 }
 #t23{
-  margin-top:810vw;
+  top:820vw;
   width: 35vw;
   position: absolute;
 }
 #t24{
-  margin-top:820vw;
+  top:830vw;
   width: 35vw;
   position: absolute;
 }
@@ -2300,8 +2300,8 @@ transform: rotate(-60deg);
   line-height: 4vw;
   color: #387079;
   font-size: 2vw;
-  margin-left: -4vw;
-  margin-top:850vw;
+  margin-left: -10vw;
+  top:860vw;
   width: 50vw;
   position: absolute;
 }
@@ -2309,20 +2309,20 @@ transform: rotate(-60deg);
   color: #387079;
   font-size: 1.5vw;
   margin-left: -10vw;
-  margin-top:890vw;
+  top:900vw;
   width: 50vw;
   position: absolute;
 }
 #t27{
-  margin-top:643vw;
-  margin-left: -8vw;
-  width: 18vw;
+  top:658vw;
+  margin-left: -15vw;
+  width: 14vw;
   position: absolute;
 }
 #t28{
-  margin-top:643vw;
-  margin-left: 12vw;
-  width: 18vw;
+  top:658vw;
+  margin-left: 25vw;
+  width: 14vw;
   position: absolute;
 }
 /*gray background*/
