@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200;300&display=swap');
-html{
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');html{
   font-size:1vw;
   overflow-x: hidden;
 }
 body{
+  height: 100% ;
   overflow-x: hidden;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(ทรายเดสทอป+โทรศัพ/ทรายเดสทอป.png);
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: 'Prompt', sans-serif;  
   color:black;
 }
 b{
-  font-size: 1.9rem;
+  font-size: 1.5rem;
 }
 h1{
   font-size: 4rem;
@@ -22,7 +22,6 @@ h1{
 .info{
   z-index: 999;
 }
-
  /*Text กึ่งกลาง*/
  .center-text {
   flex-direction: column;
@@ -2150,7 +2149,7 @@ transform: rotate(-60deg);
   position: absolute;
 }
 #t2{
-  margin-top:100vw;
+  margin-top:85vw;
   margin-left:-50vw;
   width: 20vw;
   position: absolute;
@@ -2186,7 +2185,7 @@ transform: rotate(-60deg);
 
 #t7{
   margin-top:238vw;
-  margin-left: -24vw;
+  margin-left: -26vw;
   width: 23vw;
   position: absolute;
 }
@@ -2261,7 +2260,7 @@ transform: rotate(-60deg);
   position: absolute;
 }
 #t19{
-  margin-top:610vw;
+  margin-top:600vw;
   margin-left: -35vw;
   width: 26vw;
   position: absolute;
@@ -2270,6 +2269,60 @@ transform: rotate(-60deg);
   margin-top:680vw;
   margin-left: -33vw;
   width: 26vw;
+  position: absolute;
+}
+#t21{
+  color: #3a3a3a;
+  font-size: 2vw;
+  left: 1.5vw;
+  margin-top:737vw;
+  width: 40vw;
+  position: absolute;
+}
+#t22{
+  color: #387079;
+  font-size: 2vw;
+  margin-top:790vw;
+  width: 40vw;
+  position: absolute;
+}
+#t23{
+  margin-top:810vw;
+  width: 35vw;
+  position: absolute;
+}
+#t24{
+  margin-top:820vw;
+  width: 35vw;
+  position: absolute;
+}
+#t25{
+  line-height: 4vw;
+  color: #387079;
+  font-size: 2vw;
+  margin-left: -4vw;
+  margin-top:850vw;
+  width: 50vw;
+  position: absolute;
+}
+#t26{
+  color: #387079;
+  font-size: 1.5vw;
+  margin-left: -10vw;
+  margin-top:890vw;
+  width: 50vw;
+  position: absolute;
+}
+#t27{
+  margin-top:643vw;
+  margin-left: -8vw;
+  width: 18vw;
+  position: absolute;
+}
+#t28{
+  margin-top:643vw;
+  margin-left: 12vw;
+  width: 18vw;
   position: absolute;
 }
 /*gray background*/
@@ -2289,7 +2342,6 @@ transform: rotate(-60deg);
 #bg4{
   width: 150vw;
   position: relative; 
-  transform: rotate(180deg);
 }
 
 #img-r15-1{
