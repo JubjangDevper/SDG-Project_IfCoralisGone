@@ -3058,7 +3058,7 @@ transform: rotate(-60deg);
   width: 14vw;
   position: absolute;
   transform: rotate(-10deg);
-  animation:fishro  12s linear infinite;
+  animation:fishro  12s linear infinite, fishY 12s linear infinite;
 
 }
 
@@ -3074,12 +3074,10 @@ transform: rotate(-60deg);
 @keyframes swim-r2 {
   0% {  margin-top: 20vw;
         left: 80vw;}
-  50%{
-    margin-top: 70vw;
-    left: 35vw;}
-
+  50%{margin-top: 70vw;
+    left: 36vw;}
   100%{  margin-top: 90vw;
-        left: -50vw;
+        left: -60vw;
   }
 }
 @keyframes fishro{
@@ -3091,5 +3089,10 @@ transform: rotate(-60deg);
   }
   100%{
     transform: rotate(40deg);
+  }
+}
+@keyframes fishY {
+  100%{
+    left:-7vw;
   }
 }
