@@ -2279,12 +2279,15 @@ transform: rotate(-60deg);
   z-index: -1;
 }
 #bg2{
+  width: 150vw;
   position: relative; 
 }
 #bg3{
+  width: 150vw;
   position: relative; 
 }
 #bg4{
+  width: 150vw;
   position: relative; 
   transform: rotate(180deg);
 }
@@ -2768,9 +2771,6 @@ transform: rotate(-60deg);
   transform: scaleX(-1) translateX(27vw) translateY(8vw);
 }
 
-#img-l19-1{
-}
-
 #img-r19-1{
   margin-top:845vw;
   margin-left: 15vw;
@@ -2868,8 +2868,69 @@ transform: rotate(-60deg);
   transform:translateY(80vw) translateX(-16vw);
 }
 
+/*ฝูงปลา*/
+#img-free-l17-1{
+  z-index: 99;
+  left: 1vw;
+  top: -5vw;
+  margin-right: 1vw;
+  width: 14vw;
+  position: absolute;
+}
 
+/*ฝูงปลา*/
+#img-free-l17-2{
+  z-index: 99;
+  left: 6vw;
+  top: 7vw;
+  margin-right: 1vw;
+  width: 14vw;
+  position: absolute;
+  transform: rotate(-10deg);
+}
 
+/*ปลาว่ายน้ำ*/
+.fish-l17{
+  z-index: 100;
+  margin-top: 803vw;
+  position: absolute;
+  left: -20vw;
+  transform: rotate(-70deg);
+  animation: swim-l17 12s ease-in infinite;
+}
 
+/*Animation*/
+@keyframes swim-l17 {
+  0% {  margin-top: 790vw;
+        left: 110vw;}
+  100%{  margin-top: 805vw;
+  }
+}
 
-
+.end{
+  top: 900vw;
+}
+.end > p{
+  color: #387079;
+  font-size: 3vw;
+  font-weight: bolder;
+}
+#img-end-1{
+  padding: 3vw;
+  z-index: 3;
+  width:30vw;
+}
+#img-end-2{
+  padding: 3vw;
+  z-index: 3;
+  width:30vw;
+}
+#img-end-3{
+  margin-bottom: 8vw;
+  padding: 3vw;
+  z-index: 3;
+  width:30vw;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
