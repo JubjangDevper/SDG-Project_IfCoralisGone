@@ -31,7 +31,7 @@ h1{
  }
 
 /*container element ฝั่งขวา*/
- .container-img-r1{
+ .container-img-r1 {
   top:-9.5vw;
   left: 4.5vw;
   position: flex;
@@ -314,6 +314,7 @@ h1{
 
 /*พุ่มสีเขียว */
 #img-r2-5{
+  z-index: 3;
   margin-top:45vw;
   margin-left: 38.5vw;
   width: 20vw;
@@ -323,6 +324,7 @@ h1{
 
 /*พุ่มสีเขียว */
 #img-r2-6{
+  z-index: 3;
   margin-top:22vw;
   margin-left: 42vw;
   width: 30vw;
@@ -349,6 +351,7 @@ h1{
 
 /*พุ่มสีเขียว*/
 #img-r2-9{
+  z-index: 3;
   margin-top:40vw;
   margin-left: 51vw;
   width: 19vw;
@@ -2143,8 +2146,8 @@ transform: rotate(-60deg);
   transform: rotate(180deg);
 }
 #t1{
-  margin-top:405vw;
-  margin-left: -34vw;
+  margin-top:389vw;
+  margin-left: -38vw;
   width: 28vw;
   position: absolute;
 }
@@ -2327,6 +2330,7 @@ transform: rotate(-60deg);
 }
 /*gray background*/
 .mother-bg{
+  
   margin-top: 520vw;
   position: absolute; 
   z-index: -1;
@@ -2959,6 +2963,41 @@ transform: rotate(-60deg);
   }
 }
 
+/*ฝูงปลา*/
+#img-free-l16-1{
+  z-index: -1;
+  left: 2vw;
+  top: -5vw;
+  margin-right: 1vw;
+  width: 12vw;
+  position: absolute;
+  transform: rotate(-40deg);
+}
+
+/*ฝูงปลา*/
+#img-free-l16-2{
+  z-index: -1;
+  left: 5vw;
+  top: 0vw;
+  margin-right: 1vw;
+  width: 12vw;
+  position: absolute;
+  transform: rotate(-40deg);
+}
+
+/*ปลาว่ายน้ำ*/
+.fish-l16{
+  margin-top: 755vw;
+  position: absolute;
+  left: -50vw;
+  animation: swim-l16 14s ease-in infinite ;
+}
+@keyframes swim-l16 {
+  0% {  margin-top: 750vw;
+        left: 60vw;}
+  100%{  margin-top: 730vw;
+  }
+}
 .end{
   top: 900vw;
 }
@@ -2985,4 +3024,72 @@ transform: rotate(-60deg);
 }
 ::-webkit-scrollbar {
   width: 0px;
+}
+/*ฝูงปลา*/
+#img-fish-r2-1{
+  z-index: 99;
+  left: 1vw;
+  top: -5vw;
+  margin-right: 1vw;
+  width: 14vw;
+  position: absolute;
+  animation:fishro  12s linear infinite;
+
+}
+
+/*ฝูงปลา*/
+#img-fish-r2-2{
+  z-index: 2;
+  left: 6vw;
+  top: 7vw;
+  margin-right: 1vw;
+  width: 14vw;
+  position: absolute;
+  transform: rotate(-10deg);
+  animation:fishro  12s linear infinite;
+
+}
+
+#img-fish-r2-3{
+  z-index: 2;
+  left: 10vw;
+  top: 15vw;
+  margin-right: 1vw;
+  width: 14vw;
+  position: absolute;
+  transform: rotate(-10deg);
+  animation:fishro  12s linear infinite;
+
+}
+
+/*ปลาว่ายน้ำ*/
+.fish-r2{
+  z-index: 2;
+  margin-top: 60vw;
+  position: absolute;
+  left: 35vw;
+  transform: rotate(-120deg);
+  animation:swim-r2  12s infinite linear;
+}
+@keyframes swim-r2 {
+  0% {  margin-top: 20vw;
+        left: 80vw;}
+  50%{
+    margin-top: 70vw;
+    left: 35vw;}
+
+  100%{  margin-top: 90vw;
+        left: -50vw;
+  }
+}
+@keyframes fishro{
+  30%{
+    transform: rotate(-10deg);
+  }
+  60%{
+    transform: rotate(30deg);
+  }
+  100%{
+    transform: rotate(40deg);
+  }
 }
