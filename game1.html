@@ -14,19 +14,57 @@
     <title>ถ้าปะการังหายไป...</title>
   </head>
   <body>
-    <div class="row box d-flex justify-content-center align-items-center" >
+      <div id="info" class="row  d-flex justify-content-center align-items-center pt-4">
+        การลากอวนทำให้ปะการังให้แตกหักและซีด
+      </div>
+    <div id="box" class="row box d-flex justify-content-center align-items-center" >
+        
         <div class="col-2">
             <i class="fa fa-caret-left float-right" aria-hidden="true" style="color: white; font-size: 4vw;"></i>
         </div>
-        <div class="col-8 PlayBox">
+        <div class="col-7 PlayBox">
+            <div class="row">
+                <div class="col-6">
+                    <div onmouseover="change(this)" id="container-img-l1" class="container-img-l1">
+                        <img id="img-l1-1" src="ปะการังนิ่ง/หิน-02.png" >
+                        <img id="img-l1-2" src="ปะการังนิ่ง/ปะการังเขากวาง.png" >
+                        <img id="img-l1-3" src="ปะการังนิ่ง/ปะการังเขากวาง.png" >
+                        <img id="img-l1-4" src="ปะการังนิ่ง/ปะการังเขากวาง.png" >
+                    </div>
+                    <div onmouseover="change(this)"  class="container-img-l2">
+                        <img id="img-l2-1" src="ปะการังนิ่ง/หิน-02.png" >
+                        <img id="img-l2-2" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังหลอด.gif" >
+                        <img id="img-l2-3" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
+                        <img id="img-l2-4" src="ปะการังแผ่นใบไม้.png" >
+                        <img id="img-l2-5" src="ปะการังแผ่นใบไม้.png" >
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div onmouseover="change(this)" class="container-img-r1">
+                        <img id="img-r1-1" src="ปะการังนิ่ง/หิน-02.png" >
+                        <img id="img-r1-2" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
+                        <img id="img-r1-3" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
+                        <img id="img-r1-4" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
+                        <img id="img-r1-5" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
+                    </div>
+                    <div onmouseover="change(this)" class="container-img-r2">
+                        <img id="img-r2-1" src="ปะการังนิ่ง/หิน-01.png" >
+                        <img id="img-r2-2" src="ปะการังนิ่ง/ปะการังโขด.png" >
+                        <img id="img-r2-3" src="ปะการังนิ่ง/ปะการังโขด.png" >
+                        <img id="img-r2-4" src="ปะการัง กัลปังหา + ใบไม้ ใหม่/กัลปังหา.gif" >
+                        <img id="img-r2-5" src="ปะการัง กัลปังหา + ใบไม้ ใหม่/กัลปังหา.gif" >
+                    </div>
+                </div>
+            </div>
+            
         </div>
         <div class="col-2">
             <i class="fa fa-caret-right" aria-hidden="true"  style="color: white; font-size: 4vw;"></i>
         </div>
         <div class="col-12 d-flex justify-content-center p-0 m-0">
-            <button style="margin-top: -3vw;font-size: 1.3vw;" class="btn btn-light">เล่นอีกครั้ง</button>
+            <button style="margin-top: -3vw;font-size: 1.3vw;" class="btn btn-light" onclick="location.reload();">เล่นอีกครั้ง</button>
         </div>
-        <p style="font-size: 1.2vw;margin-top: -4vw;color: white;text-shadow: black 0.1vw 0.1vw 2px">BACK</p>
+        <a style="font-size: 1.2vw;margin-top: -4vw;color: white;text-shadow: black 0.1vw 0.1vw 2px" href="index.html" >BACK</a>
     </div>
     </div>
   </body>
@@ -51,7 +89,12 @@ body{
    width: 60vw; 
    border-radius: 30px;
    border: 0.3vw solid white;
-   cursor:url("อุปกรณ์ใหม่/แห1.png"), auto;
+   cursor:url("อุปกรณ์ใหม่/แห100-1.png"), auto;
+
+}
+.af
+{ 
+    cursor: url("อุปกรณ์ใหม่/แห100-2.png"), auto;
 }
 .row{
     padding: 0px;
@@ -64,4 +107,142 @@ body{
 .box{
     height: 100%;
 }
+#info{
+    font-size: 1.5vw;
+}
+#img-l1-1{
+   right: 9vw;
+   top:-1vw;
+   width: 16vw;
+   position: absolute;
+}
+#img-l1-2{
+   right: 11.5vw;
+   top:4vw;
+   width: 9vw;
+   position: absolute;
+}
+#img-l1-3{
+   right: 16vw;
+   top:2vw;
+   width: 7vw;
+   position: absolute;
+}
+#img-l1-4{
+    right: 16vw;
+   top:9vw;
+   width: 7vw;
+   position: absolute;
+}
+.container-img-l1{
+    
+    transform: translateX(13vw) scale(1.2);
+}
+#img-l2-1{
+   right: 9vw;
+   top:13vw;
+   width: 18vw;
+   position: absolute;
+}
+#img-l2-2{
+    z-index: -1;
+   right: 17vw;
+   top:14vw;
+   width: 8vw;
+   position: absolute;
+}
+#img-l2-3{
+   right: 18vw;
+   top:19vw;
+   width: 10vw;
+   position: absolute;
+}
+#img-l2-4{
+   right: 12vw;
+   top:16vw;
+   width: 10vw;
+   position: absolute;
+}
+#img-l2-5{
+   right: 12vw;
+   top:22vw;
+   width: 10vw;
+   position: absolute;
+}
+
+#img-r1-1{
+   right: 9vw;
+   top:-1vw;
+   width: 16vw;
+   position: absolute;
+}
+#img-r1-2{
+   right: 11.5vw;
+   top:4vw;
+   width: 9vw;
+   position: absolute;
+}
+#img-r1-3{
+   right: 16vw;
+   top:2vw;
+   width: 7vw;
+   position: absolute;
+}
+#img-r1-4{
+    right: 12vw;
+   top:9vw;
+   width: 8vw;
+   position: absolute;
+}
+#img-r1-5{
+    right: 16vw;
+   top:6vw;
+   width: 9vw;
+   position: absolute;
+}
+
+#img-r2-1{
+    transform: rotate(70deg);
+   right: 9vw;
+   top:13vw;
+   width: 18vw;
+   position: absolute;
+}
+#img-r2-2{
+   right: 4vw;
+   top:16vw;
+   width: 10vw;
+   position: absolute;
+   transform: rotate(160deg);
+}
+#img-r2-3{
+   right: 21vw;
+   top:22vw;
+   width: 9vw;
+   position: absolute;
+}
+#img-r2-4{
+   right: 8vw;
+   top:18vw;
+   width: 20vw;
+   position: absolute;
+}
+#img-r2-5{
+   right: 1vw;
+   top:13vw;
+   width: 13vw;
+   position: absolute;
+   transform: rotate(140deg);
+}
+
+
 </style>
+<script>
+        $(".playbox").click(function () {
+                      $(".playbox").addClass('af');
+            });
+        function change(x) {
+            x.style.transition = "3s";
+            x.style.filter = "saturate(0)";
+}
+</script>
