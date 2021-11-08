@@ -1,4 +1,3 @@
-<script src="script.js"></script>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -9,10 +8,37 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--PRELOAD-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <link rel="stylesheet" href="styles.css">
     <title>ถ้าปะการังหายไป...</title>
   </head>
   <body>
+    <div class="text-center" id="overlayer">
+      <div class="loader text-center">
+        <svg class="text-center" width="400" height="400"
+     viewPort="0 0 400 400" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+
+      <path id="bowl" fill-rule="evenodd" fill="rgb( 0, 108, 125 )"
+      d="M194.115,136.050 C234.545,136.050 267.321,168.722 267.321,209.025 C267.321,249.328 234.545,282.000 194.115,282.000 C153.684,282.000 120.909,249.328 120.909,209.025 C120.909,168.722 153.684,136.050 194.115,136.050 Z"/>
+        
+        <path id="liquid" fill-rule="evenodd" clip-path="url(#clipPath)" fill="rgb( 227, 246, 255 )"
+      d="M194.115,136.050 C234.545,136.050 267.321,168.722 267.321,209.025 C267.321,249.328 234.545,282.000 194.115,282.000 C153.684,282.000 120.909,249.328 120.909,209.025 C120.909,168.722 153.684,136.050 194.115,136.050 Z"/>
+      
+      <clipPath id="clipPath">
+      <path id="clippingPath"  
+      d="M802.000,464.000 C802.000,464.000 401.000,464.000 401.000,464.000 C401.000,464.000 400.000,464.000 400.000,464.000 C400.000,464.000 -1.000,464.000 -1.000,464.000 C-1.000,464.000 -2.498,292.434 -1.000,240.000 C103.869,240.000 120.123,189.000 200.000,189.000 C274.426,189.000 300.545,239.829 400.511,239.996 C504.916,239.829 521.255,189.000 601.000,189.000 C675.549,189.000 701.625,240.000 802.000,240.000 C799.004,240.000 802.000,464.000 802.000,464.000 Z"/>
+        </clipPath>  
+      </svg>
+      <p>PLEASE WAIT FOR LOADING</p>
+      <img class="text-center" id="in-img" src="ฝูงปลานง.gif" alt="">
+    </div>
+    </div>
+      
+
+
+      </span>
     <div class="row main">
       <div class="col-4 container-img-l1">
         <img id="img-l1-6" src="ปะการัง กัลปังหา + ใบไม้ ใหม่/กัลปังหา.gif">
@@ -548,6 +574,16 @@
           <img id="img-end-3" src="kmitl.png">
         </div>
       </div>
-      
   </body>
   </html>
+  <script>
+    //<!--PRELOAD-->//
+    function start() {
+      window.scrollBy(0,(document.body.scrollHeight) * -1);
+    }
+    {
+    $(window).load(function() {
+      $(".loader").delay(5000).fadeOut("slow");
+      $("#overlayer").delay(5000).fadeOut("slow");
+    })}
+  </script>
