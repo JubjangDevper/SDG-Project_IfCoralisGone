@@ -102,8 +102,8 @@
             ทุกคนสามารถที่จะช่วยกันอนุรักษ์<br>
             ดูแลแนวปะการังของเราได้ไม่ยาก  
           </b>
-          <img id="t23" src="btn1.png" style="cursor: pointer;">
-          <img  id="t24" src="btn2.png" style="cursor: pointer;">
+          <img id="t23" class="infoButton" src="btn1.png" style="cursor: pointer;">
+          <img  id="t24" class="infoButton" src="btn2.png" style="cursor: pointer;">
           <b class="text-center" id="t25">
             โลกของเรามีพื้นที่ใต้ท้องทะเล<br>
             มากถึง 71 เปอร์เซ็นต์ของพื้นบนโลก <br>
@@ -123,10 +123,26 @@
             กรุงเทพมหานคร 10210<br>
             (+66) 2141 1296-99
           </b>
-          <img id="t27" src="btn3.png" style="cursor: pointer;">
+          <img id="t27" class="infoButton" src="btn3.png" style="cursor: pointer;">
           <a href="game1.html">
-            <img id="t28" src="btn4.png" style="cursor: pointer;">
+            <img id="t28" class="infoButton" src="btn4.png" style="cursor: pointer;">
           </a>
+          <img class="arrow arr1" src="Arrow.png" onclick="staghorn()">
+          <div class="card overflow-auto infoPopup" id="staghorn" style="max-height: 40vw;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-7 p-3">
+                        <img class="p-0 popupImg" src="staghornInfo.png">
+                    </div>
+                    <div class="col-5 text-sm-left pt-4 info">
+                      <button id="close" onclick="hideStaghorn()"><i class="far fa-times-circle" aria-hidden="true"></i>
+                      </button>
+                        <h4 style="color: #17bba7;font-weight: 1000;">ปะการังเขากวาง</h5>
+                        <p style="font-weight: 600;">เป็นปะการังที่เกาะยึดติดอยู่บนโขดหินใต้น้ำ เป็นปะการังที่มีความทนทานต่อภัยธรรมชาติต่างๆ เช่น กระแทกจากคลื่นลมมรสุม หรือแม้แต่ปรากฎการณ์การฟอกขาว</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
       </div>
       <div class="col-4 container-img-r1">
@@ -588,4 +604,14 @@
       $(".loader").delay(5000).fadeOut("slow");
       $("#overlayer").delay(5000).fadeOut("slow");
     })}
+
+    // Hover Popup
+    function staghorn() {
+        var x = document.getElementById("staghorn");
+        x.style.display = "block";
+    }
+    function hideStaghorn() {
+        var x = document.getElementById("staghorn");
+        x.style.display = "none";
+    }
   </script>

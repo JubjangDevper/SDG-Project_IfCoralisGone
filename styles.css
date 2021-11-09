@@ -87,6 +87,65 @@ svg {
    position: flex;
 }
 
+/*ลูกศรส้ม*/
+.arrow{
+  cursor: pointer;
+  width: 3vw;
+  position: absolute;
+}
+.arr1{
+  margin-top: 445vw;
+  margin-left: 0vw;
+}
+
+/*Popup ข้อความปะการัง*/
+#close {
+  position: absolute;
+  z-index: 3;
+  top: 1vw;
+  font-size: 1.75vw;
+  float: right;
+  margin-top: -0.5%;
+  margin-left: 82.5%;
+  border: 0;
+  background-color: transparent;
+  opacity: 50%;
+  cursor: pointer;
+  outline: none;
+}
+#close:hover{
+  color: rgb(209, 14, 14);
+  opacity: 100%;
+}
+.infoPopup {
+  z-Index: 3;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 445vw;
+  margin-left: 0vw;
+  font-size: 1.15vw;
+  line-height: 1.6vw;
+  overflow: hidden;
+}
+.popupImg {
+  border-radius: 10px;
+  width: 30vw;
+  height: 25vw;
+}
+#staghorn{
+  width: 55vw;
+  height: 27vw;
+  display: none;
+}
+
+/*ลูกเล่นปุ่ม*/
+.infoButton{
+  transition: transform .5s;  
+}
+.infoButton:hover{
+  transform: scale(1.25);
+}
+
 /***ฝั่งขวา r1-1 r1คือฝั่งขวาก้อนที่ 1 -1 รูปที่1 ***/
 /*ปะการังเขากวาง*/
  #img-r1-1{
