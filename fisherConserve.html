@@ -1,0 +1,154 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!--PRELOAD-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <title>ถ้าปะการังหายไป...</title>
+</head>
+</head>
+
+<body>
+    <div class="center-text"> <b class="text-left" id="text">
+            <strong style="font-size: 2.4vw;">ข้อปฏิบัติสำหรับชาวประมงและนักเดินเรือ</strong><br><br>
+            1. นำไปเฉพาะสิ่งของเครื่องใช้ที่จำเป็น <br>
+            2. ไม่ใช้ระเบิดหรือสารพิษในการจับปลา <br>
+            3. ไม่ใช้อวนตาถี่ในการจับปลา <br>
+            4. ไม่ควรจับปลาขนาดเล็กซึ่งมีส่วน สำคัญในระบบนิเวศ <br>
+            5. เลี่ยงการทอดสมอบนเเนวปะการัง <br>
+            6. ใช้ทุ่นผูกเรือแทนการทิ้งสมอเรือลงในเเนวปะการัง <br>
+            7. ไม่ทิ้งของเสียลงทะเล ให้นำขยะมาทิ้งที่ฝั่ง
+        </b></div>
+    <a href="index.html#t22"> <i id="icon" class="fas fa-caret-down"></i>
+    </a>
+    <img id="squid" src="หมึก.gif">
+    <img id="straw" src="ปะการัง ฟองน้ำ(แก้ดำ)\ปะการังหลอด.gif">
+    <img id="rock" src="ปะการังนิ่ง\หิน-02.png">
+    <img id="flower" src="ปะการัง ฟองน้ำ(แก้ดำ)\ปะการังดอกไม้.gif">
+    <img id="foliate1" src="ปะการังแผ่นใบไม้.png">
+    <img id="foliate2" src="ปะการังแผ่นใบไม้.png">
+    <img id="bubble" src="ปะการัง ฟองน้ำ(แก้ดำ)\ฟองน้ำ.gif">
+</body>
+
+</html>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+    html {
+        font-size: 1vw;
+        overflow: hidden;
+    }
+
+    body {
+        height: 100%;
+        overflow: hidden;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(ทรายเดสทอป+โทรศัพ/ทรายเดสทอป.png);
+        font-family: 'Prompt', sans-serif;
+        color: black;
+    }
+
+    .center-text {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #text {
+        color: #387079;
+        font-size: 1.8vw;
+        top: 10vw;
+        left: 30vw;
+        width: 50vw;
+        position: absolute;
+    }
+
+    #icon {
+        font-size: 5vw;
+        bottom: 8vw;
+        left: 49vw;
+        position: absolute;
+        color: white;
+        filter: drop-shadow(0px 3px 3px rgb(37, 36, 36));
+    }
+
+    #icon:hover {
+        animation: icon .5s infinite linear alternate;
+    }
+
+    @keyframes icon {
+        0% {
+            transform: translateY(0px);
+        }
+
+        100% {
+            transform: translateY(10px);
+        }
+    }
+
+    #squid {
+        top: 8vw;
+        left: -17vw;
+        width: 60vw;
+        position: absolute;
+    }
+
+    #straw {
+        top: -10vw;
+        right: 5vw;
+        width: 25vw;
+        position: absolute;
+    }
+
+    #rock {
+        top: -15vw;
+        right: -12vw;
+        width: 40vw;
+        position: absolute;
+    }
+
+    #foliate1 {
+        top: -5vw;
+        right: -5vw;
+        width: 20vw;
+        position: absolute;
+    }
+
+    #foliate2 {
+        top: 10vw;
+        right: -2.5vw;
+        width: 20vw;
+        position: absolute;
+    }
+
+    #flower {
+        top: 0vw;
+        right: 7.5vw;
+        width: 20vw;
+        position: absolute;
+    }
+    #bubble {
+        top: 0vw;
+        right: -5vw;
+        width: 25vw;
+        position: absolute;
+    }
+</style>

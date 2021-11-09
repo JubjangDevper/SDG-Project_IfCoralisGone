@@ -95,6 +95,7 @@ svg {
 
 /*ลูกเล่นปุ่ม*/
 .infoButton{
+  filter: drop-shadow(0px 3px 3px rgb(43, 42, 42));
   transition: transform .5s;  
 }
 .infoButton:hover{
@@ -2441,11 +2442,13 @@ transform: rotate(-60deg);
   position: absolute;
 }
 #t23{
+  margin-left: -17.5vw;
   top:820vw;
   width: 35vw;
   position: absolute;
 }
 #t24{
+  margin-left: -17.5vw;
   top:830vw;
   width: 35vw;
   position: absolute;
