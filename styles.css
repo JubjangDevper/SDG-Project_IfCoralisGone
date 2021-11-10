@@ -110,46 +110,36 @@ svg {
 
 .arrow{
   cursor: pointer;
+  width: 3vw;
+  position: absolute;
 }
 .arrow:hover{
   animation: arrow .5s infinite linear alternate;
 }
 
-#arr1{
-  margin-top: 437.5vw;
+.arr1{
+  top: 237vw;
   margin-left: 0vw;
-  width: 3vw;
-  position: absolute;
 }
-#arr2{
-  margin-top: 475vw;
+.arr2{
+  top: 255vw;
   margin-left: -16vw;
-  width: 3vw;
-  position: absolute;
 }
-#arr3{
-  margin-top: 495vw;
+.arr3{
+  top: 265vw;
   margin-left: 6vw;
-  width: 3vw;
-  position: absolute;
 }
-#arr4{
-  margin-top: 555vw;
+.arr4{
+  top: 295vw;
   margin-left: -21.5vw;
-  width: 3vw;
-  position: absolute;
 }
-#arr5{
-  margin-top: 580vw;
+.arr5{
+  top: 308vw;
   margin-left: -1vw;
-  width: 3vw;
-  position: absolute;
 }
-#arr6{
-  margin-top: 612vw;
+.arr6{
+  top: 324vw;
   margin-left: -11.5vw;
-  width: 3vw;
-  position: absolute;
 }
 
 /*Modal ข้อความปะการัง*/
