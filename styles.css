@@ -112,6 +112,7 @@ svg {
   cursor: pointer;
   width: 3vw;
   position: absolute;
+  display: inline-block;
 }
 .arrow:hover{
   animation: arrow .5s infinite linear alternate;
@@ -146,11 +147,10 @@ svg {
 #close {
   position: absolute;
   z-index: 3;
-  top: 1vw;
   font-size: 1.75vw;
   float: right;
-  margin-top: 0vw;
-  margin-left: 19vw;
+  margin-top: -0.5vw;
+  margin-left: 18vw;
   border: 0;
   background-color: transparent;
   opacity: 50%;
@@ -168,7 +168,7 @@ svg {
   border-radius: 20px;
   position: fixed;
   font-size: 1.15vw;
-  line-height: 1.6vw;
+  line-height: 1.8vw;
   overflow: hidden;
   box-shadow: 0px 0px 30px 10px rgb(24, 23, 23);
 }
