@@ -22,7 +22,7 @@
         <div class="col-2">
             <i class="fa fa-caret-left float-right" aria-hidden="true" style="color: white; font-size: 4vw;"></i>
         </div>
-        <div class="col-7 PlayBox">
+        <div id="playbox" class="col-7 PlayBox" onclick="clickcount()">
             <div class="row">
                 <div class="col-6">
                     <div onmouseover="change(this)" id="container-img-l1" class="container-img-l1">
@@ -135,7 +135,6 @@ body{
    position: absolute;
 }
 .container-img-l1{
-    
     transform: translateX(13vw) scale(1.2);
 }
 #img-l2-1{
@@ -232,7 +231,7 @@ body{
    top:13vw;
    width: 13vw;
    position: absolute;
-   transform: rotate(140deg);
+   transform: rotate(140deg) ;
 }
 
 
@@ -241,8 +240,16 @@ body{
         $(".playbox").click(function () {
                       $(".playbox").addClass('af');
             });
+
+            var clicks = 0;
+            var i = document.getElementById("playbox");
+            function clickcount(){
+            clicks += 1;
+        }
+
         function change(x) {
             x.style.transition = "3s";
             x.style.filter = "saturate(0)";
+            
 }
 </script>
