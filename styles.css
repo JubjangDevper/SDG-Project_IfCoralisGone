@@ -3271,3 +3271,58 @@ transform: rotate(-60deg);
     left:-7vw;
   }
 }
+
+/*ฝูงปลา*/
+#img-fish-l1-1{
+  z-index: 2;
+  left: 6vw;
+  top: 7vw;
+  margin-right: 1vw;
+  width: 14vw;
+  position: absolute;
+  animation:fishro1  12s linear infinite;
+}
+
+#img-fish-l1-2{
+  z-index: 2;
+  left: 10vw;
+  top: 15vw;
+  margin-right: 1vw;
+  width: 14vw;
+  position: absolute;
+  animation:fishro1  12s linear infinite, fishY1 12s linear infinite;
+}
+
+.fish-l1{
+  z-index: 2;
+  margin-top: 60vw;
+  position: absolute;
+  left: 35vw;
+  transform: rotate(25deg);
+  animation:swim-r3  12s infinite linear;
+}
+@keyframes swim-r3 {
+  0% {  margin-top: 100vw;
+        left: -10vw;}
+  50%{margin-top: 80vw;
+      left: 20vw;}
+  100%{  margin-top: 55vw;
+        left: -10vw;
+  }
+}
+@keyframes fishro1{
+  0%{
+    transform: rotate(50deg);
+  }
+  33%{
+    transform: rotate(25deg);
+  }
+  66%{
+    transform: rotate(-10deg);
+  }
+  100%{
+    transform: rotate(-60deg);
+  }
+}
+
+}
