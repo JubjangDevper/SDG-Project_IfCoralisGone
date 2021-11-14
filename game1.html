@@ -19,7 +19,8 @@
     </div>
     <div id="play" class="info-how text-center" >
         <i id="close" class="fa fa-times-circle" aria-hidden="true" style="transform: translateX(5.5vw) translateY(-0.5vw);" onclick="hidehowto()"></i>
-        <p>คลิกเพื่อใช้อวน <br>แล้ว Hover ที่ปะการัง</p>
+        <p>On Desktop: คลิกเพื่อใช้อวน แล้ว Hover ที่ปะการัง</p>
+        <p>On Touchscreen: ลองคลิกบริเวณปะการังดูสิ</p>
     </div>
       <div>
       <div id="info" class="row  d-flex justify-content-center align-items-center pt-4">
@@ -39,28 +40,39 @@
                         <img id="img-l1-3" src="ปะการังนิ่ง/ปะการังเขากวาง.png" >
                         <img id="img-l1-4" src="ปะการังนิ่ง/ปะการังเขากวาง.png" >
                     </div>
+                    <div onmouseover="add(this)" id="container-img-al1" class="container-img-al1">
+                        <img id="img-l1-a1" src="ปะการังตาย/เศษ.png" >
+                        <img id="img-l1-a2" src="ปะการังตาย/เศษ.png" >
+                        <img id="img-l1-a3" src="ปะการังตาย/เศษ.png" >
+                        <img id="img-l1-a4" src="ปะการังตาย/เศษ.png" >
+                        <img id="img-l1-a5" src="ปะการังตาย/เศษ.png" >
+                        <img id="img-l1-a6" src="ปะการังตาย/เศษ.png" >
+                        <img id="img-l1-a7" src="ปะการังตาย/เศษ.png" >
+                        <img id="img-l1-a8" src="ปะการังตาย/ปลาตาย.png" >
+                        
+                    </div>
                     <div onmouseover="change(this)"  class="container-img-l2">
                         <img id="img-l2-1" src="ปะการังนิ่ง/หิน-02.png" >
-                        <img id="img-l2-2" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังหลอด.gif" >
-                        <img id="img-l2-3" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
-                        <img id="img-l2-4" src="ปะการังแผ่นใบไม้.png" >
-                        <img id="img-l2-5" src="ปะการังแผ่นใบไม้.png" >
+                        <img id="img-l2-2"  src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังหลอด.gif" >
+                        <img id="img-l2-3" onmouseover="hover1(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
+                        <img id="img-l2-4" src="ปะการังแผ่นใบไม้เขี๊ยวเขียว.png" >
+                        <img id="img-l2-5" src="ปะการังแผ่นใบไม้เขี๊ยวเขียว.png" >
                     </div>
                 </div>
                 <div class="col-6">
                     <div onmouseover="change(this)" class="container-img-r1">
                         <img id="img-r1-1" src="ปะการังนิ่ง/หิน-02.png" >
-                        <img id="img-r1-2" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
-                        <img id="img-r1-3" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
-                        <img id="img-r1-4" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
-                        <img id="img-r1-5" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
+                        <img id="img-r1-2"  onmouseover="hover1(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
+                        <img id="img-r1-3" onmouseover="hover1(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
+                        <img id="img-r1-4" onmouseover="hover1(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
+                        <img id="img-r1-5" onmouseover="hover1(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
                     </div>
                     <div onmouseover="change(this)" class="container-img-r2">
                         <img id="img-r2-1" src="ปะการังนิ่ง/หิน-01.png" >
                         <img id="img-r2-2" src="ปะการังนิ่ง/ปะการังโขด.png" >
                         <img id="img-r2-3" src="ปะการังนิ่ง/ปะการังโขด.png" >
-                        <img id="img-r2-4" src="ปะการัง กัลปังหา + ใบไม้ ใหม่/กัลปังหา.gif" >
-                        <img id="img-r2-5" src="ปะการัง กัลปังหา + ใบไม้ ใหม่/กัลปังหา.gif" >
+                        <img id="img-r2-4" onmouseover="hover(this);" src="ปะการัง กัลปังหา + ใบไม้ ใหม่/กัลปังหา.gif" >
+                        <img id="img-r2-5" onmouseover="hover(this);" src="ปะการัง กัลปังหา + ใบไม้ ใหม่/กัลปังหา.gif" >
                     </div>
                 </div>
             </div>
@@ -93,7 +105,6 @@ body{
   font-family: 'Prompt', sans-serif;  
   color:black;
 }
-
 
 .playbox{
    height: 35vw;
@@ -145,6 +156,69 @@ body{
    width: 7vw;
    position: absolute;
 }
+#container-img-al1{
+    opacity: 0%;
+    transform: translateY(5vw) translateX(7vw);
+}
+#img-l1-a1{
+   right: 9vw;
+   top:-3vw;
+   width: 3vw;
+   transform: rotate(-90deg);
+   position: absolute;
+}
+#img-l1-a2{
+   right: 2vw;
+   top:4vw;
+   width: 3vw;
+   transform: rotate(-20deg);
+   position: absolute;
+}
+#img-l1-a3{
+   right: 19vw;
+   top:2vw;
+   width: 3vw;
+   transform: rotate(70deg);
+   position: absolute;
+}
+#img-l1-a4{
+    right: 16vw;
+   top:12vw;
+   width: 3vw;
+   transform: rotate(120deg);
+   position: absolute;
+}
+#img-l1-a5{
+    right: 20vw;
+   top:7vw;
+   width: 4vw;
+   transform: rotate(120deg);
+   position: absolute;
+}
+
+#img-l1-a6{
+    right: 5vw;
+   top:14vw;
+   width: 5vw;
+   transform: rotate(0deg);
+   position: absolute;
+}
+
+#img-l1-a7{
+    right: 12vw;
+   top:18vw;
+   width: 4vw;
+   transform: rotate(80deg);
+   position: absolute;
+}
+#img-l1-a8{
+    right: -2vw;
+   top:11vw;
+   width: 5vw;
+   transform: rotate(-180deg);
+   position: absolute;
+}
+
 .container-img-l1{
     transform: translateX(13vw) scale(1.2);
 }
@@ -259,6 +333,7 @@ body{
     font-size: 1.3vw;
     position: fixed;
     margin: 3vw;
+    width: 15vw;
     transform: translateX(81vw) translateY(3vw);
     border: 0.2vw solid black;
     border-radius: 10px;
@@ -419,6 +494,17 @@ body{
             border-radius: 10px;
         }
     }
+    @keyframes opa {
+        0%{
+            opacity: 100%;
+        }
+        1%{
+            opacity: 50%;
+        }
+        100%{
+            opacity: 100%;
+        }
+    }
 </style>
 <script>
         $(".playbox").click(function () {
@@ -431,10 +517,30 @@ body{
             clicks += 1;
         }
 
+        function hover(element) {
+        element.setAttribute('src', 'ปะการังตาย/กัลปังหา.png');
+        element.style.animation = "opa 3s"
+        element.style.transition = "3s";
+        }
+        function hover1(element) {
+        var img = document.getElementById("img-l2-2"); 
+        img.setAttribute('src', 'ปะการังตาย/ปะการังหลอด.png');
+        element.setAttribute('src', 'ปะการังตาย/ปะการังดอกไม้ตาย.png');
+        img.style.animation = "opa 3s"
+        img.style.transition = "3s";
+        element.style.animation = "opa 3s"
+        element.style.transition = "3s";
+        }
         function change(x) {
             x.style.transition = "3s";
             x.style.filter = "saturate(0)";
+            x.style.animationPlayState = "paused";
             
+        }
+        function add(i){
+            i.style.transition = "2s";
+            i.style.opacity = "100%";
+
         }
         function howTo() {
                 var x = document.getElementById("play");
