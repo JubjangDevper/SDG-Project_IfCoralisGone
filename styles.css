@@ -3234,7 +3234,6 @@ transform: rotate(-60deg);
   position: absolute;
   transform: rotate(-10deg);
   animation:fishro  12s linear infinite, fishY 12s linear infinite;
-
 }
 
 /*ปลาว่ายน้ำ*/
@@ -3272,57 +3271,307 @@ transform: rotate(-60deg);
   }
 }
 
-/*ฝูงปลา*/
-#img-fish-l1-1{
-  z-index: 2;
-  left: 6vw;
-  top: 7vw;
-  margin-right: 1vw;
-  width: 14vw;
-  position: absolute;
-  animation:fishro1  12s linear infinite;
-}
 
-#img-fish-l1-2{
-  z-index: 2;
-  left: 10vw;
-  top: 15vw;
-  margin-right: 1vw;
-  width: 14vw;
-  position: absolute;
-  animation:fishro1  12s linear infinite, fishY1 12s linear infinite;
-}
-
+/*ปลาส้มว่ายน้ำ_FishCirCle*/
 .fish-l1{
-  z-index: 2;
-  margin-top: 60vw;
+  margin-top: 85vw;
+  margin-left: -18vw;
+  width: 32.5vw;
+  height: 26vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
   position: absolute;
-  left: 35vw;
-  transform: rotate(25deg);
-  animation:swim-r3  12s infinite linear;
 }
-@keyframes swim-r3 {
-  0% {  margin-top: 100vw;
-        left: -10vw;}
-  50%{margin-top: 80vw;
-      left: 20vw;}
-  100%{  margin-top: 55vw;
-        left: -10vw;
+
+.fish-l1  > * {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.centerFish{
+  align-self: center;
+  justify-self: center;
+  width: 6.5vw;
+  height: 6.5vw;
+  display: none;
+}
+
+.img-fish-l1-1 {
+  width: 15vw;
+  height: 15vw;
+  animation: spinAround 12s linear infinite;
+  animation-delay: -1s;
+}
+.img-fish-l1-2 {
+  width: 18.3vw;
+  height: 18.3vw;
+  animation: spinAround 12s linear infinite;
+  animation-delay: -2.3s;
+}
+
+@keyframes spinAround {
+  from {
+  transform: rotate(360deg)  translateY(350px) rotate(120deg);
+  }
+  to {
+  transform: rotate(0deg)  translateY(350px) rotate(120deg);
   }
 }
-@keyframes fishro1{
+
+.img-fish-r3{
+  margin-top: 78vw;
+  margin-left: 66vw;
+  width:10vw;
+}
+
+/*ปลานง4*/
+#img-fish-r4-1{
+  z-index: 99;
+  left: 1vw;
+  top: -5vw;
+  margin-right: 1vw;
+  width: 11vw;
+  position: absolute;
+  animation:fishro4  12s linear infinite;
+}
+#img-fish-r4-2{
+  z-index: 2;
+  left: 5vw;
+  top: 11vw;
+  margin-right: 1vw;
+  width: 11vw;
+  position: absolute;
+  animation:fishro4  12s linear infinite;
+}
+#img-fish-r4-3{
+  z-index: 2;
+  left: -5vw;
+  top: 3vw;
+  margin-right: 1vw;
+  width: 13vw;
+  position: absolute;
+  animation:fishro4  12s linear infinite;
+}
+
+.fish-r4{
+  z-index: 2;
+  position: absolute;
+  left: 35vw;
+  transform: rotate(-120deg);
+  animation:swim-r4  12s infinite linear;
+}
+@keyframes swim-r4 {
+  0% {  margin-top: 110vw;
+        left: 80vw;}
+  50%{margin-top: 160vw;
+        left: 36vw;}
+  100%{  margin-top: 210vw;
+        left: -60vw;
+  }
+}
+@keyframes fishro4{
+  30%{
+    transform: rotate(-10deg);
+  }
+  60%{
+    transform: rotate(30deg);
+  }
+  100%{
+    transform: rotate(40deg);
+  }
+}
+
+/*ปลานง5*/
+#img-fish-r5-1{
+  z-index: 99;
+  left: 1vw;
+  top: 60vw;
+  margin-right: 1vw;
+  width: 13vw;
+  position: absolute;
+  animation:fishro5  16s linear infinite;
+}
+#img-fish-r5-2{
+  z-index: 2;
+  left: 8vw;
+  top: 70vw;
+  margin-right: 1vw;
+  width: 9vw;
+  position: absolute;
+  animation:fishro5  16s linear infinite;
+}
+.fish-r5{
+  z-index: 2;
+  position: absolute;
+  left: 35vw;
+  transform: rotate(-120deg);
+  animation:swim-r5  16s infinite linear;
+}
+
+@keyframes swim-r5 {
+  0% {  margin-top: 150vw;
+        left: 80vw;}
+  50%{margin-top: 195vw;
+        left: -20vw;}
+  100%{  margin-top: 240vw;
+        left: -120vw;
+  }
+}
+@keyframes fishro5{
+  30%{
+    transform: rotate(-10deg);
+  }
+  60%{
+    transform: rotate(30deg);
+  }
+  100%{
+    transform: rotate(40deg);
+  }
+}
+
+/*ปลานง6_FishCirCle*/
+.fish-r6{
+  margin-top: 100vw;
+  margin-left: 83vw;
+  width: 32.5vw;
+  height: 26vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+}
+
+.fish-r6  > * {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.centerFish-r6{
+  align-self: center;
+  justify-self: center;
+  width: 6.5vw;
+  height: 6.5vw; 
+  display: none;
+}
+
+.img-fish-r6-1 {
+  width: 15vw;
+  height: 15vw;
+  animation: spinAround1 13s linear infinite;
+  animation-delay: -1s;
+}
+.img-fish-r6-2 {
+  width: 18.3vw;
+  height: 18.3vw;
+  animation: spinAround1 13s linear infinite;
+  animation-delay: -1.8s;
+}
+.img-fish-r6-3 {
+  width: 13vw;
+  height: 13vw;
+  animation: spinAround1 13s linear infinite;
+  animation-delay: 2s;
+}
+
+@keyframes spinAround1 {
+  from {
+  transform: rotate(360deg)  translateY(550px) rotate(120deg);
+  }
+  to {
+  transform: rotate(0deg)  translateY(550px) rotate(120deg);
+  }
+}
+
+/*ปลานง7_FishCirCle*/
+.fish-l2{
+  margin-top: 140vw;
+  margin-left: -35vw;
+  width: 32.5vw;
+  height: 26vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+}
+
+.fish-l2  > * {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.centerFish-l2{
+  align-self: center;
+  justify-self: center;
+  width: 6.5vw;
+  height: 6.5vw; 
+  display: none;
+}
+
+.img-fish-l2-1 {
+  width: 15vw;
+  height: 15vw;
+  animation: spinAround2 10s linear infinite;
+  animation-delay: -1s;
+}
+.img-fish-l2-2 {
+  width: 18.3vw;
+  height: 18.3vw;
+  animation: spinAround2 10s linear infinite;
+  animation-delay: -2s;
+}
+
+@keyframes spinAround2 {
+  from {
+  transform: rotate(360deg)  translateY(340px) rotate(120deg);
+  }
+  to {
+  transform: rotate(0deg)  translateY(340px) rotate(120deg);
+  }
+}
+
+/*ปลานง7*/
+#img-fish-r7-1{
+  z-index: 99;
+  left: 1vw;
+  top: 60vw;
+  margin-right: 1vw;
+  width: 13vw;
+  position: absolute;
+  animation:fishro7  9s linear infinite;
+}
+#img-fish-r7-2{
+  z-index: 2;
+  left: 8vw;
+  top: 70vw;
+  margin-right: 1vw;
+  width: 11vw;
+  position: absolute;
+  animation:fishro7  9s linear infinite;
+}
+.fish-r7{
+  z-index: 2;
+  position: absolute;
+  left: 35vw;
+  transform: rotate(-120deg);
+  animation:swim-r7  9s infinite linear;
+}
+
+@keyframes swim-r7 {
+  0% {  margin-top: 220vw;
+        left: 80vw;}
+  100%{  margin-top: 250vw;
+        left: -150vw;
+  }
+}
+@keyframes fishro7{
   0%{
     transform: rotate(50deg);
   }
-  33%{
-    transform: rotate(25deg);
-  }
-  66%{
-    transform: rotate(-10deg);
+  60%{
+    transform: rotate(50deg);
   }
   100%{
-    transform: rotate(-60deg);
+    transform: rotate(50deg);
   }
-}
-
 }
