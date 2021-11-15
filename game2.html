@@ -19,12 +19,12 @@
     </div>
     <div id="play" class="info-how text-center" >
         <i id="close" class="fa fa-times-circle" aria-hidden="true" style="transform: translateX(5.5vw) translateY(-0.5vw);" onclick="hidehowto()"></i>
-        <p>On Desktop: คลิกเพื่อใช้อวน แล้ว Hover ที่ปะการัง</p>
-        <p>On Touchscreen: ลองคลิกบริเวณปะการังดูสิ</p>
+        <p>Desktop: Hover ลอบบริเวณปะการัง</p>
+        <p>Touchscreen: ลองคลิกบริเวณปะการังดูสิ</p>
     </div>
       <div>
       <div id="info" class="row  d-flex justify-content-center align-items-center pt-4">
-        การลากอวนทำให้ปะการังให้แตกหักและซีด
+        ลอบดักปลาทำให้ปะการังหักเสียหายและตายจากการยกและลาก
       </div>
     <div id="box" class="row box d-flex justify-content-center  align-items-center" >
         
@@ -35,10 +35,7 @@
             <div class="row">
                 <div class="col-6">
                     <div onmouseover="change(this)" id="container-img-l1" class="container-img-l1">
-                        <img id="img-l1-1" src="ปะการังนิ่ง/หิน-02.png" >
-                        <img id="img-l1-2" src="ปะการังนิ่ง/ปะการังเขากวาง.png" >
-                        <img id="img-l1-3" src="ปะการังนิ่ง/ปะการังเขากวาง.png" >
-                        <img id="img-l1-4" src="ปะการังนิ่ง/ปะการังเขากวาง.png" >
+                        <img id="img-l1-1" onmouseover="hover6(this);" src="ปะการัง กัลปังหา + ใบไม้ ใหม่/กัลปังหา.gif" >
                     </div>
                     <div onmouseover="add(this)" id="container-img-al1" class="container-img-al1">
                         <img id="img-l1-a1" src="ปะการังตาย/เศษ.png" >
@@ -49,30 +46,54 @@
                         <img id="img-l1-a6" src="ปะการังตาย/เศษ.png" >
                         <img id="img-l1-a7" src="ปะการังตาย/เศษ.png" >
                         <img id="img-l1-a8" src="ปะการังตาย/ปลาตาย.png" >
+                        <img id="img-l1-a9" src="ปะการังตาย/ปลาตาย.png" >
+                        <img id="img-l1-a10" src="ปะการังตาย/ปลาตาย.png" >
+                        <img id="img-l1-a11" src="ปะการังตาย/ปลาตาย.png" >
+                        <img id="img-l1-a12" src="ปะการังตาย/ปลาตาย.png" >
                         
                     </div>
                     <div onmouseover="change(this)"  class="container-img-l2">
                         <img id="img-l2-1" src="ปะการังนิ่ง/หิน-02.png" >
                         <img id="img-l2-2"  src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังหลอด.gif" >
                         <img id="img-l2-3" onmouseover="hover1(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
-                        <img id="img-l2-4" src="ปะการังแผ่นใบไม้เขี๊ยวเขียว.png" >
-                        <img id="img-l2-5" src="ปะการังแผ่นใบไม้เขี๊ยวเขียว.png" >
+                        <img id="img-l2-4"   src="ปะการังแผ่นใบไม้เขี๊ยวเขียว.png" >
+                        <img id="img-l2-5"  src="ปะการังแผ่นใบไม้เขี๊ยวเขียว.png" >
+                    </div>
+                    <div onmouseover="change(this)" id="container-img-l3" class="container-img-l3">
+                        <img id="img-l3-1" src="ปะการังนิ่ง/ปะการังเขากวาง.png" >
                     </div>
                 </div>
                 <div class="col-6">
                     <div onmouseover="change(this)" class="container-img-r1">
                         <img id="img-r1-1" src="ปะการังนิ่ง/หิน-02.png" >
-                        <img id="img-r1-2"  onmouseover="hover1(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
-                        <img id="img-r1-3" onmouseover="hover1(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
-                        <img id="img-r1-4" onmouseover="hover1(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
-                        <img id="img-r1-5" onmouseover="hover1(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
+                        <img id="img-r1-2" onmouseover="hover(this);"   src="ปะการัง ฟองน้ำ(แก้ดำ)/พุ่มสีเขียว.gif" >
+                        <img id="img-r1-3" onmouseover="hover(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/พุ่มสีเขียว.gif" >
+                        <img id="img-r1-4" onmouseover="hover(this);"  src="ปะการัง ฟองน้ำ(แก้ดำ)/พุ่มสีเขียว.gif" >
+                        <img id="img-r1-5" onmouseover="hover(this);"  src="ปะการัง ฟองน้ำ(แก้ดำ)/พุ่มสีเขียว.gif" >
+                        <img id="img-r1-6"  src="ปะการังนิ่ง/ปะการังโต๊ะ.png" >
+                        <img id="img-r1-7"  src="ปะการังนิ่ง/ปะการังโต๊ะ.png" >
+                        <img id="img-r1-8"  src="ปะการังนิ่ง/หิน-01.png" >
+                        <img id="img-r1-9" onmouseover="hover(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/พุ่มสีเขียว.gif" >
+                        <img id="img-r1-10" onmouseover="hover4(this);" src="ปลาดาวขยับ.gif" >
+                        <img id="img-r1-11" onmouseover="hover3(this);" src="นีโม่แดง.gif" >
+                        <img id="img-r1-12" onmouseover="hover3(this);" src="นีโม่แดง.gif" >
                     </div>
                     <div onmouseover="change(this)" class="container-img-r2">
-                        <img id="img-r2-1" src="ปะการังนิ่ง/หิน-01.png" >
-                        <img id="img-r2-2" src="ปะการังนิ่ง/ปะการังโขด.png" >
-                        <img id="img-r2-3" src="ปะการังนิ่ง/ปะการังโขด.png" >
-                        <img id="img-r2-4" onmouseover="hover(this);" src="ปะการัง กัลปังหา + ใบไม้ ใหม่/กัลปังหา.gif" >
-                        <img id="img-r2-5" onmouseover="hover(this);" src="ปะการัง กัลปังหา + ใบไม้ ใหม่/กัลปังหา.gif" >
+                        <img id="img-r2-1" src="ปะการังนิ่ง/หิน-02.png" >
+                        <img id="img-r2-2" src="ปะการังนิ่ง/หิน-02.png" >
+                        <img id="img-r2-4" onmouseover="hover(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/พุ่มสีเขียว.gif" >
+                        <img id="img-r2-5" onmouseover="hover(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/พุ่มสีเขียว.gif" >
+                        <img id="img-r2-6" onmouseover="hover(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/พุ่มสีเขียว.gif" >
+                        <img id="img-r2-7" onmouseover="hover(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/พุ่มสีเขียว.gif" >
+                        <img id="img-r2-8" onmouseover="hover(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/พุ่มสีเขียว.gif" >
+                        <img id="img-r2-9" onmouseover="hover(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/พุ่มสีเขียว.gif" >
+                        <img id="img-r2-10" onmouseover="hover3(this);" src="สาหร่าย.gif" >
+                        <img id="img-r2-11" onmouseover="hover3(this);" src="สาหร่าย.gif" >
+                        <img id="img-r2-12" onmouseover="hover2(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/พุ่มสีฟ้า.gif" >
+                        <img id="img-r2-13" onmouseover="hover2(this);" src="ปะการัง ฟองน้ำ(แก้ดำ)/พุ่มสีฟ้า.gif" >
+                        <img id="img-r2-14" onmouseover="hover3(this);"  src="นีโม่ส้ม.gif" >
+                        <img id="img-r2-15" onmouseover="hover3(this);" src="นีโม่ส้ม.gif" >
+                        <img id="img-r2-16" onmouseover="hover3(this);" src="นีโม่ส้ม.gif" >
                     </div>
                 </div>
             </div>
@@ -133,73 +154,55 @@ body{
     font-size: 1.5vw;
 }
 #img-l1-1{
-   right: 9vw;
-   top:-1vw;
-   width: 16vw;
-   position: absolute;
-}
-#img-l1-2{
-   right: 11.5vw;
-   top:4vw;
-   width: 9vw;
-   position: absolute;
-}
-#img-l1-3{
-   right: 16vw;
-   top:2vw;
-   width: 7vw;
-   position: absolute;
-}
-#img-l1-4{
-    right: 16vw;
-   top:9vw;
-   width: 7vw;
+   right: 15vw;
+   top:1vw;
+   width: 14vw;
    position: absolute;
 }
 #container-img-al1{
-    opacity: 0%;
+    opacity: 100%;
     transform: translateY(5vw) translateX(7vw);
 }
 #img-l1-a1{
    right: 9vw;
-   top:-3vw;
+   top:20vw;
    width: 3vw;
    transform: rotate(-90deg);
    position: absolute;
 }
 #img-l1-a2{
-   right: 2vw;
-   top:4vw;
+   right: 5vw;
+   top:17vw;
    width: 3vw;
    transform: rotate(-20deg);
    position: absolute;
 }
 #img-l1-a3{
    right: 19vw;
-   top:2vw;
+   top:22vw;
    width: 3vw;
    transform: rotate(70deg);
    position: absolute;
 }
 #img-l1-a4{
     right: 16vw;
-   top:12vw;
+   top:22vw;
    width: 3vw;
    transform: rotate(120deg);
    position: absolute;
 }
 #img-l1-a5{
-    right: 20vw;
-   top:7vw;
-   width: 4vw;
-   transform: rotate(120deg);
+    right: 4vw;
+   top:10vw;
+   width: 3vw;
+   transform: rotate(-100deg);
    position: absolute;
 }
 
 #img-l1-a6{
     right: 5vw;
    top:14vw;
-   width: 5vw;
+   width: 2vw;
    transform: rotate(0deg);
    position: absolute;
 }
@@ -212,15 +215,55 @@ body{
    position: absolute;
 }
 #img-l1-a8{
-    right: -2vw;
-   top:11vw;
-   width: 5vw;
-   transform: rotate(-180deg);
+    filter: brightness(1.1);
+    right: 1vw;
+   top:7vw;
+   width: 2.5vw;
+   transform: rotate(-20deg);
+   position: absolute;
+}
+#img-l1-a9{
+    filter: brightness(1.1);
+    right: 1vw;
+   top:5vw;
+   width: 2.5vw;
+   transform: rotate(10deg);
+   position: absolute;
+}
+#img-l1-a10{
+    filter: brightness(1.1);
+    right: 6vw;
+   top:26vw;
+   width: 2.5vw;
+   transform: rotate(40deg);
    position: absolute;
 }
 
+#img-l1-a11{
+    filter: brightness(1.1);
+    right: 5vw;
+   top:24vw;
+   width: 1.8vw;
+   transform: rotate(10deg);
+   position: absolute;
+}
+
+#img-l1-a12{
+    filter: brightness(1.1);
+   right: 6vw;
+   top:22vw;
+   width: 1.8vw;
+   transform: rotate(10deg);
+   position: absolute;
+}
+
+
+
 .container-img-l1{
     transform: translateX(13vw) scale(1.2);
+}
+.container-img-l2{
+    transform: rotate(110deg) translateY(-28vw) translateX(30vw);
 }
 #img-l2-1{
    right: 9vw;
@@ -253,72 +296,221 @@ body{
    width: 10vw;
    position: absolute;
 }
-
+#img-l3-1{
+    right: 0vw;
+    top:14vw;
+    width: 10vw;
+    position: absolute;
+}
 #img-r1-1{
+    z-index: -2;
    right: 9vw;
    top:-1vw;
    width: 16vw;
    position: absolute;
 }
+#img-r1-6{
+    right: 12vw;
+   top:0vw;
+   width: 8vw;
+   transform: rotate(-40deg);
+   position: absolute;
+}
 #img-r1-2{
-   right: 11.5vw;
-   top:4vw;
-   width: 9vw;
+   right: 12vw;
+   top:0vw;
+   width: 8vw;
+   transform: rotate(60deg);
    position: absolute;
 }
 #img-r1-3{
-   right: 16vw;
-   top:2vw;
-   width: 7vw;
+    right: 16vw;
+   top:1vw;
+   width: 8vw;
+   transform: rotate(50deg);
+   position: absolute;
    position: absolute;
 }
 #img-r1-4{
-    right: 12vw;
-   top:9vw;
-   width: 8vw;
+    right: 18vw;
+   top:2vw;
+   width: 7vw;
+   transform: rotate(40deg);
+   position: absolute;
    position: absolute;
 }
 #img-r1-5{
-    right: 16vw;
-   top:6vw;
-   width: 9vw;
+   right: 13vw;
+   top:9vw;
+   width: 8vw;
+   transform: rotate(270deg);
    position: absolute;
 }
-
+#img-r1-6{
+    z-index: -1;
+    right: 14vw;
+   top:3vw;
+   width: 10vw;
+   transform: rotate(100deg);
+   position: absolute;
+}
+#img-r1-7{
+    z-index: -1;
+    right: 12vw;
+   top:8vw;
+   width: 7vw;
+   transform: rotate(100deg);
+   position: absolute;
+}
+#img-r1-8{
+    right: 12vw;
+   top:2vw;
+   width: 8.5vw;
+   transform: rotate(-35deg);
+   position: absolute;
+}
+#img-r1-9{
+    right: 17vw;
+   top:4vw;
+   width:7vw;
+   transform: rotate(-35deg);
+   position: absolute;
+}
+#img-r1-10{
+    right: 14vw;
+   top:9vw;
+   width:4vw;
+   transform: rotate(-35deg);
+   position: absolute;
+}
+#img-r1-11{
+    z-index: -1;
+    right: 18.3vw;
+   top:9.3vw;
+   width:6vw;
+   transform: rotate(-80deg);
+   position: absolute;
+}
+#img-r1-12{
+    z-index: -1;
+    right: 17vw;
+   top:7vw;
+   width:7vw;
+   transform: rotate(-80deg);
+   position: absolute;
+}
 #img-r2-1{
-    transform: rotate(70deg);
+    z-index: -2;
+    transform: rotate(90deg);
    right: 9vw;
-   top:13vw;
-   width: 18vw;
+   top:15vw;
+   width: 19.3vw;
    position: absolute;
 }
 #img-r2-2{
-   right: 4vw;
-   top:16vw;
-   width: 10vw;
+    z-index: -2;
+   right: 2vw;
+   top:13vw;
+   width: 14vw;
    position: absolute;
-   transform: rotate(160deg);
-}
-#img-r2-3{
-   right: 21vw;
-   top:22vw;
-   width: 9vw;
-   position: absolute;
+   transform: rotate(40deg);
 }
 #img-r2-4{
-   right: 8vw;
-   top:18vw;
-   width: 20vw;
+   right: 12vw;
+   top:17vw;
+   width: 8vw;
+   transform: rotate(-300deg);
    position: absolute;
 }
 #img-r2-5{
-   right: 1vw;
-   top:13vw;
-   width: 13vw;
+   right: 15vw;
+   top:18vw;
+   width: 8vw;
+   transform: rotate(-330deg);
    position: absolute;
-   transform: rotate(140deg) ;
 }
-
+#img-r2-6{
+   right: 18vw;
+   top:19vw;
+   width: 8vw;
+   transform: rotate(-360deg);
+   position: absolute;
+}
+#img-r2-7{
+   right: 12vw;
+   top:21vw;
+   width: 8vw;
+   transform: rotate(-270deg);
+   position: absolute;
+}
+#img-r2-8{
+   right: 15vw;
+   top:22vw;
+   width: 9vw;
+   transform: rotate(-330deg);
+   position: absolute;
+}
+#img-r2-9{
+    z-index: -1;
+   right: 19vw;
+   top:23vw;
+   width: 8vw;
+   transform: rotate(10deg);
+   position: absolute;
+}
+#img-r2-10{
+    z-index: -1;
+   right: 9vw;
+   top:15vw;
+   width: 10vw;
+   transform: rotate(50deg);
+   position: absolute;
+}
+#img-r2-11{
+    z-index: -1;
+   right: 16vw;
+   top:15vw;
+   width: 9vw;
+   transform: rotate(50deg);
+   position: absolute;
+}
+#img-r2-12{
+    z-index: -2;
+   right: 4vw;
+   top:15vw;
+   width: 11vw;
+   transform: rotate(50deg);
+   position: absolute;
+}
+#img-r2-13{
+    z-index: -2;
+   right: 4vw;
+   top:19vw;
+   width: 9vw;
+   transform: rotate(50deg);
+   position: absolute;
+}
+#img-r2-14{
+   right: 15vw;
+   top:18vw;
+   width: 6vw;
+   transform: rotate(-20deg);
+   position: absolute;
+}
+#img-r2-15{
+   right: 15vw;
+   top:18vw;
+   width: 9vw;
+   transform: rotate(0deg);
+   position: absolute;
+}
+#img-r2-16{
+   right: 18vw;
+   top:20vw;
+   width: 6vw;
+   transform: rotate(10deg);
+   position: absolute;
+}
 .how{
     z-index: 50;
     cursor: pointer;
@@ -518,7 +710,7 @@ body{
         }
 
         function hover(element) {
-        element.setAttribute('src', 'ปะการังตาย/กัลปังหา.png');
+        element.setAttribute('src', 'ปะการัง ฟองน้ำ(แก้ดำ)/พุ่มสีเขียวตาย.png');
         element.style.animation = "opa 3s"
         element.style.transition = "3s";
         }
@@ -529,6 +721,25 @@ body{
         img.style.animation = "opa 3s"
         img.style.transition = "3s";
         element.style.animation = "opa 3s"
+        element.style.transition = "3s";
+        }
+        function hover2(element) {
+        element.setAttribute('src', 'ปะการัง ฟองน้ำ(แก้ดำ)/พุ่มสีฟ้าตาย.png');
+        element.style.animation = "opa 3s"
+        element.style.transition = "3s";
+        }
+        function hover6(element) {
+        element.setAttribute('src', 'ปะการังตาย/กัลปังหา.png');
+        element.style.animation = "opa 3s"
+        element.style.transition = "3s";
+        }
+        function hover4(element) {
+        element.setAttribute('src', 'ปลาดาวตาย.png');
+        element.style.animation = "opa 3s"
+        element.style.transition = "3s";
+        }
+        function hover3(element) {
+        element.style.opacity = "0%"
         element.style.transition = "3s";
         }
         function change(x) {
