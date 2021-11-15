@@ -2827,11 +2827,11 @@ transform: rotate(-60deg);
 
 #img-r17-12{
   z-index: 3;
-  margin-top: 793vw;
+  margin-top: 790vw;
   margin-left: 44vw;
   width:18vw;
   position: absolute;
-  transform: rotate(0deg);
+  transform: rotate(270deg);
 }
 
 #img-r17-13{
@@ -2841,6 +2841,24 @@ transform: rotate(-60deg);
   width:8vw;
   position: absolute;
   transform: rotate(0deg);
+}
+
+#img-r17-14{
+  z-index: 3;
+  margin-top: 790vw;
+  margin-left: 42vw;
+  width:14vw;
+  position: absolute;
+  transform: rotate(240deg);
+}
+
+#img-r17-15{
+  z-index: 3;
+  margin-top: 798vw;
+  margin-left: 50vw;
+  width:12vw;
+  position: absolute;
+  transform: rotate(320deg);
 }
 
 #img-l17-1{
@@ -2909,6 +2927,24 @@ transform: rotate(-60deg);
   width:30vw;
   position: absolute;
   transform: rotate(120deg);
+}
+
+.nimo-l9{
+  z-index: 3;
+  margin-top: 825vw;
+  margin-left: 8vw;
+  width:12vw;
+  position: absolute;
+  transform: rotate(360deg);
+}
+
+.nimo-l10{
+  z-index: 3;
+  margin-top: 825vw;
+  margin-left: 2vw;
+  width:12vw;
+  position: absolute;
+  transform: rotate(60deg);
 }
 
 #img-r18-1{
@@ -3275,7 +3311,7 @@ transform: rotate(-60deg);
 /*ปลาส้มว่ายน้ำ_FishCirCle*/
 .fish-l1{
   margin-top: 85vw;
-  margin-left: -18vw;
+  margin-left: -80vw;
   width: 32.5vw;
   height: 26vw;
   display: grid;
@@ -3321,8 +3357,10 @@ transform: rotate(-60deg);
 
 .img-fish-r3{
   margin-top: 78vw;
-  margin-left: 66vw;
+  margin-left: -1vw;
   width:10vw;
+  position: absolute;
+  z-index: 2;
 }
 
 /*ปลานง4*/
@@ -3333,7 +3371,7 @@ transform: rotate(-60deg);
   margin-right: 1vw;
   width: 11vw;
   position: absolute;
-  animation:fishro4  12s linear infinite;
+  animation:fishro4  16s linear infinite;
 }
 #img-fish-r4-2{
   z-index: 2;
@@ -3342,7 +3380,7 @@ transform: rotate(-60deg);
   margin-right: 1vw;
   width: 11vw;
   position: absolute;
-  animation:fishro4  12s linear infinite;
+  animation:fishro4  16s linear infinite;
 }
 #img-fish-r4-3{
   z-index: 2;
@@ -3351,7 +3389,7 @@ transform: rotate(-60deg);
   margin-right: 1vw;
   width: 13vw;
   position: absolute;
-  animation:fishro4  12s linear infinite;
+  animation:fishro4  16s linear infinite;
 }
 
 .fish-r4{
@@ -3359,22 +3397,23 @@ transform: rotate(-60deg);
   position: absolute;
   left: 35vw;
   transform: rotate(-120deg);
-  animation:swim-r4  12s infinite linear;
+  animation:swim-r4 16s infinite linear;
+  animation-delay: 1s;
 }
 @keyframes swim-r4 {
-  0% {  margin-top: 110vw;
-        left: 80vw;}
+  0% {  margin-top: 100vw;
+    left: 60vw;}
   50%{margin-top: 160vw;
-        left: 36vw;}
-  100%{  margin-top: 210vw;
-        left: -60vw;
+    left: -10vw;}
+  100%{  margin-top: 240vw;
+    left: -140vw;
   }
 }
 @keyframes fishro4{
-  30%{
-    transform: rotate(-10deg);
+  0%{
+    transform: rotate(30deg);
   }
-  60%{
+  50%{
     transform: rotate(30deg);
   }
   100%{
@@ -3407,22 +3446,23 @@ transform: rotate(-60deg);
   left: 35vw;
   transform: rotate(-120deg);
   animation:swim-r5  16s infinite linear;
+  animation-delay: 4s;
 }
 
 @keyframes swim-r5 {
-  0% {  margin-top: 150vw;
-        left: 80vw;}
-  50%{margin-top: 195vw;
-        left: -20vw;}
+  0% {  margin-top: 100vw;
+    left: 60vw;}
+  50%{margin-top: 160vw;
+    left: -10vw;}
   100%{  margin-top: 240vw;
-        left: -120vw;
+    left: -140vw;
   }
 }
 @keyframes fishro5{
-  30%{
-    transform: rotate(-10deg);
+  0%{
+    transform: rotate(30deg);
   }
-  60%{
+  50%{
     transform: rotate(30deg);
   }
   100%{
@@ -3432,8 +3472,8 @@ transform: rotate(-60deg);
 
 /*ปลานง6_FishCirCle*/
 .fish-r6{
-  margin-top: 100vw;
-  margin-left: 83vw;
+  margin-top: 195vw;
+  margin-left: 35vw;
   width: 32.5vw;
   height: 26vw;
   display: grid;
@@ -3456,37 +3496,37 @@ transform: rotate(-60deg);
 }
 
 .img-fish-r6-1 {
-  width: 15vw;
-  height: 15vw;
+  width: 14vw;
+  height: 14vw;
   animation: spinAround1 13s linear infinite;
   animation-delay: -1s;
 }
 .img-fish-r6-2 {
-  width: 18.3vw;
-  height: 18.3vw;
+  width: 13vw;
+  height: 13vw;
   animation: spinAround1 13s linear infinite;
-  animation-delay: -1.8s;
+  animation-delay: -2s;
 }
 .img-fish-r6-3 {
   width: 13vw;
   height: 13vw;
   animation: spinAround1 13s linear infinite;
-  animation-delay: 2s;
+  animation-delay: 5s;
 }
 
 @keyframes spinAround1 {
   from {
-  transform: rotate(360deg)  translateY(550px) rotate(120deg);
+  transform: rotate(360deg)  translateY(450px) rotate(120deg);
   }
   to {
-  transform: rotate(0deg)  translateY(550px) rotate(120deg);
+  transform: rotate(0deg)  translateY(450px) rotate(120deg);
   }
 }
 
-/*ปลานง7_FishCirCle*/
+/*ปลาส้ม7_FishCirCle*/
 .fish-l2{
-  margin-top: 140vw;
-  margin-left: -35vw;
+  margin-top: 230vw;
+  margin-left: 0vw;
   width: 32.5vw;
   height: 26vw;
   display: grid;
@@ -3523,20 +3563,20 @@ transform: rotate(-60deg);
 
 @keyframes spinAround2 {
   from {
-  transform: rotate(360deg)  translateY(340px) rotate(120deg);
+  transform: rotate(360deg)  translateY(350px) rotate(120deg);
   }
   to {
-  transform: rotate(0deg)  translateY(340px) rotate(120deg);
+  transform: rotate(0deg)  translateY(350px) rotate(120deg);
   }
 }
 
 /*ปลานง7*/
 #img-fish-r7-1{
   z-index: 99;
-  left: 1vw;
+  left: 5vw;
   top: 60vw;
   margin-right: 1vw;
-  width: 13vw;
+  width: 9vw;
   position: absolute;
   animation:fishro7  9s linear infinite;
 }
@@ -3544,6 +3584,15 @@ transform: rotate(-60deg);
   z-index: 2;
   left: 8vw;
   top: 70vw;
+  margin-right: 1vw;
+  width: 11vw;
+  position: absolute;
+  animation:fishro7  9s linear infinite;
+}
+#img-fish-r7-3{
+  z-index: 2;
+  left: 14vw;
+  top: 60vw;
   margin-right: 1vw;
   width: 11vw;
   position: absolute;
@@ -3558,9 +3607,9 @@ transform: rotate(-60deg);
 }
 
 @keyframes swim-r7 {
-  0% {  margin-top: 220vw;
+  0% {  margin-top: 310vw;
         left: 80vw;}
-  100%{  margin-top: 250vw;
+  100%{  margin-top: 355vw;
         left: -150vw;
   }
 }
@@ -3574,4 +3623,266 @@ transform: rotate(-60deg);
   100%{
     transform: rotate(50deg);
   }
+}
+
+.img-fish-l3{
+  width: 10vw;
+  position: absolute;
+  z-index: 2;
+  margin-top: 180vw;
+  left: -50vw;
+}
+
+
+/*ปลานีโม่-r1*/
+.nimo-r1-1{
+  width: 16vw;
+  position: absolute;
+  margin-top: 247vw;
+  left: 0vw;
+  transform: rotate(120deg);
+}
+.nimo-r1-2{
+  width: 13vw;
+  position: absolute;
+  margin-top: 244vw;
+  left: -3vw;
+  transform: rotate(100deg);
+}
+.nimo-r1-3{
+  width: 10vw;
+  position: absolute;
+  margin-top: 255vw;
+  left:0vw;
+  transform: rotate(80deg);
+}
+
+/*ปลานีโม่-l1*/
+.nimo-l1-1{
+  width: 16vw;
+  position: absolute;
+  margin-top: 305vw;
+  left: 8vw;
+  transform: rotate(-25deg);
+}
+.nimo-l1-2{
+  width: 13vw;
+  position: absolute;
+  margin-top: 336vw;
+  left: 12vw;
+  transform: rotate(180deg);
+}
+.nimo-l1-3{
+  width: 15vw;
+  position: absolute;
+  margin-top: 333vw;
+  left: 22vw;
+  transform: rotate(70deg);
+}
+
+
+
+/*ปลานีโม่-r2*/
+.nimo-r2-1{
+  position: absolute;
+  margin-top: 310vw;
+  left: 30vw;
+  transform: rotate(-45deg);
+}
+.nimo-r2-2{
+  width: 15vw;
+  position: absolute;
+  margin-top: 308vw;
+  left: 38vw;
+  transform: rotate(-25deg);
+}
+.nimo-r2-3{
+  width: 15vw;
+  position: absolute;
+  margin-top: 322vw;
+  left: 40vw;
+  transform: rotate(-10deg);
+}
+
+/*ปลานีโม่-l2*/
+
+.fish-nimo-l2{
+  margin-top: 365vw;
+  margin-left: -75vw;
+  width: 32.5vw;
+  height: 26vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+}
+
+.fish-nimo-l2  > * {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.centerNimo{
+  align-self: center;
+  justify-self: center;
+  width: 6.5vw;
+  height: 6.5vw; 
+  display: none;
+}
+
+.nimo-l2-1 {
+  width: 13vw;
+  height: 13vw;
+  animation: spinAround3 10s linear infinite;
+  animation-delay: 1s;
+}
+.nimo-l2-2 {
+  width: 13vw;
+  height: 13vw;
+  animation: spinAround4 10s linear infinite;
+  animation-delay: 2s;
+}
+
+@keyframes spinAround3 {
+  from {
+  transform: rotate(0deg)  translateY(200px) rotate(320deg);
+  }
+  to {
+  transform: rotate(360deg)  translateY(200px) rotate(320deg);
+  }
+}
+@keyframes spinAround4 {
+  from {
+  transform: rotate(0deg)  translateY(300px) rotate(320deg);
+  }
+  to {
+  transform: rotate(360deg)  translateY(300px) rotate(320deg);
+  }
+}
+
+/*ปลาส้ม8_FishCirCle*/
+.fish-l4{
+  margin-top: 375vw;
+  margin-left: -75vw;
+  width: 32.5vw;
+  height: 26vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+}
+
+.fish-l4  > * {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.centerFish-l4{
+  align-self: center;
+  justify-self: center;
+  width: 6.5vw;
+  height: 6.5vw; 
+  display: none;
+}
+
+.img-fish-l4-1 {
+  width: 12vw;
+  height: 12vw;
+  animation: spinAround5 10s linear infinite;
+}
+.img-fish-l4-2 {
+  width: 15vw;
+  height: 15vw;
+  animation: spinAround5 10s linear infinite;
+  animation-delay: -1s;
+}
+
+@keyframes spinAround5 {
+  from {
+  transform: rotate(0deg)  translateY(300px) rotate(320deg);
+  }
+  to {
+  transform: rotate(360deg)  translateY(300px) rotate(320deg);
+  }
+}
+
+.nimo-l5{
+  width: 13vw;
+  margin-top: 377vw;
+  margin-left: -40vw;
+  position: absolute;
+  transform: rotate(270deg);
+
+}
+.nimo-l6{
+  width: 13vw;
+  margin-top: 387vw;
+  margin-left: -35vw;
+  position: absolute;
+  transform: rotate(300deg);
+  
+}
+
+/*ปลานง8_FishCirCle*/
+.fish-r8{
+  margin-top: 410vw;
+  margin-left: 75vw;
+  width: 32.5vw;
+  height: 26vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  z-index: 2;
+}
+
+.fish-r8  > * {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.centerFish-r8{
+  align-self: center;
+  justify-self: center;
+  width: 6.5vw;
+  height: 6.5vw; 
+  display: none;
+}
+
+.img-fish-r8-1 {
+  width: 14vw;
+  height: 14vw;
+  animation: spinAround6 13s linear infinite;
+  animation-delay: -1s;
+}
+.img-fish-r8-2 {
+  width: 13vw;
+  height: 13vw;
+  animation: spinAround6 13s linear infinite;
+  animation-delay: -2s;
+}
+
+@keyframes spinAround6 {
+  from {
+  transform: rotate(360deg)  translateY(250px) rotate(120deg);
+  }
+  to {
+  transform: rotate(0deg)  translateY(250px) rotate(120deg);
+  }
+}
+
+.nimo-l7{
+  width: 10vw;
+  margin-top: 420vw;
+  margin-left: -20vw;
+  position: absolute;
+  z-index: 2;
+}
+.nimo-l8{
+  width: 12vw;
+  margin-top: 415vw;
+  margin-left: -25vw;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(100deg);
 }
