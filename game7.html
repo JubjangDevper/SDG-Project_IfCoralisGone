@@ -461,39 +461,7 @@ body{
     }
 </style>
 <script>
-        $(".playbox").click(function () {
-
-            var clicks = 0;
-            var i = document.getElementById("playbox");
-            function clickcount(){
-            clicks += 1;
-        }
-
-        function hover(element) {
-        element.setAttribute('src', 'ปะการังตาย/กัลปังหา.png');
-        element.style.animation = "opa 3s"
-        element.style.transition = "3s";
-        }
-        function hover1(element) {
-        var img = document.getElementById("img-l2-2"); 
-        img.setAttribute('src', 'ปะการังตาย/ปะการังหลอด.png');
-        element.setAttribute('src', 'ปะการังตาย/ปะการังดอกไม้ตาย.png');
-        img.style.animation = "opa 3s"
-        img.style.transition = "3s";
-        element.style.animation = "opa 3s"
-        element.style.transition = "3s";
-        }
-        function change(x) {
-            x.style.transition = "3s";
-            x.style.filter = "saturate(0)";
-            x.style.animationPlayState = "paused";
-            
-        }
-        function add(i){
-            i.style.transition = "2s";
-            i.style.opacity = "100%";
-
-        }
+        
         function howTo() {
                 var x = document.getElementById("play");
                 x.style.display = "block";
