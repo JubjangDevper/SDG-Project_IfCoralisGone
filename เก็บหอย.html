@@ -1,511 +1,687 @@
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!--PRELOAD-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>ถ้าปะการังหายไป...</title>
-  </head>
-  <body>
-      <div class="how" onclick="howTo()">
-        <i id="how" class="fa fa-question-circle" aria-hidden="true"></i>   
+</head>
+
+<body>
+    <div class="how" onclick="howTo()">
+        <i id="how" class="fa fa-question-circle" aria-hidden="true"></i>
     </div>
-    <div id="play" class="info-how text-center" >
-        <i id="close" class="fa fa-times-circle" aria-hidden="true" style="transform: translateX(5.5vw) translateY(-0.5vw);" onclick="hidehowto()"></i>
+    <div id="play" class="info-how text-center">
+        <i id="close" class="fa fa-times-circle" aria-hidden="true"
+            style="transform: translateX(5.5vw) translateY(-0.5vw);" onclick="hidehowto()"></i>
         <p>คลิกที่หอย <br>เพื่อทำการเก็บ</p>
     </div>
-      <div>
-      <div id="info" class="row  d-flex justify-content-center align-items-center pt-4">
-        การเก็บหอยต้องงัดปะการังทำให้ปะการังแตกหักเสียหาย
-      </div>
-    <div id="box" class="row box d-flex justify-content-center  align-items-center" >
-        
-        <div class="col-2">
-            <i class="fa fa-caret-left float-right" aria-hidden="true" style="color: white; font-size: 4vw;"></i>
+    <div>
+        <div id="info" class="row  d-flex justify-content-center align-items-center pt-4">
+            การเก็บหอยต้องงัดปะการังทำให้ปะการังแตกหักเสียหาย
         </div>
-        <div id="playbox" class="col-7 PlayBox" onclick="clickcount()">
-            <div class="row">
-                <div class="col-6">
-                    <div onmouseover="change(this)" id="container-img-l1" class="container-img-l1">
-                        <img id="img-l1-1" src="ปะการังนิ่ง/หิน-02.png" >
-                        <img id="img-l1-2" src="ปะการัง กัลปังหา + ใบไม้ ใหม่\กัลปังหา.gif" >
-                        <img id="img-l1-3" src="ปะการัง กัลปังหา + ใบไม้ ใหม่\กัลปังหา.gif" >
-                        <img id="img-l1-4" src="ปะการังนิ่ง/หิน-02.png" >
-                        <img id="img-l1-5" src="ปะการังนิ่ง\ปะการังเขากวาง.png" >
-                        <img id="img-l1-6" src="ปะการังนิ่ง\ปะการังเขากวาง.png" >
-                        <img id="img-l1-7" src="ปะการังนิ่ง\ปะการังเขากวาง.png" > 
-                        <img id="img-l1-8" src="หอยชมพู.png" > 
-                        <img id="img-l1-9" src="หอยชมพู.png" > 
-                        <img id="img-l1-10" src="หอยชมพู.png" > 
-                        <img id="img-l1-11" src="หอยส้ม.png" > 
+        <div id="box" class="row box d-flex justify-content-center  align-items-center">
 
-                    </div>
-                    <div onmouseover="change(this)" id="container-img-r1" class="container-img-r1">
-                        
-                        <img id="img-r1-2" src="ปะการังนิ่ง/หิน-03.png" >
-                        <img id="img-r1-10" src="ปะการังนิ่ง\ปะการังโต๊ะ.png" >
-                        <img id="img-r1-9" src="ปะการังนิ่ง\ปะการังโต๊ะ.png" >
-                        <img id="img-r1-5" src="ปะการังนิ่ง\ปะการังเคลือบ.png" >
-                        <img id="img-r1-6" src="ปะการังนิ่ง\ปะการังเคลือบ.png" >
-                        <img id="img-r1-7" src="ปะการังนิ่ง\ปะการังเคลือบ.png" >
-                        <img id="img-r1-8" src="ปะการังนิ่ง\ปะการังโต๊ะ.png" >
-                        <img id="img-r1-1" src="ปะการังนิ่ง/หิน-03.png" >
-                        <img id="img-r1-3" src="ปะการังนิ่ง\ปะการังเคลือบ.png" >
-                        <img id="img-r1-4" src="ปะการังนิ่ง\ปะการังเคลือบ.png" >
-                        <img id="img-r1-11" src="ปะการัง กัลปังหา + ใบไม้ ใหม่\กัลปังหา.gif" >
-                        <img id="img-r1-12" src="ปะการัง กัลปังหา + ใบไม้ ใหม่\กัลปังหา.gif" >
-                        <img id="img-r1-13" src="ปะการังนิ่ง\ปะการังโขด.png" >
-                        <img id="img-r1-14" src="หอยชมพู.png" > 
-                        <img id="img-r1-15" src="หอยชมพู.png" > 
-                        <img id="img-r1-16" src="หอยส้ม.png" > 
-                        <img id="img-r1-17" src="หอยส้ม.png" > 
+            <div class="col-2">
+                <i class="fa fa-caret-left float-right" aria-hidden="true" style="color: white; font-size: 4vw;"></i>
+            </div>
+            <div id="playbox" class="col-7 PlayBox" onclick="clickcount()">
+                <div class="row">
+                    <div class="col-6">
+                        <div onmouseover="change(this)" id="container-img-l1" class="container-img-l1">
+                            <img id="img-l1-1" src="ปะการังนิ่ง/หิน-02.png">
+                            <img id="img-l1-2" src="ปะการัง กัลปังหา + ใบไม้ ใหม่\กัลปังหา.gif">
+                            <img id="img-l1-3" src="ปะการัง กัลปังหา + ใบไม้ ใหม่\กัลปังหา.gif">
+                            <img id="img-l1-4" src="ปะการังนิ่ง/หิน-02.png">
+                            <img id="img-l1-5" src="ปะการังนิ่ง\ปะการังเขากวาง.png">
+                            <img id="img-l1-6" src="ปะการังนิ่ง\ปะการังเขากวาง.png">
+                            <img id="img-l1-7" src="ปะการังนิ่ง\ปะการังเขากวาง.png">
+                            <img id="img-l1-8" src="หอยชมพู.png">
+                            <img id="img-l1-9" src="หอยชมพู.png">
+                            <img id="img-l1-10" src="หอยชมพู.png">
+                            <img id="img-l1-11" src="หอยส้ม.png">
 
+                        </div>
+                        <div onmouseover="change(this)" id="container-img-r1" class="container-img-r1">
+
+                            <img id="img-r1-2" src="ปะการังนิ่ง/หิน-03.png">
+                            <img id="img-r1-10" src="ปะการังนิ่ง\ปะการังโต๊ะ.png">
+                            <img id="img-r1-9" src="ปะการังนิ่ง\ปะการังโต๊ะ.png">
+                            <img id="img-r1-5" src="ปะการังนิ่ง\ปะการังเคลือบ.png">
+                            <img id="img-r1-6" src="ปะการังนิ่ง\ปะการังเคลือบ.png">
+                            <img id="img-r1-7" src="ปะการังนิ่ง\ปะการังเคลือบ.png">
+                            <img id="img-r1-8" src="ปะการังนิ่ง\ปะการังโต๊ะ.png">
+                            <img id="img-r1-1" src="ปะการังนิ่ง/หิน-03.png">
+                            <img id="img-r1-3" src="ปะการังนิ่ง\ปะการังเคลือบ.png">
+                            <img id="img-r1-4" src="ปะการังนิ่ง\ปะการังเคลือบ.png">
+                            <img id="img-r1-11" src="ปะการัง กัลปังหา + ใบไม้ ใหม่\กัลปังหา.gif">
+                            <img id="img-r1-12" src="ปะการัง กัลปังหา + ใบไม้ ใหม่\กัลปังหา.gif">
+                            <img id="img-r1-13" src="ปะการังนิ่ง\ปะการังโขด.png">
+                            <img id="img-r1-14" src="หอยชมพู.png">
+                            <img id="img-r1-15" src="หอยชมพู.png">
+                            <img id="img-r1-16" src="หอยส้ม.png">
+                            <img id="img-r1-17" src="หอยส้ม.png">
+
+                        </div>
                     </div>
                 </div>
+
             </div>
-            
+            <div class="col-2">
+                <i class="fa fa-caret-right" aria-hidden="true" style="color: white; font-size: 4vw;"></i>
+            </div>
+            <div class="col-12 d-flex justify-content-center p-0 m-0">
+                <button id="try" class="btn btn-light" onclick="location.reload();">เล่นอีกครั้ง</button>
+            </div>
+            <a id="back" href="index.html">BACK</a>
         </div>
-        <div class="col-2">
-            <i class="fa fa-caret-right" aria-hidden="true"  style="color: white; font-size: 4vw;"></i>
-        </div>
-        <div  class="col-12 d-flex justify-content-center p-0 m-0">
-            <button id="try" class="btn btn-light" onclick="location.reload();">เล่นอีกครั้ง</button>
-        </div>
-        <a id="back"  href="index.html" >BACK</a>
     </div>
-    </div>
-  </body>
+    <div id="shell1"></div>
+    <div id="shell2"></div>
+    <div id="shell3"></div>
+    <div id="shell4"></div>
+    <div id="shell5"></div>
+    <div id="shell6"></div>
+    <div id="shell7"></div>
+    <div id="shell8"></div>
+</body>
+
 </html>
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');html{
-  font-size:1vw;
-  overflow-x: hidden;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 
-body{
-  height: 100% ;
-  overflow-x: hidden;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(ทรายเดสทอป+โทรศัพ/ทรายเดสทอป.png);
-  font-family: 'Prompt', sans-serif;  
-  color:black;
-}
+    html {
+        font-size: 1vw;
+        overflow-x: hidden;
+    }
+
+    body {
+        height: 100%;
+        overflow-x: hidden;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(ทรายเดสทอป+โทรศัพ/ทรายเดสทอป.png);
+        font-family: 'Prompt', sans-serif;
+        color: black;
+    }
 
 
-.playbox{
-    z-index: -5;
-   height: 35vw;
-   width: 60vw; 
-   border-radius: 30px;
-   border: 0.3vw solid white;
+    .playbox {
+        z-index: -5;
+        height: 35vw;
+        width: 60vw;
+        border-radius: 30px;
+        border: 0.3vw solid white;
 
-}
+    }
 
-.row{
-    padding: 0px;
-    margin: 0px;
-}
-.col-12{
-    padding: 0px;
-    margin: 0px;
-}
-.box{
-    height: 100%;
-}
-#info{
-    font-size: 1.5vw;
-}
-#img-l1-1{
-   right: 13vw;
-   top:-4vw;
-   width: 16vw;
-   position: absolute;
-   transform: rotate(-10deg);
-}
-#img-l1-2{
-    z-index: -1;
-   right: 13vw;
-   top:-1vw;
-   width: 9vw;
-   position: absolute;
-}
+    .row {
+        padding: 0px;
+        margin: 0px;
+    }
 
-#img-l1-3{
-   right: 14vw;
-   top:3vw;
-   width: 14vw;
-   position: absolute;
-}
-#img-l1-4{
-    z-index: -2;
-   right: 13vw;
-   top:17vw;
-   width: 16vw;
-   position: absolute;
-}
-#img-l1-5{
-   right: 20vw;
-   top:21vw;
-   width: 6vw;
-   position: absolute;
-}
-#img-l1-6{
-    z-index: -1;
-   right: 13vw;
-   top:20vw;
-   width: 10vw;
-   position: absolute;
-}
-#img-l1-7{
-   right: 17vw;
-   top:28vw;
-   width: 6vw;
-   position: absolute;
-}
-#img-l1-8{
-   right: 8vw;
-   top:7vw;
-   width: 5vw;
-   position: absolute;
-   transform: rotate(90deg);
-}
-#img-l1-9{
-    right: 8vw;
-   top:16vw;
-   width: 4vw;
-   position: absolute;
-  
-}
-#img-l1-10{
-    right: 6vw;
-   top:24vw;
-   width: 4.5vw;
-   position: absolute;
-   transform: rotate(60deg);
-}
-#img-l1-11{
-    z-index: -2;
-    right: 15vw;
-   top:18vw;
-   width: 4.5vw;
-   position: absolute;
-   transform: rotate(40deg);
-}
-#img-r1-1{
-   right: -26vw;
-   top:-3vw;
-   width: 22vw;
-   position: absolute;
-  transform: scaleX(-1) rotate(90deg);
-}
-#img-r1-2{
-   right: -28vw;
-   top:8vw;
-   width: 22vw;
-   position: absolute;
-  transform: scaleX(-1) rotate(50deg);
-}
-#img-r1-3{
-   right: -10vw;
-   top:13vw;
-   width: 6vw;
-   position: absolute;
-  transform: scaleX(-1) rotate(200deg);
-}
+    .col-12 {
+        padding: 0px;
+        margin: 0px;
+    }
 
-#img-r1-4{
-    right: -8vw;
-   top:9vw;
-   width: 6vw;
-   position: absolute;
-  transform: scaleX(-1) rotate(170deg);
-}
-#img-r1-5{
-    right: -12vw;
-   top:15vw;
-   width: 8vw;
-   position: absolute;
-  transform: scaleX(-1) rotate(200deg);
-}
-#img-r1-6{
-    right: -15vw;
-   top:15vw;
-   width: 8vw;
-   position: absolute;
-  transform: scaleX(-1) rotate(200deg);
-}
-#img-r1-7{
-    right: -13vw;
-   top:16vw;
-   width: 6vw;
-   position: absolute;
-  transform: scaleX(-1) rotate(200deg);
-}
-#img-r1-8{
-    right: -12.5vw;
-   top:10vw;
-   width: 10vw;
-   position: absolute;
-  transform: scaleX(-1) rotate(270deg);
-}
-#img-r1-9{
-    right: -17vw;
-   top:14vw;
-   width: 10vw;
-   position: absolute;
-   transform: scaleX(-1) rotate(270deg);
-}
-#img-r1-10{
-    right: -20vw;
-   top:13vw;
-   width: 10vw;
-   position: absolute;
-   transform: scaleX(-1) rotate(270deg);
-}
-#img-r1-11{
-    right: -17vw;
-   top:12vw;
-   width: 8vw;
-   position: absolute;
-   transform: scaleX(-1) 
-}
-#img-r1-12{
-    right: -18vw;
-   top:2vw;
-   width: 13vw;
-   position: absolute;
-}
-#img-r1-13{
-    right: -21vw;
-   top:21.5vw;
-   width: 7vw;
-   position: absolute;
-   transform: rotate(70deg);
-}
-#img-r1-14{
-    right: -20vw;
-   top:13vw;
-   width: 4vw;
-   position: absolute;
-   transform: rotate(-20deg);
-}
-#img-r1-16{
-    z-index: -2;
-    right: -21vw;
-   top:4vw;
-   width: 4vw;
-   position: absolute;
-   transform: rotate(-30deg);
-}
-#img-r1-15{
-    z-index: -2;
-    right: -9vw;
-   top:20.5vw;
-   width: 4vw;
-   position: absolute;
-   transform: rotate(250deg);
-}
-#img-r1-17{
-    z-index: -2;
-    right: -5vw;
-   top:6vw;
-   width: 4vw;
-   position: absolute;
-   transform: rotate(-90deg);
-}
+    .box {
+        height: 100%;
+    }
 
-.how{
-    z-index: 50;
-    cursor: pointer;
-    font-size: 2vw;
-    position: fixed;
-    margin: 3vw;
-    transform: translateX(93vw);
-}
-#play{
-    display: none;
-    padding: 1vw;
-    font-size: 1.3vw;
-    position: fixed;
-    margin: 3vw;
-    transform: translateX(81vw) translateY(3vw);
-    border: 0.2vw solid black;
-    border-radius: 10px;
-}
-#info{
-    transform: translateY(1.2vw);
-    font-size: 2.5vw;
-}
-#try{
-    margin-top: -3vw;font-size: 1.5vw;padding: 1vw;
-}
-#back{
-    font-size: 1.5vw;margin-top: -4vw;color: white;text-shadow: black 0.1vw 0.1vw 2px;
-}
-#close{
-    cursor: pointer;
-}
-@media only screen 
-    and (max-width: 770px) 
-    and (max-height: 1024px) 
-    and (-webkit-min-device-pixel-ratio: 1.5)
-    and (orientation: portrait) 
- {
-        #info{
+    #info {
+        font-size: 1.5vw;
+    }
+
+    #img-l1-1 {
+        right: 13vw;
+        top: -4vw;
+        width: 16vw;
+        position: absolute;
+        transform: rotate(-10deg);
+    }
+
+    #img-l1-2 {
+        z-index: -1;
+        right: 13vw;
+        top: -1vw;
+        width: 9vw;
+        position: absolute;
+    }
+
+    #img-l1-3 {
+        right: 14vw;
+        top: 3vw;
+        width: 14vw;
+        position: absolute;
+    }
+
+    #img-l1-4 {
+        z-index: -2;
+        right: 13vw;
+        top: 17vw;
+        width: 16vw;
+        position: absolute;
+    }
+
+    #img-l1-5 {
+        right: 20vw;
+        top: 21vw;
+        width: 6vw;
+        position: absolute;
+    }
+
+    #img-l1-6 {
+        z-index: -1;
+        right: 13vw;
+        top: 20vw;
+        width: 10vw;
+        position: absolute;
+    }
+
+    #img-l1-7 {
+        right: 17vw;
+        top: 28vw;
+        width: 6vw;
+        position: absolute;
+    }
+
+    #img-l1-8 {
+        right: 8vw;
+        top: 7vw;
+        width: 5vw;
+        position: absolute;
+        transform: rotate(90deg);
+    }
+
+    #img-l1-9 {
+        right: 8vw;
+        top: 16vw;
+        width: 4vw;
+        position: absolute;
+
+    }
+
+    #img-l1-10 {
+        right: 6vw;
+        top: 24vw;
+        width: 4.5vw;
+        position: absolute;
+        transform: rotate(60deg);
+    }
+
+    #img-l1-11 {
+        z-index: -2;
+        right: 15vw;
+        top: 18vw;
+        width: 4.5vw;
+        position: absolute;
+        transform: rotate(40deg);
+    }
+
+    #img-r1-1 {
+        right: -26vw;
+        top: -3vw;
+        width: 22vw;
+        position: absolute;
+        transform: scaleX(-1) rotate(90deg);
+    }
+
+    #img-r1-2 {
+        right: -28vw;
+        top: 8vw;
+        width: 22vw;
+        position: absolute;
+        transform: scaleX(-1) rotate(50deg);
+    }
+
+    #img-r1-3 {
+        right: -10vw;
+        top: 13vw;
+        width: 6vw;
+        position: absolute;
+        transform: scaleX(-1) rotate(200deg);
+    }
+
+    #img-r1-4 {
+        right: -8vw;
+        top: 9vw;
+        width: 6vw;
+        position: absolute;
+        transform: scaleX(-1) rotate(170deg);
+    }
+
+    #img-r1-5 {
+        right: -12vw;
+        top: 15vw;
+        width: 8vw;
+        position: absolute;
+        transform: scaleX(-1) rotate(200deg);
+    }
+
+    #img-r1-6 {
+        right: -15vw;
+        top: 15vw;
+        width: 8vw;
+        position: absolute;
+        transform: scaleX(-1) rotate(200deg);
+    }
+
+    #img-r1-7 {
+        right: -13vw;
+        top: 16vw;
+        width: 6vw;
+        position: absolute;
+        transform: scaleX(-1) rotate(200deg);
+    }
+
+    #img-r1-8 {
+        right: -12.5vw;
+        top: 10vw;
+        width: 10vw;
+        position: absolute;
+        transform: scaleX(-1) rotate(270deg);
+    }
+
+    #img-r1-9 {
+        right: -17vw;
+        top: 14vw;
+        width: 10vw;
+        position: absolute;
+        transform: scaleX(-1) rotate(270deg);
+    }
+
+    #img-r1-10 {
+        right: -20vw;
+        top: 13vw;
+        width: 10vw;
+        position: absolute;
+        transform: scaleX(-1) rotate(270deg);
+    }
+
+    #img-r1-11 {
+        right: -17vw;
+        top: 12vw;
+        width: 8vw;
+        position: absolute;
+        transform: scaleX(-1)
+    }
+
+    #img-r1-12 {
+        right: -18vw;
+        top: 2vw;
+        width: 13vw;
+        position: absolute;
+    }
+
+    #img-r1-13 {
+        right: -21vw;
+        top: 21.5vw;
+        width: 7vw;
+        position: absolute;
+        transform: rotate(70deg);
+    }
+
+    #img-r1-14 {
+        right: -20vw;
+        top: 13vw;
+        width: 4vw;
+        position: absolute;
+        transform: rotate(-20deg);
+    }
+
+    #img-r1-16 {
+        z-index: -2;
+        right: -21vw;
+        top: 4vw;
+        width: 4vw;
+        position: absolute;
+        transform: rotate(-30deg);
+    }
+
+    #img-r1-15 {
+        z-index: -2;
+        right: -9vw;
+        top: 20.5vw;
+        width: 4vw;
+        position: absolute;
+        transform: rotate(250deg);
+    }
+
+    #img-r1-17 {
+        z-index: -2;
+        right: -5vw;
+        top: 6vw;
+        width: 4vw;
+        position: absolute;
+        transform: rotate(-90deg);
+    }
+
+    .how {
+        z-index: 50;
+        cursor: pointer;
+        font-size: 2vw;
+        position: fixed;
+        margin: 3vw;
+        transform: translateX(93vw);
+    }
+
+    #play {
+        display: none;
+        padding: 1vw;
+        font-size: 1.3vw;
+        position: fixed;
+        margin: 3vw;
+        transform: translateX(81vw) translateY(3vw);
+        border: 0.2vw solid black;
+        border-radius: 10px;
+    }
+
+    #info {
+        transform: translateY(1.2vw);
+        font-size: 2.5vw;
+    }
+
+    #try {
+        margin-top: -3vw;
+        font-size: 1.5vw;
+        padding: 1vw;
+    }
+
+    #back {
+        font-size: 1.5vw;
+        margin-top: -4vw;
+        color: white;
+        text-shadow: black 0.1vw 0.1vw 2px;
+    }
+
+    #close {
+        cursor: pointer;
+    }
+
+    #shell1 {
+        z-index: 10;
+        height: 5vw;
+        width: 5vw;
+        position: absolute;
+        right: 58.5vw;
+        top: 15.5vw;
+        cursor: pointer;
+    }
+
+    #shell2 {
+        z-index: 10;
+        height: 4vw;
+        width: 4vw;
+        position: absolute;
+        right: 58.5vw;
+        top: 24.5vw;
+        cursor: pointer;
+    }
+
+    #shell3 {
+        z-index: 10;
+        height: 4.3vw;
+        width: 4vw;
+        position: absolute;
+        right: 56.4vw;
+        top: 32.7vw;
+        cursor: pointer;
+    }
+
+    #shell4 {
+        z-index: 10;
+        height: 4vw;
+        width: 4vw;
+        position: absolute;
+        right: 66vw;
+        top: 27vw;
+        transform: rotate(-40deg);
+        cursor: pointer;
+    }
+
+    #shell5 {
+        z-index: 10;
+        height: 4vw;
+        width: 4vw;
+        position: absolute;
+        right: 30.2vw;
+        top: 21vw;
+        cursor: pointer;
+    }
+
+    #shell6 {
+        z-index: 10;
+        height: 2vw;
+        width: 4vw;
+        position: absolute;
+        right: 42.2vw;
+        top: 30vw;
+        transform: rotate(45deg);
+        cursor: pointer;
+    }
+
+    #shell7 {
+        z-index: 10;
+        height: 3vw;
+        width: 4vw;
+        position: absolute;
+        right: 29.3vw;
+        top: 13.1vw;
+        transform: rotate(55deg);
+        cursor: pointer;
+    }
+
+    #shell8 {
+        z-index: 10;
+        height: 4vw;
+        width: 4vw;
+        position: absolute;
+        right: 45.6vw;
+        top: 14.7vw;
+        cursor: pointer;
+    }
+
+    @media only screen and (max-width: 770px) and (max-height: 1024px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+        #info {
             margin-top: 10vw;
             font-size: 3vw;
         }
-        .box{
+
+        .box {
             transform: scale(1.25) translateY(7vw);
         }
-        #try{
+
+        #try {
             transform: translateY(-20vw);
             font-size: 2.5vw;
-            padding:1vw;
+            padding: 1vw;
             border-radius: 10px;
 
         }
-        #back{
+
+        #back {
             transform: translateY(-40vw);
             font-size: 2.5vw;
-            padding:1vw;
-            border-radius: 10px;
-        }
-    }  
-
-    @media only screen 
-    and (device-width : 414px) 
-    and (device-height : 736px) 
-    and (-webkit-device-pixel-ratio : 3)
-    and (orientation: portrait) 
- {
-        body{
-            overflow: hidden;
-        }
-        #info{
-            transform: translateY(35vw);
-            font-size: 4vw;
-        }
-        .box{
-            transform: scale(1.25) translateY(30vw);
-        }
-        #try{
-            transform: translateY(-35vw);
-            font-size: 2.8vw;
-            padding:1vw;
-            border-radius: 10px;
-
-        }
-        #back{
-            transform: translateY(-70vw);
-            font-size: 2.5vw;
-            padding:1vw;
+            padding: 1vw;
             border-radius: 10px;
         }
     }
-    @media only screen and (max-width: 600px)
-      and (orientation: portrait) 
- {
-        body{
+
+    @media only screen and (device-width : 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 3) and (orientation: portrait) {
+        body {
             overflow: hidden;
         }
-        #info{
+
+        #info {
             transform: translateY(35vw);
             font-size: 4vw;
         }
-        .box{
+
+        .box {
             transform: scale(1.25) translateY(30vw);
         }
-        #try{
+
+        #try {
             transform: translateY(-35vw);
             font-size: 2.8vw;
-            padding:1vw;
+            padding: 1vw;
             border-radius: 10px;
 
         }
-        #back{
+
+        #back {
             transform: translateY(-70vw);
             font-size: 2.5vw;
-            padding:1vw;
+            padding: 1vw;
             border-radius: 10px;
         }
-}
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (orientation: portrait) 
-    and (-webkit-device-pixel-ratio : 3) {
-        body{
+    }
+
+    @media only screen and (max-width: 600px) and (orientation: portrait) {
+        body {
             overflow: hidden;
         }
-        #info{
+
+        #info {
             transform: translateY(35vw);
             font-size: 4vw;
         }
-        .box{
+
+        .box {
             transform: scale(1.25) translateY(30vw);
         }
-        #try{
+
+        #try {
+            transform: translateY(-35vw);
+            font-size: 2.8vw;
+            padding: 1vw;
+            border-radius: 10px;
+
+        }
+
+        #back {
+            transform: translateY(-70vw);
+            font-size: 2.5vw;
+            padding: 1vw;
+            border-radius: 10px;
+        }
+    }
+
+    @media only screen and (device-width : 375px) and (device-height : 812px) and (orientation: portrait) and (-webkit-device-pixel-ratio : 3) {
+        body {
+            overflow: hidden;
+        }
+
+        #info {
+            transform: translateY(35vw);
+            font-size: 4vw;
+        }
+
+        .box {
+            transform: scale(1.25) translateY(30vw);
+        }
+
+        #try {
             transform: translateY(-45vw);
             font-size: 2.8vw;
-            padding:1vw;
+            padding: 1vw;
             border-radius: 10px;
 
         }
-        #back{
+
+        #back {
             transform: translateY(-90vw);
             font-size: 2.5vw;
-            padding:1vw;
+            padding: 1vw;
             border-radius: 10px;
         }
     }
-    @media only screen 
-    and (min-width: 1024px) 
-  and (max-height: 1366px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-        body{
+
+    @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+        body {
             overflow: hidden;
         }
-        #info{
+
+        #info {
             transform: translateY(30vw);
             font-size: 4vw;
         }
-        .box{
+
+        .box {
             transform: scale(1.3) translateY(30vw);
         }
-        #try{
+
+        #try {
             transform: translateY(-20vw);
             font-size: 2.8vw;
-            padding:1vw;
+            padding: 1vw;
             border-radius: 10px;
 
         }
-        #back{
+
+        #back {
             transform: translateY(-45vw);
             font-size: 2.5vw;
-            padding:1vw;
+            padding: 1vw;
             border-radius: 10px;
         }
     }
 </style>
 <script>
+    $(document).ready(function () {
+        $("#shell1").click(function () {
+            $("#img-l1-8").fadeOut(3000);
+        });
+        $("#shell2").click(function () {
+            $("#img-l1-9").fadeOut(3000);
+        });
+        $("#shell3").click(function () {
+            $("#img-l1-10").fadeOut(3000);
+        });
+        $("#shell4").click(function () {
+            $("#img-l1-11").fadeOut(3000);
+        });
+        $("#shell5").click(function () {
+            $("#img-r1-14").fadeOut(3000);
+        });
+        $("#shell6").click(function () {
+            $("#img-r1-15").fadeOut(3000);
+        });
+        $("#shell7").click(function () {
+            $("#img-r1-16").fadeOut(3000);
+        });
+        $("#shell8").click(function () {
+            $("#img-r1-17").fadeOut(3000);
+        });
+    });
     function howTo() {
-            var x = document.getElementById("play");
-            x.style.display = "block";
-            x.style.zIndex = "5"
-        }
+        var x = document.getElementById("play");
+        x.style.display = "block";
+        x.style.zIndex = "5"
+    }
     function hidehowto() {
         var x = document.getElementById("play");
         x.style.display = "none";
     }
+
 </script>
