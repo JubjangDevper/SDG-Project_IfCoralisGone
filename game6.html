@@ -1,0 +1,475 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!--PRELOAD-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <title>ถ้าปะการังหายไป...</title>
+  </head>
+  <body>
+      <div class="how" onclick="howTo()">
+        <i id="how" class="fa fa-question-circle" aria-hidden="true"></i>   
+    </div>
+    <div id="play" class="info-how text-center" >
+        <i id="close" class="fa fa-times-circle" aria-hidden="true" style="transform: translateX(5.5vw) translateY(-0.5vw);" onclick="hidehowto()"></i>
+        <p>On Touchscreen: ลองคลิกเพื่อทิ้งขยะดูสิ</p>
+    </div>
+      <div>
+      <div id="info" class="row  d-flex justify-content-center align-items-center pt-4">
+        การทิ้งขยะทำให้น้ำเน่าเสียส่งผลไปถึงประการังและสัตว์ทะเลบริเวณนั้น
+      </div>
+    <div id="box" class="row box d-flex justify-content-center  align-items-center" >
+        
+        <div class="col-2">
+            <i class="fa fa-caret-left float-right" aria-hidden="true" style="color: white; font-size: 4vw;"></i>
+        </div>
+        <div id="playbox" class="col-7 PlayBox" onclick="clickcount()">
+            <div class="row">
+                <div class="col-6">
+                    <div id="container-img-l1" class="container-img-l1">
+                        <img id="img-l1-4" src="ปะการังนิ่ง/ปะการังโขด.png" >
+                        <img id="img-l1-1" src="ปะการังนิ่ง/หิน-01.png" >
+                        <img id="img-l1-2" src="ปะการังนิ่ง/ปะการังโขด.png" >
+                        <img id="img-l1-3" src="ปะการังนิ่ง/ปะการังโขด.png" >
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="container-img-al1">
+                        <img id="img-l1-a1" src="ปะการังนิ่ง/หิน-02.png" >
+                        <img id="img-l1-a2" src="ปะการังนิ่ง/ปะการังเขากวาง.png" >
+                        <img id="img-l1-a3" src="ปะการังนิ่ง/ปะการังเขากวาง.png" >
+                        <img id="img-l1-a4" src="ปะการังนิ่ง/ปะการังเขากวาง.png" >
+                    </div>
+                    <div class="container-img-r2">
+                        <img id="img-r2-5" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังหลอด.gif" >
+                        <img id="img-r2-1" src="ปะการังนิ่ง/หิน-02.png" >
+                        <img id="img-r2-2" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif" >
+                        <img id="img-r2-4" src="ปะการังแผ่นใบไม้เขี๊ยวเขียว.png" >
+                        <img id="img-r2-3" src="ปะการังแผ่นใบไม้เขี๊ยวเขียว.png" >
+                        <img id="g2" src="รูปเศษขยะ 16 พ.ย 64/พลาสติก02.png" >
+                        <img id="g1" src="รูปเศษขยะ 16 พ.ย 64/ถุงพลาสติก.png" >
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-2">
+            <i class="fa fa-caret-right" aria-hidden="true"  style="color: white; font-size: 4vw;"></i>
+        </div>
+        <div  class="col-12 d-flex justify-content-center p-0 m-0">
+            <button id="try" class="btn btn-light" onclick="location.reload();">เล่นอีกครั้ง</button>
+        </div>
+        <a id="back"  href="index.html" >BACK</a>
+    </div>
+    </div>
+  </body>
+</html>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');html{
+  font-size:1vw;
+  overflow-x: hidden;
+}
+
+body{
+  height: 100% ;
+  overflow-x: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(ทรายเดสทอป+โทรศัพ/ทรายเดสทอป.png);
+  font-family: 'Prompt', sans-serif;  
+  color:black;
+}
+
+.playbox{
+   height: 35vw;
+   width: 60vw; 
+   border-radius: 30px;
+   border: 0.3vw solid white;
+   cursor: pointer;
+
+}
+.row{
+    padding: 0px;
+    margin: 0px;
+}
+.col-12{
+    padding: 0px;
+    margin: 0px;
+}
+.box{
+    height: 100%;
+}
+#info{
+    font-size: 1.5vw;
+}
+#img-l1-1{
+   right: 22vw;
+   top:-1vw;
+   width: 10vw;
+   position: absolute;
+   transform: rotate(60deg);
+}
+#img-l1-2{
+   right: 24vw;
+   top:1vw;
+   width: 7vw;
+   position: absolute;
+   transform: rotate(230deg);
+}
+#img-l1-3{
+   right: 23vw;
+   top:1vw;
+   width: 6vw;
+   position: absolute;
+   transform: rotate(-230deg);
+}
+#img-l1-4{
+   right: 21vw;
+   top:3vw;
+   width: 6vw;
+   position: absolute;
+   transform: rotate(-60deg);
+}
+#container-img-al1{
+    opacity: 0%;
+    transform: translateY(5vw) translateX(7vw);
+}
+#img-l1-a1{
+   right: 37vw;
+   top:11vw;
+   width: 16vw;
+   position: absolute;
+}
+#img-l1-a2{
+   right: 44.5vw;
+   top:15vw;
+   width: 5vw;
+   position: absolute;
+}
+#img-l1-a3{
+   right: 39vw;
+   top:15vw;
+   width: 8vw;
+   position: absolute;
+}
+#img-l1-a4{
+   right: 42vw;
+   top:22vw;
+   width: 5vw;
+   position: absolute;
+}
+.container-img-l1{
+    transform: translateX(13vw) scale(1.2);
+}
+#img-r2-1{
+   right: -2vw;
+   top:10vw;
+   width: 22vw;
+   position: absolute;
+}
+#img-r2-2{
+   right: 10vw;
+   top:18vw;
+   width: 9vw;
+   position: absolute;
+}
+#img-r2-3{
+   right: 2vw;
+   top:16vw;
+   width: 11vw;
+   position: absolute;
+}
+#img-r2-4{
+   right: 3vw;
+   top:23vw;
+   width: 11vw;
+   position: absolute;
+}
+#img-r2-5{
+   right: 11vw;
+   top:13vw;
+   width: 7vw;
+   position: absolute;
+}
+.how{
+    z-index: 50;
+    cursor: pointer;
+    font-size: 2vw;
+    position: fixed;
+    margin: 3vw;
+    transform: translateX(93vw);
+}
+#play{
+    display: none;
+    padding: 1vw;
+    font-size: 1.3vw;
+    position: fixed;
+    margin: 3vw;
+    width: 15vw;
+    transform: translateX(81vw) translateY(3vw);
+    border: 0.2vw solid black;
+    border-radius: 10px;
+}
+#info{
+    transform: translateY(1.2vw);
+    font-size: 2.5vw;
+}
+#try{
+    margin-top: -3vw;font-size: 1.5vw;padding: 1vw;
+}
+#back{
+    font-size: 1.5vw;margin-top: -4vw;color: white;text-shadow: black 0.1vw 0.1vw 2px;
+}
+#close{
+    cursor: pointer;
+}
+@media only screen 
+    and (max-width: 770px) 
+    and (max-height: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 1.5)
+    and (orientation: portrait) 
+ {
+        #info{
+            margin-top: 10vw;
+            font-size: 3vw;
+        }
+        .box{
+            transform: scale(1.25) translateY(7vw);
+        }
+        #try{
+            transform: translateY(-20vw);
+            font-size: 2.5vw;
+            padding:1vw;
+            border-radius: 10px;
+
+        }
+        #back{
+            transform: translateY(-40vw);
+            font-size: 2.5vw;
+            padding:1vw;
+            border-radius: 10px;
+        }
+    }  
+
+    @media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3)
+    and (orientation: portrait) 
+ {
+        body{
+            overflow: hidden;
+        }
+        #info{
+            transform: translateY(35vw);
+            font-size: 4vw;
+        }
+        .box{
+            transform: scale(1.25) translateY(30vw);
+        }
+        #try{
+            transform: translateY(-35vw);
+            font-size: 2.8vw;
+            padding:1vw;
+            border-radius: 10px;
+
+        }
+        #back{
+            transform: translateY(-70vw);
+            font-size: 2.5vw;
+            padding:1vw;
+            border-radius: 10px;
+        }
+    }
+    @media only screen and (max-width: 600px)
+      and (orientation: portrait) 
+ {
+        body{
+            overflow: hidden;
+        }
+        #info{
+            transform: translateY(35vw);
+            font-size: 4vw;
+        }
+        .box{
+            transform: scale(1.25) translateY(30vw);
+        }
+        #try{
+            transform: translateY(-35vw);
+            font-size: 2.8vw;
+            padding:1vw;
+            border-radius: 10px;
+
+        }
+        #back{
+            transform: translateY(-70vw);
+            font-size: 2.5vw;
+            padding:1vw;
+            border-radius: 10px;
+        }
+}
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (orientation: portrait) 
+    and (-webkit-device-pixel-ratio : 3) {
+        body{
+            overflow: hidden;
+        }
+        #info{
+            transform: translateY(35vw);
+            font-size: 4vw;
+        }
+        .box{
+            transform: scale(1.25) translateY(30vw);
+        }
+        #try{
+            transform: translateY(-45vw);
+            font-size: 2.8vw;
+            padding:1vw;
+            border-radius: 10px;
+
+        }
+        #back{
+            transform: translateY(-90vw);
+            font-size: 2.5vw;
+            padding:1vw;
+            border-radius: 10px;
+        }
+    }
+    @media only screen 
+    and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+        body{
+            overflow: hidden;
+        }
+        #info{
+            transform: translateY(30vw);
+            font-size: 4vw;
+        }
+        .box{
+            transform: scale(1.3) translateY(30vw);
+        }
+        #try{
+            transform: translateY(-20vw);
+            font-size: 2.8vw;
+            padding:1vw;
+            border-radius: 10px;
+
+        }
+        #back{
+            transform: translateY(-45vw);
+            font-size: 2.5vw;
+            padding:1vw;
+            border-radius: 10px;
+        }
+    }
+    @keyframes opa {
+        0%{
+            opacity: 100%;
+        }
+        1%{
+            opacity: 50%;
+        }
+        100%{
+            opacity: 100%;
+        }
+    }
+    #g1{
+        right:27vw;
+        top:-20vw;
+        width: 9vw;
+        position: absolute;
+    }
+    #g2{
+        right: 27vw;
+        top:-20vw;
+        width: 9vw;
+        position: absolute;
+    }
+    .movepastic1{
+        -webkit-animation: movethis1 5s;
+        animation: movethis1 5s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes movethis1 {
+        0%   {
+            top: -20vw; 
+            right: 27vw;
+            transform: rotate(360deg) scale(0.3);
+        }
+        100% {
+            top: 10vw; 
+            right: 27vw;
+            transform: rotate(60deg) scale(1.1);
+        }
+    }
+    .movepastic2{
+        -webkit-animation: movethis2 5s;
+        animation: movethis2 5s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes movethis2 {
+        0%   {
+            top: -20vw; 
+            right: 27vw;
+            transform: rotate(360deg) scale(0.3);
+        }
+        100% {
+            top: 3vw; 
+            right: 27vw;
+            transform: rotate(0deg) scale(1.1);
+        }
+    }
+</style>
+<script>
+        function howTo() {
+                var x = document.getElementById("play");
+                x.style.display = "block";
+                x.style.zIndex = "5"
+            }
+        function hidehowto() {
+            var x = document.getElementById("play");
+            x.style.display = "none";
+        }
+        function move1(){
+            $('#g1').addClass('movepastic1');
+        }
+        function move2(){
+            $('#g2').addClass('movepastic2');
+        }
+        var clicks = 0;
+        function clickcount(){
+            clicks += 1;
+            if (clicks == 1) {
+                console.log("get1");
+                move1();
+            }
+            if (clicks == 2) {
+                console.log("get2");
+                move2();
+            }
+            if (clicks == 3) {
+                console.log("get3");
+            }
+            if (clicks == 4) {
+
+            }
+            if (clicks == 5) {
+
+            }
+            if (clicks == 6) {
+
+            }
+        }
+</script>
