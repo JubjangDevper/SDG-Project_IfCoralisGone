@@ -1,3 +1,4 @@
+
 <html>
 <head>
     <meta charset="UTF-8">
@@ -17,8 +18,8 @@
       <div class="how" onclick="howTo()">
         <i id="how" class="fa fa-question-circle" aria-hidden="true"></i>   
     </div>
-    <div id="play" class="info-how text-center" >
-        <i id="close" class="fa fa-times-circle" aria-hidden="true" style="transform: translateX(5.5vw) translateY(-0.5vw);" onclick="hidehowto()"></i>
+    <div id="play" class="info-how " >
+        <i id="close" class="fa fa-times-circle float-right" aria-hidden="true" onclick="hidehowto()"></i><br>
         <p>Desktop: Hover ลอบบริเวณปะการัง</p>
         <p>Touchscreen: ลองคลิกบริเวณปะการังดูสิ</p>
     </div>
@@ -329,14 +330,12 @@ body{
    width: 8vw;
    transform: rotate(50deg);
    position: absolute;
-   position: absolute;
 }
 #img-r1-4{
     right: 18vw;
    top:2vw;
    width: 7vw;
    transform: rotate(40deg);
-   position: absolute;
    position: absolute;
 }
 #img-r1-5{
@@ -526,7 +525,7 @@ body{
     position: fixed;
     margin: 3vw;
     width: 15vw;
-    transform: translateX(81vw) translateY(3vw);
+    transform: translateX(79vw) translateY(3vw);
     border: 0.2vw solid black;
     border-radius: 10px;
 }
@@ -601,7 +600,7 @@ body{
             border-radius: 10px;
         }
     }
-    @media only screen and (max-width: 500px)
+    @media only screen and (max-width: 450px)
       and (orientation: portrait) 
  {
         body{
@@ -697,6 +696,21 @@ body{
             opacity: 100%;
         }
     }
+    .container-img-r1{
+        transform: translateX(2vw);
+    }
+    .container-img-r2{
+        transform: translateX(2vw);
+    }
+    .container-img-l1{
+        transform: translateX(8vw);
+    }
+    .container-img-l2{
+        transform: translateX(3vw);
+    }
+    .container-img-l3{
+        transform: translateX(2vw);
+    }
 </style>
 <script>
         $(".playbox").click(function () {
@@ -744,9 +758,7 @@ body{
         }
         function change(x) {
             x.style.transition = "3s";
-            x.style.filter = "saturate(0)";
-            x.style.animationPlayState = "paused";
-            
+            x.style.filter = "saturate(0)";            
         }
         function add(i){
             i.style.transition = "2s";

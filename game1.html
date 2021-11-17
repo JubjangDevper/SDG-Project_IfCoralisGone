@@ -17,8 +17,8 @@
       <div class="how" onclick="howTo()">
         <i id="how" class="fa fa-question-circle" aria-hidden="true"></i>   
     </div>
-    <div id="play" class="info-how text-center" >
-        <i id="close" class="fa fa-times-circle" aria-hidden="true" style="transform: translateX(5.5vw) translateY(-0.5vw);" onclick="hidehowto()"></i>
+    <div id="play" class="info-how " >
+        <i id="close" class="fa fa-times-circle float-right" aria-hidden="true"  onclick="hidehowto()"></i><br>
         <p>On Desktop: คลิกเพื่อใช้อวน แล้ว Hover ที่ปะการัง</p>
         <p>On Touchscreen: ลองคลิกบริเวณปะการังดูสิ</p>
     </div>
@@ -334,7 +334,7 @@ body{
     position: fixed;
     margin: 3vw;
     width: 15vw;
-    transform: translateX(81vw) translateY(3vw);
+    transform: translateX(79vw) translateY(3vw);
     border: 0.2vw solid black;
     border-radius: 10px;
 }
@@ -409,7 +409,7 @@ body{
             border-radius: 10px;
         }
     }
-    @media only screen and (max-width: 500px)
+    @media only screen and (max-width: 450px)
       and (orientation: portrait) 
  {
         body{
@@ -504,6 +504,21 @@ body{
         100%{
             opacity: 100%;
         }
+    }
+    .container-img-r1{
+        transform: translateX(2vw);
+    }
+    .container-img-r2{
+        transform: translateX(2vw);
+    }
+    .container-img-l1{
+        transform: translateX(8vw);
+    }
+    .container-img-l2{
+        transform: translateX(3vw);
+    }
+    .container-img-l3{
+        transform: translateX(2vw);
     }
 </style>
 <script>
