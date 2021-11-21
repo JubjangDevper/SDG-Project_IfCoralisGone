@@ -39,7 +39,9 @@
         <div id="box" class="row box d-flex justify-content-center  align-items-center">
 
             <div class="col-2">
-                <i class="fa fa-caret-left float-right" aria-hidden="true" style="color: white; font-size: 4vw;"></i>
+                <a href="game2.html"> <i class="fa fa-caret-left float-right" aria-hidden="true"
+                        style="color: white; font-size: 4vw;" id="left"></i>
+                </a>
             </div>
             <div id="playbox" class="col-7 PlayBox">
                 <div class="row">
@@ -51,7 +53,7 @@
                             <img id="img-l1-4" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif">
                             <img id="img-l1-5" src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif">
                             <img id="img-l1-6" src="หมึก.gif">
-                            <img id="stab1" src="อุปกรณ์ใหม่/ฉมวก02.gif">
+                            <img id="stab1" src="อุปกรณ์ใหม่/ฉมวก03.gif">
                         </div>
                         <div id="container-img-al1" class="container-img-al1">
                             <img id="img-l1-a1" src="ปะการังตาย/เศษ.png">
@@ -62,20 +64,44 @@
                             <img id="img-l1-a6" src="ปะการังตาย/เศษ.png">
                             <img id="img-l1-a7" src="ปะการังตาย/เศษ.png">
                         </div>
-                        <div onmouseover="change(this)" class="container-img-l2">
+                        <div onclick="stab2()" div id="container-img-l2" class="container-img-l2">
+                            <img id="img-l2-1" src="ปะการังนิ่ง/หิน-01.png">
+                            <img id="img-l2-2" src="ปะการังนิ่ง/ปะการังเคลือบ.png">
+                            <img id="img-l2-3" src="ปะการังนิ่ง/ปะการังเคลือบ.png">
+                            <img id="img-l2-4" src="ปะการังนิ่ง/ปะการังเคลือบ.png">
+                            <img id="img-l2-5" src="ปะการังนิ่ง/ปะการังเคลือบ.png">
+                            <img id="img-l2-6" src="ปะการังนิ่ง/ปะการังเคลือบ.png">
+                            <img id="img-l2-7" src="ปะการังนิ่ง/ปะการังเคลือบ.png">
+                            <img id="img-l2-9" src="นีโม่ส้ม.gif">
+                            <img id="img-l2-10" src="นีโม่ส้ม.gif">
+                            <img id="img-l2-11" src="นีโม่ส้ม.gif">
+                            <img id="img-l2-12" src="นีโม่ส้ม.gif">
+                            <img id="img-l2-13" src="นีโม่ส้ม.gif">
+                            <img id="img-l2-14" src="นีโม่ส้ม.gif">
+                            <img id="img-l2-15" src="ปะการัง ฟองน้ำ(แก้ดำ)/สาหร่าย2.gif">
+                            <img id="stab2" src="อุปกรณ์ใหม่/ฉมวก03.gif">
                         </div>
                     </div>
                     <div class="col-6">
-                        <div onmouseover="change(this)" class="container-img-r1">
-                        </div>
-                        <div onmouseover="change(this)" class="container-img-r2">
+                        <div onclick="stab3()" div id="container-img-r1" class="container-img-r1">
+                            <img id="img-r1-1" src="ปะการังนิ่ง/ปะการังเดี่ยว.png">
+                            <img id="img-r1-2" src="ฝูงปลานง.gif">
+                            <img id="img-r1-3" src="ฝูงปลานง.gif">
+                            <img id="img-r1-4" src="ปะการังนิ่ง/หิน-02.png">
+                            <img id="img-r1-5" src="ปะการังนิ่ง/หิน-03.png">
+                            <img id="img-r1-6" src="ปะการังแผ่นใบไม้เขี๊ยวเขียว.png">
+                            <img id="img-r1-7" src="ปะการังแผ่นใบไม้เขี๊ยวเขียว.png">
+                            <img id="img-r1-8" src="ปะการังแผ่นใบไม้เขี๊ยวเขียว.png">
+                            <img id="img-r1-9" src="ปะการังแผ่นใบไม้เขี๊ยวเขียว.png">
+                            <img id="stab3" src="อุปกรณ์ใหม่/ฉมวก.gif">
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div class="col-2">
-                <i class="fa fa-caret-right" aria-hidden="true" style="color: white; font-size: 4vw;"></i>
+            <div class="col-2"><a href="game4.html"> <i class="fa fa-caret-right" aria-hidden="true"
+                        style="color: white; font-size: 4vw;" id="right"></i>
+                </a>
             </div>
             <div class="col-12 d-flex justify-content-center p-0 m-0">
                 <button id="try" class="btn btn-light" onclick="location.reload();">เล่นอีกครั้ง</button>
@@ -175,6 +201,7 @@
     }
 
     #stab1 {
+        z-index: 1;
         right: -16vw;
         top: -24vw;
         width: 15vw;
@@ -246,115 +273,215 @@
 
     .container-img-l1 {
         transform: translateX(13vw) scale(1.2);
+        cursor: pointer;
+        transform: translateX(8vw);
     }
 
     #img-l2-1 {
-        right: 9vw;
-        top: 13vw;
-        width: 18vw;
+        right: 10vw;
+        top: 14vw;
+        width: 14vw;
         position: absolute;
+        transform: rotate(150deg);
     }
 
     #img-l2-2 {
-        z-index: -1;
-        right: 17vw;
-        top: 14vw;
-        width: 8vw;
+        right: 10vw;
+        top: 15vw;
+        width: 10vw;
         position: absolute;
+        transform: rotate(45deg);
     }
 
     #img-l2-3 {
-        right: 18vw;
+        right: 8vw;
         top: 19vw;
-        width: 10vw;
+        width: 8vw;
         position: absolute;
+        transform: rotate(-45deg);
     }
 
     #img-l2-4 {
         right: 12vw;
-        top: 16vw;
-        width: 10vw;
+        top: 19vw;
+        width: 8vw;
         position: absolute;
+        transform: rotate(-45deg);
     }
 
     #img-l2-5 {
-        right: 12vw;
-        top: 22vw;
+        right: 8vw;
+        top: 20vw;
         width: 10vw;
         position: absolute;
+        transform: rotate(45deg);
+    }
+
+    #img-l2-6 {
+        right: 7vw;
+        top: 23vw;
+        width: 8vw;
+        position: absolute;
+        transform: rotate(-30deg);
+    }
+
+    #img-l2-7 {
+        right: 11vw;
+        top: 24vw;
+        width: 8vw;
+        position: absolute;
+        transform: rotate(-30deg);
+    }
+
+    #img-l2-9 {
+        right: 11vw;
+        top: 15vw;
+        width: 6vw;
+        position: absolute;
+        transform: rotate(30deg);
+
+    }
+
+    #img-l2-10 {
+        right: 12vw;
+        top: 14vw;
+        width: 8vw;
+        position: absolute;
+        transform: rotate(15deg);
+
+    }
+
+    #img-l2-11 {
+        right: 14vw;
+        top: 17vw;
+        width: 6vw;
+        position: absolute;
+        transform: rotate(60deg);
+
+    }
+
+    #img-l2-12 {
+        right: 9vw;
+        top: 20vw;
+        width: 6vw;
+        position: absolute;
+        transform: rotate(30deg);
+
+    }
+
+    #img-l2-13 {
+        right: 10vw;
+        top: 19vw;
+        width: 8vw;
+        position: absolute;
+        transform: rotate(15deg);
+
+    }
+
+    #img-l2-14 {
+        right: 12vw;
+        top: 21vw;
+        width: 6vw;
+        position: absolute;
+        transform: rotate(60deg);
+
+    }
+
+    #img-l2-15 {
+        right: 12vw;
+        top: 21vw;
+        width: 11vw;
+        position: absolute;
+        transform: rotate(75deg);
+    }
+
+    #stab2 {
+        z-index: 1;
+        right: -30vw;
+        top: -20vw;
+        width: 15vw;
+        position: absolute;
+        opacity: 0%;
+        transform: rotate(-130deg);
     }
 
     #img-r1-1 {
-        right: 9vw;
-        top: -1vw;
-        width: 16vw;
+        right: 13vw;
+        top: 3vw;
+        width: 6vw;
         position: absolute;
+        transform: rotate(30deg);
     }
 
     #img-r1-2 {
-        right: 11.5vw;
-        top: 4vw;
-        width: 9vw;
+        right: 13vw;
+        top: 8vw;
+        width: 8vw;
         position: absolute;
+        transform: rotate(-75deg);
     }
 
     #img-r1-3 {
-        right: 16vw;
+        right: 5vw;
         top: 2vw;
-        width: 7vw;
+        width: 9vw;
         position: absolute;
+        transform: rotate(-90deg);
     }
 
     #img-r1-4 {
-        right: 12vw;
-        top: 9vw;
-        width: 8vw;
-        position: absolute;
-    }
-
-    #img-r1-5 {
-        right: 16vw;
-        top: 6vw;
-        width: 9vw;
-        position: absolute;
-    }
-
-    #img-r2-1 {
-        transform: rotate(70deg);
-        right: 9vw;
-        top: 13vw;
+        right: 0vw;
+        top: 15vw;
         width: 18vw;
         position: absolute;
     }
 
-    #img-r2-2 {
-        right: 4vw;
-        top: 16vw;
-        width: 10vw;
+    #img-r1-5 {
+        right: 0vw;
+        top: 10vw;
+        width: 17vw;
         position: absolute;
-        transform: rotate(160deg);
+        transform: rotate(60deg);
     }
 
-    #img-r2-3 {
-        right: 21vw;
-        top: 22vw;
+    #img-r1-6 {
+        right: 4vw;
+        top: 25vw;
         width: 9vw;
         position: absolute;
+        transform: rotate(120deg);
     }
 
-    #img-r2-4 {
-        right: 8vw;
-        top: 18vw;
-        width: 20vw;
+    #img-r1-7 {
+        right: 13vw;
+        top: 23vw;
+        width: 6vw;
         position: absolute;
     }
 
-    #img-r2-5 {
-        right: 1vw;
+    #img-r1-8 {
+        right: 4vw;
+        top: 17vw;
+        width: 12vw;
+        position: absolute;
+    }
+
+    #img-r1-9 {
+        right: 2vw;
         top: 13vw;
-        width: 13vw;
+        width: 9vw;
         position: absolute;
-        transform: rotate(140deg);
+        transform: rotate(120deg);
+    }
+
+    #stab3 {
+        z-index: 1;
+        right: 15vw;
+        top: -30vw;
+        width: 15vw;
+        position: absolute;
+        opacity: 0%;
+        transform: rotate(160deg);
     }
 
     .how {
@@ -398,6 +525,36 @@
 
     #close {
         cursor: pointer;
+    }
+
+    #left:hover {
+        animation: left .5s infinite linear alternate;
+
+    }
+
+    #right:hover {
+        animation: right .5s infinite linear alternate;
+
+    }
+
+    @keyframes left {
+        0% {
+            transform: translateX(0px);
+        }
+
+        100% {
+            transform: translateX(-10px);
+        }
+    }
+
+    @keyframes right {
+        0% {
+            transform: translateX(0px);
+        }
+
+        100% {
+            transform: translateX(10px);
+        }
     }
 
     @media only screen and (max-width: 770px) and (max-height: 1024px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
@@ -562,22 +719,12 @@
 
     .container-img-r1 {
         transform: translateX(2vw);
-    }
-
-    .container-img-r2 {
-        transform: translateX(2vw);
-    }
-
-    .container-img-l1 {
-        transform: translateX(8vw);
+        cursor: pointer;
     }
 
     .container-img-l2 {
         transform: translateX(3vw);
-    }
-
-    .container-img-l3 {
-        transform: translateX(2vw);
+        cursor: pointer;
     }
 </style>
 <script>
@@ -612,6 +759,101 @@
         octo.style.transition = "2s 1s";
 
         add();
+
+        document.getElementById("container-img-l1").style.cursor = "default";
+    }
+
+    function stab2() {
+        var stab = document.getElementById("stab2");
+
+        stab.style.transition = "2s";
+        stab.style.opacity = "100%";
+        stab.style.right = "-4vw";
+        stab.style.top = "-6vw";
+
+        var cor1 = document.getElementById("img-l2-2");
+        var cor2 = document.getElementById("img-l2-3");
+        var cor3 = document.getElementById("img-l2-4");
+        var cor4 = document.getElementById("img-l2-5");
+        var cor5 = document.getElementById("img-l2-6");
+        var cor6 = document.getElementById("img-l2-7");
+        var sea = document.getElementById("img-l2-15");
+
+        cor1.style.filter = "saturate(0)";
+        cor1.style.transition = "1s 2s";
+        cor2.style.filter = "saturate(0)";
+        cor2.style.transition = "1s 2s";
+        cor3.style.filter = "saturate(0)";
+        cor3.style.transition = "1s 2s";
+        cor4.style.filter = "saturate(0)";
+        cor4.style.transition = "1s 2s";
+        cor5.style.filter = "saturate(0)";
+        cor5.style.transition = "1s 2s";
+        cor6.style.filter = "saturate(0)";
+        cor6.style.transition = "1s 2s";
+        sea.style.filter = "saturate(0)";
+        sea.style.transition = "1s 2s";
+
+        var nemo1 = document.getElementById("img-l2-9");
+        var nemo2 = document.getElementById("img-l2-10");
+        var nemo3 = document.getElementById("img-l2-11");
+        var nemo4 = document.getElementById("img-l2-12");
+        var nemo5 = document.getElementById("img-l2-13");
+        var nemo6 = document.getElementById("img-l2-14");
+
+        nemo1.style.opacity = "0%";
+        nemo1.style.transition = "1s 2s";
+        nemo2.style.opacity = "0%";
+        nemo2.style.transition = "1s 2s";
+        nemo3.style.opacity = "0%";
+        nemo3.style.transition = "1s 2s";
+        nemo4.style.opacity = "0%";
+        nemo4.style.transition = "1s 2s";
+        nemo5.style.opacity = "0%";
+        nemo5.style.transition = "1s 2s";
+        nemo6.style.opacity = "0%";
+        nemo6.style.transition = "1s 2s";
+
+        document.getElementById("container-img-l2").style.cursor = "default";
+
+    }
+
+    function stab3() {
+        var stab = document.getElementById("stab3");
+
+        stab.style.transition = "2s";
+        stab.style.opacity = "100%";
+        stab.style.right = "6vw";
+        stab.style.top = "-5vw";
+
+        var ball = document.getElementById("img-r1-1");
+        ball.style.filter = "saturate(0)";
+        ball.style.transition = "1s 1s";
+
+        var fish1 = document.getElementById("img-r1-2");
+        var fish2 = document.getElementById("img-r1-3");
+        fish1.style.opacity = "0%";
+        fish1.style.transition = "1s 1.5s";
+        fish2.style.opacity = "0%";
+        fish2.style.transition = "1s 1.5s";
+
+        var cor1 = document.getElementById("img-r1-6");
+        var cor2 = document.getElementById("img-r1-7");
+        var cor3 = document.getElementById("img-r1-8");
+        var cor4 = document.getElementById("img-r1-9");
+
+        cor1.style.filter = "saturate(0)";
+        cor1.style.transition = "1s 2s";
+        cor2.style.filter = "saturate(0)";
+        cor2.style.transition = "1s 2s";
+        cor3.style.filter = "saturate(0)";
+        cor3.style.transition = "1s 2s";
+        cor4.style.filter = "saturate(0)";
+        cor4.style.transition = "1s 2s";
+        setTimeout(function () { cor1.setAttribute('src', 'ปะการังตาย/ปะการังแผ่นใบไม้ตาย.png'); cor2.setAttribute('src', 'ปะการังตาย/ปะการังแผ่นใบไม้ตาย.png'); cor3.setAttribute('src', 'ปะการังตาย/ปะการังแผ่นใบไม้ตาย.png'); cor4.setAttribute('src', 'ปะการังตาย/ปะการังแผ่นใบไม้ตาย.png'); }, 3000);
+
+        document.getElementById("container-img-r1").style.cursor = "default";
+
     }
 
     function add() {
