@@ -94,14 +94,14 @@
             <a id="back" href="index.html">BACK</a>
         </div>
     </div>
-    <div id="shell1"></div>
+    <div id="shell1" ></div>
     <div id="shell2"></div>
     <div id="shell3"></div>
-    <div id="shell4"></div>
+    <div id="shell4" onclick="dead1()"></div>
     <div id="shell5"></div>
-    <div id="shell6"></div>
+    <div id="shell6" onclick="dead3()" ></div>
     <div id="shell7"></div>
-    <div id="shell8"></div>
+    <div id="shell8"onclick="dead2()"></div>
 </body>
 
 </html>
@@ -426,6 +426,7 @@
         right: 58.5vw;
         top: 15.5vw;
         cursor: pointer;
+        background-color: black;
     }
 
     #shell2 {
@@ -436,6 +437,7 @@
         right: 58.5vw;
         top: 24.5vw;
         cursor: pointer;
+        background-color: black;
     }
 
     #shell3 {
@@ -446,6 +448,7 @@
         right: 56.4vw;
         top: 32.7vw;
         cursor: pointer;
+        background-color: black;
     }
 
     #shell4 {
@@ -457,6 +460,7 @@
         top: 27vw;
         transform: rotate(-40deg);
         cursor: pointer;
+        background-color: black;
     }
 
     #shell5 {
@@ -467,6 +471,7 @@
         right: 30.2vw;
         top: 21vw;
         cursor: pointer;
+        background-color: black;
     }
 
     #shell6 {
@@ -478,6 +483,7 @@
         top: 30vw;
         transform: rotate(45deg);
         cursor: pointer;
+        background-color: black;
     }
 
     #shell7 {
@@ -489,6 +495,7 @@
         top: 13.1vw;
         transform: rotate(55deg);
         cursor: pointer;
+        background-color: black;
     }
 
     #shell8 {
@@ -499,6 +506,7 @@
         right: 45.6vw;
         top: 14.7vw;
         cursor: pointer;
+        background-color: black;
     }
 
     @media only screen and (max-width: 770px) and (max-height: 1024px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
@@ -683,5 +691,17 @@
         var x = document.getElementById("play");
         x.style.display = "none";
     }
-
+    function dead1() {
+        let traget = document.getElementById("img-l1-6");
+        traget.src = "https://github.com/fordntp/SDG-Project_IfCoralisGone/blob/main/%E0%B8%9B%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B8%95%E0%B8%B2%E0%B8%A2/%E0%B8%9B%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%81%E0%B8%A7%E0%B8%B2%E0%B8%87%E0%B8%87.png?raw=true";
+    }
+    function dead2() {
+        let traget = document.getElementById("img-r1-4");
+        traget.src = "https://github.com/fordntp/SDG-Project_IfCoralisGone/blob/main/%E0%B8%9B%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B8%95%E0%B8%B2%E0%B8%A2/%E0%B8%9B%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%9A.png?raw=true";
+    }
+    function dead3() {
+        let traget = document.getElementById("img-r1-5");
+        traget.src = "https://github.com/fordntp/SDG-Project_IfCoralisGone/blob/main/%E0%B8%9B%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B8%95%E0%B8%B2%E0%B8%A2/%E0%B8%9B%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%9A.png?raw=true";
+    }
+   
 </script>
