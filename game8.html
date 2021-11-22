@@ -58,7 +58,9 @@
                             <img id="img-l1-9" src="หอยชมพู.png">
                             <img id="img-l1-10" src="หอยชมพู.png">
                             <img id="img-l1-11" src="หอยส้ม.png">
-
+                            <img id="img-l1-12" src="เศษ.png">
+                            <img id="img-l1-13" src="เศษ.png">
+                            <img id="img-l1-14" src="เศษ.png">
                         </div>
                         <div id="container-img-r1" class="container-img-r1">
 
@@ -79,6 +81,10 @@
                             <img id="img-r1-15" src="หอยชมพู.png">
                             <img id="img-r1-16" src="หอยส้ม.png">
                             <img id="img-r1-17" src="หอยส้ม.png">
+                            <img id="img-r1-18" src="เศษ.png">
+                            <img id="img-r1-19" src="เศษ.png">
+                            <img id="img-r1-20" src="เศษ.png">
+                            <img id="img-r1-21" src="เศษ.png">
                             <div id="shell1" ></div>
                             <div id="shell2"></div>
                             <div id="shell3"></div>
@@ -239,6 +245,36 @@
         transform: rotate(40deg);
         
     }
+    #img-l1-12 {
+        z-index: -2;
+        right: 20vw;
+        top: 18.5vw;
+        width: 2vw;
+        position: absolute;
+        transform: rotate(40deg);
+        opacity: 0%;
+    }
+
+    #img-l1-13 {
+        z-index: -2;
+        right: 14vw;
+        top: 18vw;
+        width: 3vw;
+        position: absolute;
+        transform: rotate(100deg);
+        opacity: 0%;
+    }
+
+    #img-l1-14 {
+        z-index: -2;
+        right: 12vw;
+        top: 20vw;
+        width: 2vw;
+        position: absolute;
+        transform: rotate(-70deg);
+        opacity: 0%;
+    }
+
 
     #img-r1-1 {
         right: -26vw;
@@ -377,6 +413,42 @@
         position: absolute;
         transform: rotate(-90deg);
     }
+    #img-r1-18 {
+        z-index: -2;
+        right: -2vw;
+        top: 8vw;
+        width: 3vw;
+        position: absolute;
+        transform: rotate(-90deg);
+        opacity: 0%;
+    }
+    #img-r1-19 {
+        z-index: -2;
+        right: -5vw;
+        top: 6.5vw;
+        width: 2vw;
+        position: absolute;
+        transform: rotate(-180deg);
+        opacity: 0%;
+    }
+    #img-r1-20 {   
+        height: 3vw;
+        width: 3vw;
+        position: absolute;
+        right: -8.7vw;
+        top: 24vw;
+        transform: rotate(75deg);
+        opacity: 0%;
+    }
+    #img-r1-21 {
+        height: 2vw;
+        width: 2vw;
+        position: absolute;
+        right: -7vw;
+        top: 22vw;
+        opacity: 0%;
+        
+    }
 
     .how {
         z-index: 50;
@@ -509,6 +581,9 @@
         top: 6.4vw;
         cursor: pointer;
         
+    }
+    img {
+        transition: all .4s;
     }
 
     @media only screen and (max-width: 770px) and (max-height: 1024px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
@@ -660,28 +735,28 @@
 <script>
     $(document).ready(function () {
         $("#shell1").click(function () {
-            $("#img-l1-8").fadeOut(2000);
+            $("#img-l1-8").fadeOut(500);
         });
         $("#shell2").click(function () {
-            $("#img-l1-9").fadeOut(2000);
+            $("#img-l1-9").fadeOut(500);
         });
         $("#shell3").click(function () {
-            $("#img-l1-10").fadeOut(2000);
+            $("#img-l1-10").fadeOut(500);
         });
         $("#shell4").click(function () {
-            $("#img-l1-11").fadeOut(2000);
+            $("#img-l1-11").fadeOut(500);
         });
         $("#shell5").click(function () {
-            $("#img-r1-14").fadeOut(2000);
+            $("#img-r1-14").fadeOut(500);
         });
         $("#shell6").click(function () {
-            $("#img-r1-15").fadeOut(2000);
+            $("#img-r1-15").fadeOut(500);
         });
         $("#shell7").click(function () {
-            $("#img-r1-16").fadeOut(2000);
+            $("#img-r1-16").fadeOut(500);
         });
         $("#shell8").click(function () {
-            $("#img-r1-17").fadeOut(2000);
+            $("#img-r1-17").fadeOut(500);
         });
     });
     function howTo() {
@@ -694,14 +769,21 @@
         x.style.display = "none";
     }
     function dead1() {
+        document.getElementById("img-l1-12").style.opacity = "100%";
+        document.getElementById("img-l1-13").style.opacity = "100%";
+        document.getElementById("img-l1-14").style.opacity = "100%";
         let traget = document.getElementById("img-l1-6");
         traget.src = "https://github.com/fordntp/SDG-Project_IfCoralisGone/blob/main/%E0%B8%9B%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B8%95%E0%B8%B2%E0%B8%A2/%E0%B8%9B%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%81%E0%B8%A7%E0%B8%B2%E0%B8%87%E0%B8%87.png?raw=true";
     }
     function dead2() {
+        document.getElementById("img-r1-18").style.opacity = "100%";
+        document.getElementById("img-r1-19").style.opacity = "100%";
         let traget = document.getElementById("img-r1-4");
         traget.src = "https://github.com/fordntp/SDG-Project_IfCoralisGone/blob/main/%E0%B8%9B%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B8%95%E0%B8%B2%E0%B8%A2/%E0%B8%9B%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%9A.png?raw=true";
     }
     function dead3() {
+        document.getElementById("img-r1-20").style.opacity = "100%";
+        document.getElementById("img-r1-21").style.opacity = "100%";
         let traget = document.getElementById("img-r1-5");
         traget.src = "https://github.com/fordntp/SDG-Project_IfCoralisGone/blob/main/%E0%B8%9B%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B8%95%E0%B8%B2%E0%B8%A2/%E0%B8%9B%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%9A.png?raw=true";
     }
