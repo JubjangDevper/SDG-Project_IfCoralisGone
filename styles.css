@@ -32,7 +32,7 @@ svg {
 }
 
 #clipPath {
-  -webkit-animation: waterClimb 60s linear 1;
+  -webkit-animation: waterClimb 234s linear 1;
   transform: translateY(-110px); 
 }
 #clippingPath{
@@ -4047,7 +4047,164 @@ transform: rotate(-60deg);
   font-size: 1.5vw;
   padding:4vw;
 }
+#q21{
+  opacity:0%;
+  animation:opa 6s 120s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;  
+}
+#q22{
+    opacity:0%;
+  animation:opa 6s 126s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
 
+#q23{
+    opacity:0%;
+  animation:opa 6s 132s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q24{
+  opacity:0%;
+  animation:opa 6s 138s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q25{
+  opacity:0%;
+  animation:opa 6s 144s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q26{
+  opacity:0%;
+  animation:opa 6s 150s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q27{
+  opacity:0%;
+  animation:opa 6s 156s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q28{
+  opacity:0%;
+  animation:opa 6s 162s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q29{
+  opacity:0%;
+  animation:opa 6s 168s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q30{
+  opacity:0%;
+  animation:opa 6s 174s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q31{
+  opacity:0%;
+  animation:opa 6s 180s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q32{
+  opacity:0%;
+  animation:opa 6s 186s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q33{
+  opacity:0%;
+  animation:opa 6s 192s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q34{
+  opacity:0%;
+  animation:opa 6s 198s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q35{
+  opacity:0%;
+  animation:opa 6s 204s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q36{
+  opacity:0%;
+  animation:opa 6s 210s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q37{
+  opacity:0%;
+  animation:opa 6s 216s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q38{
+  opacity:0%;
+  animation:opa 6s 222s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q39{
+  opacity:0%;
+  animation:opa 6s 228s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
+
+#q40{
+  opacity:0%;
+  animation:opa 6s 234s linear ;
+  position: absolute;
+  font-size: 1.5vw;
+  padding:4vw;
+}
 @keyframes opa {
   0%{opacity:0%;}
   50%{opacity:100%;}
