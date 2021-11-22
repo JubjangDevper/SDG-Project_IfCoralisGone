@@ -82,10 +82,10 @@
                             <img id="img-r1-11" src="ปะการัง กัลปังหา + ใบไม้ ใหม่/กัลปังหา.gif">
                             <img id="img-r1-12" src="ปะการัง กัลปังหา + ใบไม้ ใหม่/กัลปังหา.gif">
                             <img id="img-r1-13"  src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif">
+                            <img id="boom1"  src="flash.png">
                         </div>
                     </div>
                 </div>
-
             </div>
             <div class="col-2">
                 <i class="fa fa-caret-right" aria-hidden="true" style="color: white; font-size: 4vw;"></i>
@@ -593,7 +593,28 @@
         }
     }
     }
-    
+    #boom1{
+        z-index: 99;
+        width: 10vw;
+        height: 10vw;
+        opacity: 0.6;
+        margin-left: 20vw;
+        margin-top: 13vw;
+        visibility: hidden;
+    }
+    .moveboom{
+        -webkit-animation: explotion 1.5s;
+        animation: explotion 0.75s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes explotion {
+        0%   {
+            transform: scale(15);
+        }
+        100% {
+            transform: scale(0);
+        }
+    }
 </style>
 <script>
     $(document).ready(function () {
@@ -611,10 +632,15 @@
         var x = document.getElementById("play");
         x.style.display = "none";
     }
+    function move1(){
+            $('#boom1').addClass('moveboom');
+        }
     var clicks = 0;
         function clickcount(){
             clicks += 1;
             if (clicks == 1) {
+                document.getElementById("boom1").style.visibility = "visible";
+                move1();
                 document.getElementById("img-l1-10").style.visibility = "hidden";
                 document.getElementById("img-l1-11").style.visibility = "hidden";
                 document.getElementById("img-l1-12").style.visibility = "hidden";
