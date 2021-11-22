@@ -65,14 +65,6 @@
                             <img id="img-l1-15" src="นีโม่แดง.gif">
                             <img id="img-l1-16" src="นีโม่แดง.gif">
                             <img id="img-l1-17" src="นีโม่แดง.gif">
-                            <img id="img-l1-18" src="เศษ.png">
-                            <img id="img-l1-19" src="เศษ.png">
-                            <img id="img-l1-20" src="ปลาตาย.png">
-                            <img id="img-l1-21" src="ปลาตาย.png">
-                            <img id="img-l1-22" src="ปลาตาย.png">
-                            <img id="img-l1-23" src="เศษ.png">
-                            <img id="img-l1-24" src="เศษ.png">
-                            <img id="img-l1-25" src="เศษ.png">
                             
                         </div>
                         <div onmouseover="change(this)" id="container-img-r1" class="container-img-r1">
@@ -91,11 +83,9 @@
                             <img id="img-r1-12" src="ปะการัง กัลปังหา + ใบไม้ ใหม่/กัลปังหา.gif">
                             <img id="img-r1-13"  src="ปะการัง ฟองน้ำ(แก้ดำ)/ปะการังดอกไม้.gif">
                             <img id="boom1"  src="flash.png">
-                            <div id="shell1"></div>
                         </div>
                     </div>
                 </div>
-
             </div>
             <div class="col-2">
                 <i class="fa fa-caret-right" aria-hidden="true" style="color: white; font-size: 4vw;"></i>
@@ -106,7 +96,7 @@
             <a id="back" href="index.html">BACK</a>
         </div>
     </div>
-    
+    <div id="shell1"></div>
 </body>
 
 </html>
@@ -131,7 +121,7 @@
 
 
     .playbox {
-        
+        z-index: -5;
         height: 35vw;
         width: 60vw;
         border-radius: 30px;
@@ -290,78 +280,6 @@
         position: absolute;
         transform: scaleX(-1) rotate(-30deg);
     }
-    #img-l1-18 {
-        right: 5vw;
-        top: 17vw;
-        height: 2.5vw;
-        width: 2.5vw;
-        position: absolute;
-        transform:  rotate(240deg);
-        visibility: hidden;
-    }
-    #img-l1-19 {
-        right: -5vw;
-        top: 25vw;
-        height: 2.5vw;
-        width: 2.5vw;
-        position: absolute;
-        transform:  rotate(280deg);
-        visibility: hidden;
-    }
-    #img-l1-20 {
-        right: -1vw;
-        top: 25vw;
-        height: 2vw;
-        width: 5vw;
-        position: absolute;
-        transform:  rotate(310deg);
-        visibility: hidden;
-    }
-    #img-l1-21 {
-        right: -23vw;
-        top: 17vw;
-        height: 2vw;
-        width: 5vw;
-        position: absolute;
-        transform:  rotate(10deg);
-        visibility: hidden;
-    }
-    #img-l1-22 {
-        right: -1vw;
-        top: 5vw;
-        height: 2vw;
-        width: 5vw;
-        position: absolute;
-        transform:  scaleX(-1) rotate(60deg);
-        visibility: hidden;
-    }
-    #img-l1-23 {
-        right: 7vw;
-        top: 30vw;
-        height: 2.5vw;
-        width: 2.5vw;
-        position: absolute;
-        transform:  scaleX(-1) rotate(60deg);
-        visibility: hidden;
-    }
-    #img-l1-24 {
-        right: 23vw;
-        top: 10vw;
-        height: 2.5vw;
-        width: 2.5vw;
-        position: absolute;
-        transform:  scaleX(-1) rotate(240deg);
-        visibility: hidden;
-    }
-    #img-l1-25 {
-        right: 12vw;
-        top: 10vw;
-        height: 2.5vw;
-        width: 2.5vw;
-        position: absolute;
-        transform:  rotate(240deg);
-        visibility: hidden;
-    }
     
     #img-r1-1 {
         right: -24vw;
@@ -369,7 +287,6 @@
         width: 21vw;
         position: absolute;
         transform: scaleX(-1) rotate(90deg);
-        
     }
 
     #img-r1-2 {
@@ -466,6 +383,7 @@
         position: absolute;
         transform: rotate(70deg);
     }
+
     .how {
         z-index: 50;
         cursor: pointer;
@@ -513,10 +431,9 @@
         height: 7vw;
         width: 7vw;
         position: absolute;
-        right: -1.5vw;
-        top: 14vw;
+        right: 48.5vw;
+        top: 22.5vw;
         cursor: pointer;
-        
     }
 
 
@@ -674,7 +591,7 @@
         100%{
             opacity: 100%;
         }
-        
+    }
     }
     #boom1{
         z-index: 99;
@@ -698,8 +615,6 @@
             transform: scale(0);
         }
     }
-    }
-    
 </style>
 <script>
     $(document).ready(function () {
@@ -741,28 +656,13 @@
                 document.getElementById("img-r1-11").style.visibility = "hidden";
                 document.getElementById("img-r1-12").style.visibility = "hidden";
                 document.getElementById("img-r1-13").style.visibility = "hidden";
-                document.getElementById("img-l1-1").style.visibility = "hidden";
-                document.getElementById("img-l1-2").style.visibility = "hidden";
-                document.getElementById("img-r1-9").style.visibility = "hidden";
-                document.getElementById("img-r1-10").style.visibility = "hidden";
-                document.getElementById("img-l1-16").style.visibility = "hidden";
-                document.getElementById("img-l1-17").style.visibility = "hidden";
-                document.getElementById("img-l1-6").style.visibility = "hidden";
-                document.getElementById("img-l1-7").style.visibility = "hidden";
-                document.getElementById("img-l1-18").style.visibility = "visible";
-                document.getElementById("img-l1-19").style.visibility = "visible";
-                document.getElementById("img-l1-20").style.visibility = "visible";
-                document.getElementById("img-l1-21").style.visibility = "visible";
-                document.getElementById("img-l1-22").style.visibility = "visible";
-                document.getElementById("img-l1-23").style.visibility = "visible";
-                document.getElementById("img-l1-24").style.visibility = "visible";
-                document.getElementById("img-l1-25").style.visibility = "visible";
                 death1();
                 death2();
                 death3();
                 death4();
                 death5();
-                death6(); 
+                death6();
+                death7();
             }
     function death1() {
         var img = document.getElementById("img-l1-3"); 
@@ -770,42 +670,49 @@
         img.style.animation = "opa 10s";
         img.style.height = "2vw";
         img.style.width = "5vw";
-        
         }
     function death2() {
-        var img = document.getElementById("img-l1-5"); 
-        img.setAttribute('src', 'หิน1เทา.png');
-        img.style.animation = "opa 5s";
-        img.style.height = "16.5vw";
-        img.style.width = "10vw";
+        var img = document.getElementById("img-l1-1"); 
+        img.setAttribute('src', 'เศษ.png');
+        img.style.animation = "opa 10s";
+        img.style.height = "2.5vw";
+        img.style.width = "2.5vw";
         }
-     function death3() {
-        var img = document.getElementById("img-l1-9"); 
-        img.setAttribute('src', 'หิน1เทา.png');
-        img.style.animation = "opa 5s";
-        img.style.height = "16.5vw";
-        img.style.width = "10vw";
+    function death3() {
+        var img = document.getElementById("img-l1-2"); 
+        img.setAttribute('src', 'เศษ.png');
+        img.style.animation = "opa 10s";
+        img.style.height = "2.5vw";
+        img.style.width = "2.5vw";
         }
     function death4() {
-        var img = document.getElementById("img-l1-4"); 
-        img.setAttribute('src', 'หิน2เทา.png');
-        img.style.animation = "opa 5s";
-        img.style.height = "23.94vw";
-        img.style.width = "19vw";
+        var img = document.getElementById("img-r1-9"); 
+        img.setAttribute('src', 'ปลาตาย.png');
+        img.style.animation = "opa 10s";
+        img.style.height = "2vw";
+        img.style.width = "5vw";
         }
     function death5() {
-        var img = document.getElementById("img-r1-2"); 
-        img.setAttribute('src', 'หิน2เทา.png');
-        img.style.animation = "opa 5s";
-        img.style.height = "23.94vw";
-        img.style.width = "19vw";
+        var img = document.getElementById("img-r1-10"); 
+        img.setAttribute('src', 'เศษ.png');
+        img.style.animation = "opa 10s";
+        img.style.height = "2.5vw";
+        img.style.width = "2.5vw";
         }
     function death6() {
-        var img = document.getElementById("img-r1-1"); 
-        img.setAttribute('src', 'หิน1เทา.png');
-        img.style.animation = "opa 5s";
-        img.style.height = "34.55vw";
-        img.style.width = "21vw";
+        var img = document.getElementById("img-l1-16"); 
+        img.setAttribute('src', 'ปลาตาย.png');
+        img.style.animation = "opa 10s";
+        img.style.height = "2vw";
+        img.style.width = "5vw";
         }
+    function death7() {
+        var img = document.getElementById("img-l1-17"); 
+        img.setAttribute('src', 'เศษ.png');
+        img.style.animation = "opa 10s";
+        img.style.height = "2.5vw";
+        img.style.width = "2.5vw";   
+        }
+           
 }       
 </script>
