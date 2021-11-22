@@ -32,7 +32,7 @@ svg {
 }
 
 #clipPath {
-  -webkit-animation: waterClimb 20s linear 1;
+  -webkit-animation: waterClimb 60s linear 1;
   transform: translateY(-110px); 
 }
 #clippingPath{
@@ -2493,13 +2493,13 @@ transform: rotate(-60deg);
 }
 #t27{
   top:658vw;
-  margin-left: -15vw;
+  left: 4vw;
   width: 14vw;
   position: absolute;
 }
 #t28{
   top:658vw;
-  margin-left: 25vw;
+  left: 24vw;
   width: 14vw;
   position: absolute;
 }
@@ -3890,27 +3890,27 @@ transform: rotate(-60deg);
 /*Preload text*/
 #q1{
   opacity:0%;
-  animation:opa 4s linear ;
+  animation:opa 8s linear ;
   position: absolute;
   margin-bottom: 4vw;
 }
 #q2{
     opacity:0%;
-  animation:opa 4s 4s linear ;
+  animation:opa 8s 8s linear ;
   position: absolute;
   margin-bottom: 4vw;
 }
 
 #q3{
     opacity:0%;
-  animation:opa 4s 8s linear ;
+  animation:opa 8s 16s linear ;
   position: absolute;
   margin-bottom: 4vw;
 }
 
 #q4{
   opacity:0%;
-animation:opa 4s 12s linear ;
+animation:opa 8s 24s linear ;
 position: absolute;
 margin-bottom: 4vw;
 }
