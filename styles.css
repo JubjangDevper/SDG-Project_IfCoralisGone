@@ -3894,9 +3894,7 @@ transform: rotate(-60deg);
   animation:opa 6s linear ;
   position: absolute;
   font-size: 1.5vw;
-  padding:4vw;
-  margin-top:8vw;
-  
+  padding:4vw;  
 }
 #q2{
     opacity:0%;
@@ -3904,7 +3902,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q3{
@@ -3913,7 +3910,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q4{
@@ -3922,7 +3918,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q5{
@@ -3931,7 +3926,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q6{
@@ -3940,7 +3934,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q7{
@@ -3949,7 +3942,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q8{
@@ -3958,7 +3950,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q9{
@@ -3967,7 +3958,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q10{
@@ -3976,7 +3966,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q11{
@@ -3985,7 +3974,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q12{
@@ -3994,7 +3982,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q13{
@@ -4003,7 +3990,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q14{
@@ -4012,7 +3998,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q15{
@@ -4021,7 +4006,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q16{
@@ -4030,7 +4014,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q17{
@@ -4039,7 +4022,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q18{
@@ -4048,7 +4030,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q19{
@@ -4057,7 +4038,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 #q20{
@@ -4066,7 +4046,6 @@ transform: rotate(-60deg);
   position: absolute;
   font-size: 1.5vw;
   padding:4vw;
-  margin-top:8vw;
 }
 
 @keyframes opa {
@@ -4104,7 +4083,7 @@ and (orientation: portrait)
   #logo{
     position: absolute;
     width:50vw;
-    left:28vw;
+    left:29vw;
     top:5vw;
     z-index: 999999;
   }
@@ -4144,3 +4123,33 @@ and (orientation: portrait)
     z-index: 999999;
   }  
     }  
+  #grtext{
+    transform: translateY(3vw);
+  }
+  @media only screen 
+  and (min-width: 1024px) 
+and (max-height: 1366px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+  #logo{
+    position: absolute;
+    width:50vw;
+    left:25vw;
+    top:0vw;
+    z-index: 999999;
+  }  
+  }
+
+  @media only screen 
+  and (min-width: 1366px) 
+and (max-height: 1024px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+  #logo{
+    position: absolute;
+    width:50vw;
+    left:25vw;
+    top:-5vw;
+    z-index: 999999;
+  }  
+  }
