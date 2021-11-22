@@ -40,7 +40,7 @@
 
             <div class="col-2">
                 <a href="game2.html"> <i class="fa fa-caret-left float-right" aria-hidden="true"
-                        style="color: white; font-size: 4vw;" id="left"></i>
+                        style="color: white; font-size: 4vw;" id="left" onclick="location.href='game2.html'"></i>
                 </a>
             </div>
             <div id="playbox" class="col-7 PlayBox">
@@ -100,7 +100,7 @@
 
             </div>
             <div class="col-2"><a href="game4.html"> <i class="fa fa-caret-right" aria-hidden="true"
-                        style="color: white; font-size: 4vw;" id="right"></i>
+                        style="color: white; font-size: 4vw;" id="right" onclick="location.href='game4.html'"></i>
                 </a>
             </div>
             <div class="col-12 d-flex justify-content-center p-0 m-0">
@@ -119,7 +119,9 @@
         font-size: 1vw;
         overflow-x: hidden;
     }
-
+    i{
+    cursor: pointer;
+}
     body {
         height: 100%;
         overflow-x: hidden;

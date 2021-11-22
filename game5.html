@@ -29,7 +29,7 @@
     <div id="box" class="row box d-flex justify-content-center  align-items-center" >
         
         <div class="col-2">
-            <i class="fa fa-caret-left float-right" aria-hidden="true" style="color: white; font-size: 4vw;"></i>
+            <i class="fa fa-caret-left float-right" aria-hidden="true" style="color: white; font-size: 4vw;" onclick="location.href='game4.html'"></i>
         </div>
         <div id="playbox" class="col-7 PlayBox" onclick="clickcount()">
             <div class="row">
@@ -88,7 +88,7 @@
             
         </div>
         <div class="col-2">
-            <i class="fa fa-caret-right" aria-hidden="true"  style="color: white; font-size: 4vw;"></i>
+            <i class="fa fa-caret-right" aria-hidden="true"  style="color: white; font-size: 4vw;" onclick="location.href='game6.html'"></i>
         </div>
         <div  class="col-12 d-flex justify-content-center p-0 m-0">
             <button id="try" class="btn btn-light" onclick="location.reload();">เล่นอีกครั้ง</button>
@@ -103,7 +103,9 @@
   font-size:1vw;
   overflow-x: hidden;
 }
-
+i{
+    cursor: pointer;
+}
 body{
   height: 100% ;
   overflow-x: hidden;
