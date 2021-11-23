@@ -42,7 +42,7 @@
         <div id="box" class="row box d-flex justify-content-center  align-items-center">
 
             <div class="col-2">
-                <i class="fa fa-caret-left float-right" aria-hidden="true" style="color: white; font-size: 4vw;" onclick="location.href='game3.html'"></i>
+                <i class="fa fa-caret-left float-right" aria-hidden="true" id="left" style="color: white; font-size: 4vw;" onclick="location.href='game3.html'"></i>
             </div>
             <div id="playbox" class="col-7 PlayBox" onclick="clickcount()">
                 <div class="row">
@@ -97,7 +97,7 @@
                 </div>
             </div>
             <div class="col-2">
-                <i class="fa fa-caret-right" aria-hidden="true" style="color: white; font-size: 4vw;" onclick="location.href='game5.html'"></i>
+                <i class="fa fa-caret-right" aria-hidden="true" id="right" style="color: white; font-size: 4vw;" onclick="location.href='game5.html'"></i>
             </div>
             <div class="col-12 d-flex justify-content-center p-0 m-0">
                 <button id="try" class="btn btn-light" onclick="location.reload();">เล่นอีกครั้ง</button>
@@ -699,6 +699,35 @@
         }
         100% {
             transform: scale(0);
+        }
+    }
+    #left:hover {
+        animation: left .5s infinite linear alternate;
+
+    }
+
+    #right:hover {
+        animation: right .5s infinite linear alternate;
+
+    }
+
+    @keyframes left {
+        0% {
+            transform: translateX(0px);
+        }
+
+        100% {
+            transform: translateX(-10px);
+        }
+    }
+
+    @keyframes right {
+        0% {
+            transform: translateX(0px);
+        }
+
+        100% {
+            transform: translateX(10px);
         }
     }
 </style>
