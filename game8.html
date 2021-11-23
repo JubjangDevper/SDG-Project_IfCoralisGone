@@ -41,7 +41,7 @@
         <div id="box" class="row box d-flex justify-content-center  align-items-center">
 
             <div class="col-2">
-                <i class="fa fa-caret-left float-right" aria-hidden="true" style="color: white; font-size: 4vw;" onclick="location.href='game7.html'"></i>
+                <i class="fa fa-caret-left float-right" aria-hidden="true" id="left" style="color: white; font-size: 4vw;" onclick="location.href='game7.html'"></i>
             </div>
             <div id="playbox" class="col-7 PlayBox">
                 <div class="row">
@@ -730,6 +730,20 @@
             font-size: 2.5vw;
             padding: 1vw;
             border-radius: 10px;
+        }
+    }
+    #left:hover {
+        animation: left .5s infinite linear alternate;
+
+    }
+
+    @keyframes left {
+        0% {
+            transform: translateX(0px);
+        }
+
+        100% {
+            transform: translateX(-10px);
         }
     }
 </style>
