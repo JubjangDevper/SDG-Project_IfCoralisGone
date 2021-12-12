@@ -4327,11 +4327,14 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
   }
 
 #share-butt{
-  margin-top: 1830vw;
-  margin-left: 1vw;
+  top: 930vw;
+  margin-left: 0vw;
   position: absolute;
 }
 
+#share-butt > a{
+  
+}
 
 #post{
   font-size:3em;
