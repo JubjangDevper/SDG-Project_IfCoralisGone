@@ -11,6 +11,7 @@ body{
   background-image: url(ทรายเดสทอป+โทรศัพ/ทรายเดสทอปJPG.jpg);
   font-family: 'Prompt', sans-serif;  
   color:black;
+  background-color: rgb(158, 221, 230);
 }
 b{
   font-size: 1.5rem;
@@ -4250,6 +4251,20 @@ and (orientation: portrait)
     width: 6vw;
     margin-top: 12vw;
   }
+  #t23{
+    margin-top: 14vw;
+    width: 30vw;
+  }
+  #t24{
+    margin-top: 14vw;
+    width: 30vw;
+  }
+  #t27{
+    left: 7vw;
+  }
+  #t28{
+    left: 27vw;
+  }
 }
 @media only screen 
     and (max-width: 770px) 
@@ -4310,3 +4325,9 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
     z-index: 999999;
   }  
   }
+
+#share-butt{
+  margin-top: 1830vw;
+  margin-left: 1vw;
+  position: absolute;
+}
