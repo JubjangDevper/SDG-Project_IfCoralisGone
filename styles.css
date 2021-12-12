@@ -4331,3 +4331,16 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
   margin-left: 1vw;
   position: absolute;
 }
+
+
+#post{
+  font-size:3em;
+  position:fixed;
+  z-index:3;
+  top:0;
+  left:0;
+  background:#fff;
+  font-family: "Trebuchet MS";
+  margin: 3px;
+  opacity:30%;
+}

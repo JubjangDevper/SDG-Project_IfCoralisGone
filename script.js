@@ -9,4 +9,6 @@ document.body.onscroll = function(){
     }else{
         document.querySelector('#bg').dataset.active = 0;
     }
+
+    
 }
