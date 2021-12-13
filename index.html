@@ -23,8 +23,8 @@
   <title>ถ้าปะการังหายไป...</title>
 </head>
 
-<body>
-  <div class="text-center" id="overlayer">
+<body onscroll="myFunction()">
+  <div class="text-center" id="overlayer content">
     <div class="loader text-center">
       <div id="logo-svg">
         <svg class="text-center" width="400" height="400" viewPort="0 0 400 400" version="1.1"
@@ -881,6 +881,11 @@
       <a href="https://www.kmitl.ac.th/"><img id="img-end-3" class="logo" src="kmitl.png"></a>
     </div>
   </div>
+
+  <div id="post">
+  Distance = <span id="yyy">0</span>
+</div>
+
 </body>
 
 </html>
@@ -977,10 +982,14 @@
     var x = document.getElementById("gorgonian");
     x.style.display = "none";
   }
+
+// scroll
+  document.body.onscroll = function(){
+    let scrollY = window.scrollY;
+    let viewHeight = window.innerHeight;
+    document.querySelector("#yyy").innerText = scrollY;
+}
+
 </script>
 
 
-<div id="post">
-  Distance = <span id="yyy">0</span>
-</div>
-<script src="script.js"></script>

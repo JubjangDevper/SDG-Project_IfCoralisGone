@@ -4303,6 +4303,11 @@ and (orientation: portrait)
   #t28{
     left: 27vw;
   }
+  #share-butt{
+    margin-top: 35vw;
+    margin-left: 0vw;
+    position: absolute;
+  }
 }
 @media only screen 
     and (max-width: 770px) 
@@ -4370,9 +4375,6 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
   position: absolute;
 }
 
-#share-butt > a{
-  
-}
 
 #post{
   font-size:3em;
