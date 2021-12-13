@@ -23,8 +23,8 @@
   <title>ถ้าปะการังหายไป...</title>
 </head>
 
-<body onscroll="myFunction()">
-  <div class="text-center" id="overlayer content">
+<body>
+  <div  class="text-center" id="overlayer">
     <div class="loader text-center">
       <div id="logo-svg">
         <svg class="text-center" width="400" height="400" viewPort="0 0 400 400" version="1.1"
@@ -90,7 +90,7 @@
     </div>
   </div>
 
-  <div class="row main">
+  <div id="main" class="row main" onscroll="myFunction()">
     <div class="col-4 container-img-l1">
       <img id="img-l1-6" src="ปะการัง กัลปังหา + ใบไม้ ใหม่/กัลปังหา.gif">
       <img id="img-l1-0" src="ปะการังนิ่ง/หิน-03.png" alt="">
@@ -882,10 +882,6 @@
     </div>
   </div>
 
-  <div id="post">
-  Distance = <span id="yyy">0</span>
-</div>
-
 </body>
 
 </html>
@@ -982,14 +978,11 @@
     var x = document.getElementById("gorgonian");
     x.style.display = "none";
   }
-
-// scroll
-  document.body.onscroll = function(){
-    let scrollY = window.scrollY;
-    let viewHeight = window.innerHeight;
-    document.querySelector("#yyy").innerText = scrollY;
+  function myFunction() {
+  var elmnt = document.getElementsById("main");
+  var y = elmnt.scrollTop;
+  document.getElementById ("yyy").innerHTML = y;
 }
-
 </script>
 
 
