@@ -25,7 +25,7 @@
 
 <body>
     <div class="center-text"> <b class="text-left" id="text">
-            <strong style="font-size: 2.4vw;">ข้อปฏิบัติสำหรับชาวประมงและนักเดินเรือ</strong><br><br>
+            <strong>ข้อปฏิบัติสำหรับชาวประมงและนักเดินเรือ</strong><br><br>
             1. นำไปเฉพาะสิ่งของเครื่องใช้ที่จำเป็น <br>
             2. ไม่ใช้ระเบิดหรือสารพิษในการจับปลา <br>
             3. ไม่ใช้อวนตาถี่ในการจับปลา <br>
@@ -152,5 +152,15 @@
         right: -5vw;
         width: 25vw;
         position: absolute;
+    }
+    @media only screen and (max-width: 600px) {
+        #text {
+            font-size: 3vw;
+            top: 10vw;
+        }
+
+        #icon {
+            font-size: 10vw;
+        }
     }
 </style>

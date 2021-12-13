@@ -191,6 +191,44 @@ svg {
   width: 30vw;
   height: 25vw;
 }
+
+@media only screen and (max-width: 600px) {
+  h4{
+    font-size: 3vw;
+  }
+  #close {
+    position: absolute;
+    z-index: 3;
+    font-size: 3.75vw;
+    float: right;
+    margin-top: -0.5vw;
+    margin-left: 25vw;
+    border: 0;
+    background-color: transparent;
+    opacity: 50%;
+    cursor: pointer;
+    outline: none;
+  }
+  .infoPopup {
+    z-Index: 3;
+    width: 90vw;
+    height: 40vw;
+    border-radius: 10px;
+    position: fixed;
+    font-size: 2.15vw;
+    line-height: 3vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 30px 10px rgb(24, 23, 23);
+    top: 15vw;
+  }
+  .popupImg {
+    border-radius: 10px;
+    width: 50vw;
+    height: 38vw;
+  }
+}
+
 #staghorn{
   display: none;
 }

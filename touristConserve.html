@@ -25,7 +25,7 @@
 
 <body>
     <div class="center-text"> <b class="text-left" id="text">
-            <strong style="font-size: 2.4vw;">ข้อปฏิบัติสำหรับนักท่องเที่ยว</strong><br><br>
+            <strong>ข้อปฏิบัติสำหรับนักท่องเที่ยว</strong><br><br>
             1. ควรเรียนรู้เกี่ยวกับแนวปะการังและสิ่งแวดล้อมทางทะเล <br>
             2. ควรระมัดระวังการใช้ตีนกบไม่ แตะต้องปะการัง <br>
             3. อย่าไล่ตามหรือจับต้องสัตว์ที่ว่ายน้ำอยู่ในทะเล <br>
@@ -36,14 +36,15 @@
 
         </b></div>
     <div class="center-text"> <b class="text-left" id="text2">
-            <strong style="font-size: 2.4vw;">ข้อปฏิบัติสำหรับนักดำน้ำ</strong><br><br>
+            <strong>ข้อปฏิบัติสำหรับนักดำน้ำ</strong><br><br>
             1. ควรเรียนรู้เกี่ยวกับแนวปะการังและสิ่งแวดล้อมทางทะเล <br>
             2. ควรระมัดระวังการใช้ตีนกบไม่แตะต้องปะการัง <br>
             3. อย่าไล่ตามหรือจับต้องสัตว์ที่ว่ายน้ำอยู่ในทะเล <br>
             4. อย่าเก็บเปลือกหอยเรียนรู้และทำความรู้จักกับมันด้วยสายตาแทน <br>
             5. หลีกเลี่ยงการให้อาหารสัตว์ทะเล <br>
         </b></div>
-    <i onclick="location.href='index.html#t22'" id="icon" class="fas fa-caret-down" style="z-index: 9999;cursor: pointer;"></i>
+    <i onclick="location.href='index.html#t22'" id="icon" class="fas fa-caret-down"
+        style="z-index: 9999;cursor: pointer;"></i>
     <!--Left-->
 
     <!--พะยูน-->
@@ -428,5 +429,21 @@
         right: 0vw;
         width: 20vw;
         position: absolute;
+    }
+
+    @media only screen and (max-width: 600px) {
+        #text {
+            font-size: 3vw;
+            top: 10vw;
+        }
+
+        #text2 {
+            font-size: 3vw;
+            top: 100vw;
+        }
+
+        #icon {
+            font-size: 10vw;
+        }
     }
 </style>
